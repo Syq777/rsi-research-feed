@@ -2,7 +2,7 @@
   "topic": "rsi",
   "date": "2026-11-26",
   "timezone": "Asia/Shanghai",
-  "lead": "AI 开始参与更多研发工作，真正值得追问的是：改进靠什么反馈，结果又怎样验证？本期从研发实测、工程经验和评测方法读起，再看三篇自我改进论文。",
+  "lead": "今天读到的材料有个共同问题：分数变好之后，真实工作有没有跟着变好？先看研发和评测的实测，再看训练平台、多智能体协作和三篇论文。",
   "items": [
     {
       "title": "Interpreting a recent acceleration in pretraining loss",
@@ -61,6 +61,20 @@
       "reviewed_at": "2026-11-26"
     },
     {
+      "title": "Introducing Model Factory",
+      "url": "https://www.primeintellect.ai/blog/introducing-model-factory",
+      "date": "2026-11-18T00:00:00Z",
+      "source": "Prime Intellect",
+      "source_id": "prime-intellect",
+      "summary": "Prime Intellect 发布 Model Factory，把模型训练、推理、运行记录、评测和沙箱放到同一套流程里。文章说明如何从实际失败出发调整训练，并在独立任务上检查效果；这是厂商的产品说明。",
+      "headline": "把训练、上线和反馈接起来，下一轮改进才有着落",
+      "why_read": "用它检查自己的改进流程：生产中的问题能否回到训练，训练后的收益又有没有重新验证。",
+      "event_id": "prime-model-factory-2026-11",
+      "kind": "engineering",
+      "score": 4.8,
+      "reviewed_at": "2026-11-26"
+    },
+    {
       "title": "AI R&D-relevant model capabilities are improving rapidly and are getting harder to measure",
       "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
       "date": "2026-11-20T00:00:00Z",
@@ -72,20 +86,6 @@
       "event_id": "metr-q4-capabilities-2026",
       "kind": "assessment",
       "score": 4.6,
-      "reviewed_at": "2026-11-26"
-    },
-    {
-      "title": "Introducing the Sakana AI Applied Research Lab",
-      "url": "https://sakana.ai/applied-research-lab/",
-      "date": "2026-11-24T00:00:00Z",
-      "source": "Sakana AI",
-      "source_id": "sakana",
-      "summary": "Sakana 新设应用研究实验室，先从金融与经济系统入手，将进化搜索、模拟和自动科研组合起来：由人判断什么问题重要，让 AI 扩大实现与验证的规模。",
-      "headline": "自动化科研开始走进真实的复杂系统",
-      "why_read": "看研究方法怎样进入实际工作，也看“自动执行”和“自主决定研究方向”之间仍隔着什么。",
-      "event_id": "sakana-applied-research-lab",
-      "kind": "research",
-      "score": 4.4,
       "reviewed_at": "2026-11-26"
     },
     {
@@ -117,6 +117,20 @@
       "reviewed_at": "2026-11-26"
     },
     {
+      "title": "Agents That Think Together: Cisco's Vijoy Pandey on Semantic Alignment, Scope, Accord & Concord",
+      "url": "https://www.cognitiverevolution.ai/agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment-scope-accord-concord/",
+      "date": "2026-11-11T00:00:00Z",
+      "source": "The Cognitive Revolution",
+      "source_id": "cognitive-revolution",
+      "summary": "Cisco 的 Vijoy Pandey 在访谈中讨论多智能体协作：能互相通信之后，还要对齐目标、交接条件和最终验收。节目用企业案例说明局部任务完成，为何不等于整体结果正确。",
+      "headline": "智能体连上了，未必就能把事情一起做好",
+      "why_read": "如果你在搭多 Agent 工作流，这期能帮你检查交接处的问题，而不是只盯着每个 Agent 的得分。",
+      "event_id": "cisco-semantic-alignment-podcast-2026-11",
+      "kind": "podcast",
+      "score": 5,
+      "reviewed_at": "2026-11-26"
+    },
+    {
       "title": "Building strong safety evaluations",
       "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
       "date": "2026-11-13T00:00:00Z",
@@ -129,20 +143,21 @@
       "kind": "engineering",
       "score": 4.3,
       "reviewed_at": "2026-11-26"
-    },
-    {
-      "title": "The components of agent memory",
-      "url": "https://www.anthropic.com/research/components-of-agent-memory",
-      "date": "2026-11-06T00:00:00Z",
-      "source": "Anthropic Engineering",
-      "source_id": "anthropic-engineering",
-      "summary": "Anthropic 将记忆拆成日志、笔记、知识组织和注入上下文，介绍如何在空闲阶段回查经历、修正错误；更大的记忆库并不总能带来更好的表现。",
-      "headline": "智能体记忆的关键，是知道该留下什么",
-      "why_read": "做长期运行的 Agent 时，可以据此检查：哪些经验值得保存，哪些内容只会增加检索负担。",
-      "event_id": "anthropic-agent-memory-2026-11",
-      "kind": "engineering",
-      "score": 4.8,
-      "reviewed_at": "2026-11-26"
     }
-  ]
+  ],
+  "name": "RSI 十条｜模型进步了，工作变好了吗？",
+  "keywords": [
+    "研发效率",
+    "训练反馈",
+    "多智能体",
+    "评测"
+  ],
+  "coverage": {
+    "sources_attempted": 261,
+    "sources_readable": 222,
+    "sources_total": 270,
+    "candidates_compared": 34,
+    "candidates_read": 12,
+    "poll": "research/polls/2026-11-26-rsi.json"
+  }
 }

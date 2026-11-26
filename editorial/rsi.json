@@ -178,5 +178,33 @@
     "score": 4.1,
     "event_id": "evolve-to-learn",
     "reviewed_at": "2026-11-26"
+  },
+  {
+    "title": "Introducing Model Factory",
+    "url": "https://www.primeintellect.ai/blog/introducing-model-factory",
+    "date": "2026-11-18",
+    "source": "Prime Intellect",
+    "source_id": "prime-intellect",
+    "headline": "把训练、上线和反馈接起来，下一轮改进才有着落",
+    "summary": "Prime Intellect 发布 Model Factory，把模型训练、推理、运行记录、评测和沙箱放到同一套流程里。文章说明如何从实际失败出发调整训练，并在独立任务上检查效果；这是厂商的产品说明。",
+    "why_read": "用它检查自己的改进流程：生产中的问题能否回到训练，训练后的收益又有没有重新验证。",
+    "kind": "engineering",
+    "score": 4.8,
+    "event_id": "prime-model-factory-2026-11",
+    "reviewed_at": "2026-11-26"
+  },
+  {
+    "title": "Agents That Think Together: Cisco's Vijoy Pandey on Semantic Alignment, Scope, Accord & Concord",
+    "url": "https://www.cognitiverevolution.ai/agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment-scope-accord-concord/",
+    "date": "2026-11-11",
+    "source": "The Cognitive Revolution",
+    "source_id": "cognitive-revolution",
+    "headline": "智能体连上了，未必就能把事情一起做好",
+    "summary": "Cisco 的 Vijoy Pandey 在访谈中讨论多智能体协作：能互相通信之后，还要对齐目标、交接条件和最终验收。节目用企业案例说明局部任务完成，为何不等于整体结果正确。",
+    "why_read": "如果你在搭多 Agent 工作流，这期能帮你检查交接处的问题，而不是只盯着每个 Agent 的得分。",
+    "kind": "podcast",
+    "score": 5,
+    "event_id": "cisco-semantic-alignment-podcast-2026-11",
+    "reviewed_at": "2026-11-26"
   }
 ]

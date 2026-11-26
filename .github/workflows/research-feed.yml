@@ -9,6 +9,7 @@ on:
       - 'site.json'
       - 'topics/**'
       - 'catalog/**'
+      - 'sources/**'
       - 'editorial/**'
       - 'editions/**'
       - 'research/**'

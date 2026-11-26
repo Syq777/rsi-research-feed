@@ -298,6 +298,13 @@ def render_brief(config, edition, editions, out, prefix=''):
     items = edition['items'] if edition else []
     mix = Counter(row['kind'] for row in items)
     day = edition['date'] if edition else ''
+    issue_name = edition.get('name', '每天几分钟，看懂值得关注的进展。') if edition else '第一期正在整理'
+    keywords = ' · '.join(edition.get('keywords', [])) if edition else ''
+    coverage = edition.get('coverage') if edition else None
+    source_table_link = f'<a href="{prefix}sources.html">信息源 Top 20 与访问表</a>' if config.get('source_registry') else ''
+    coverage_html = ''
+    if coverage:
+        coverage_html = f'<p class="edition-note">本期比较了 {coverage["candidates_compared"]} 篇候选，其中 {coverage.get("candidates_read", 0)} 篇读过原文或摘要；其余为列表初筛。来源表登记 {coverage["sources_total"]} 项，本轮尝试读取 {coverage["sources_attempted"]} 项，其中 {coverage["sources_readable"]} 项取得公开页面或 RSS；失败与受限项另列。<a href="{prefix}sources.html">查看信息源与访问实测</a></p>'
     words = sum(len(row['headline'] + row['summary'] + row['why_read']) for row in items)
     minutes = max(1, math.ceil(words / 350))
     filters = ''.join(f'<button type="button" data-filter="{kind}" aria-pressed="false">{_text(KINDS[kind])} {count}</button>' for kind, count in mix.items())
@@ -315,14 +322,14 @@ def render_brief(config, edition, editions, out, prefix=''):
     lead = f'<section class="lead" aria-labelledby="lead-title"><h2 id="lead-title">本期看点</h2><p>{_text(edition["lead"])}</p></section>' if edition else '<p class="empty">第一期精选正在整理。发布后会出现在这里，也可以通过 RSS 阅读。</p>'
     feed_url = urljoin(config['site_url'], 'feed.xml')
     html = f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{_text(title)}{(' · ' + day) if day else ''}</title><meta name="description" content="{_text(config['description'])}"><link rel="alternate" type="application/rss+xml" href="{prefix}feed.xml" title="{_text(title)}"><style>{BRIEF_STYLE}</style></head>
+<title>{_text(issue_name)}{(' · ' + day) if day else ''}</title><meta name="description" content="{_text(config['description'])}"><link rel="alternate" type="application/rss+xml" href="{prefix}feed.xml" title="{_text(title)}"><style>{BRIEF_STYLE}</style></head>
 <body><a class="skip" href="#reading">跳到精选</a><header class="wrap top"><a class="brand" href="{prefix}index.html">{_text(title)}</a><nav aria-label="主导航"><a href="#past">往期精选</a><a class="subscribe" href="#subscribe">订阅 RSS</a></nav></header>
-<main class="wrap"><section class="mast" aria-labelledby="title"><p class="eyebrow">{_text(config.get("brief_tagline", config["title"]))}</p><h1 id="title">每天几分钟，<br>看懂值得关注的进展。</h1><p class="intro">{_text(config['description'])}</p><div class="issue-meta"><span>精选日期 {date_meta}</span><span>{len(items)} 条精选</span><span>约 {minutes} 分钟读完本页</span></div></section>
+<main class="wrap"><section class="mast" aria-labelledby="title"><p class="eyebrow">{_text(config.get("brief_tagline", config["title"]))}</p><h1 id="title">{_text(issue_name)}</h1><p class="intro">{_text(keywords or config['description'])}</p><div class="issue-meta"><span>精选日期 {date_meta}</span><span>{len(items)} 条精选</span><span>约 {minutes} 分钟读完本页</span></div></section>
 {lead}<section id="reading" aria-label="本期精选"><div class="filters js-only" role="group" aria-label="按内容类型筛选"><button type="button" data-filter="" aria-pressed="true">全部 {len(items)}</button>{filters}</div><p id="filter-status" class="sr-only" role="status"></p><ol class="reading-list">{''.join(cards)}</ol></section>
 <details class="past" id="past"><summary>往期精选</summary><ul>{past}</ul></details>
-<details class="past"><summary>我们如何选读</summary><p class="edition-note">优先选择最近两周值得读的新材料，必要时补充近一个月的重要文章。论文通常占三成，最多四成；其余名额根据当日内容，在工程实践、研究观察、评测和观点访谈之间调整。内容不足时少选，同一件事不重复推荐。</p></details>
+<details class="past"><summary>这 {len(items)} 条怎么选出来的</summary><p class="edition-note">先轮询完整的动态来源池，再比较候选；找到十篇不会结束检索。优先近两周，必要时回看一个月。论文最多四成，其他内容按当天质量调整。不凑数，同一件事不重复推荐。</p>{coverage_html}</details>
 <section class="subscribe-box" id="subscribe" aria-label="订阅每日精选"><label for="rss-url">把这个地址加入你的 RSS 阅读器</label><div class="copy-row"><input id="rss-url" readonly value="{_text(feed_url)}"><button id="copy-rss" type="button">复制地址</button></div><p class="copy-status" id="copy-status" role="status"></p></section></main>
-<footer class="wrap"><nav aria-label="更多资料"><a href="{prefix}archive.html#catalog">信息源目录</a><a href="{prefix}archive.html">全部候选资料</a><a href="{prefix}feed.xml">打开 RSS</a></nav><p>精选日期与原文发布日期分别标注；没有新一期时，保留最近一期。</p></footer><script>{BRIEF_SCRIPT}</script></body></html>'''
+<footer class="wrap"><nav aria-label="更多资料">{source_table_link}<a href="{prefix}archive.html#catalog">原始目录</a><a href="{prefix}archive.html">全部候选资料</a><a href="{prefix}feed.xml">打开 RSS</a></nav><p>精选日期与原文发布日期分别标注；没有新一期时，保留最近一期。</p></footer><script>{BRIEF_SCRIPT}</script></body></html>'''
     Path(out).write_text(html, encoding='utf-8')
 
 

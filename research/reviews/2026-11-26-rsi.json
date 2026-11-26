@@ -1,0 +1,1445 @@
+{
+  "date": "2026-11-26",
+  "poll_sha256": "02dd9a0334a19f172bd7612b23bb08504715cf00d239c1cefaf99e10df238f3c",
+  "method": "全量入口轮询；链接关键词机器初筛；候选人工比较；入围材料读原文。未把 HTTP 成功或机器初筛记成精读。",
+  "source_reviews": [
+    {
+      "source_id": "s-f7a436a39e71",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 172 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-ad5732584a03",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 90 个链接做宽关键词初筛，14 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-7c57b8d3856f",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 50 个链接做宽关键词初筛，9 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-e96e727970ad",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 1242 个链接做宽关键词初筛，48 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-0f7f5ebdfabd",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 29 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-e90d6734a44f",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 115 个链接做宽关键词初筛，3 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-024dffd1e724",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 52 个链接做宽关键词初筛，1 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-76759b92bdfc",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 11 个链接做宽关键词初筛，5 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-190b4feefbfa",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 111 个链接做宽关键词初筛，48 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-33ceb59c0853",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 241 个链接做宽关键词初筛，16 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-5933e6517025",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-daf64c76e563",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 21 个链接做宽关键词初筛，4 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-7ed875f54272",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 1 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-b26298387c40",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 38 个链接做宽关键词初筛，7 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-06cb5867b294",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-e9aaa7b5e18f",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 50 个链接做宽关键词初筛，3 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-1b6229ca02e0",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 1430 个链接做宽关键词初筛，180 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-ab2ba528fbe2",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 55 个链接做宽关键词初筛，3 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-550749f2f032",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 472 个链接做宽关键词初筛，38 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-d8329decb32e",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 449 个链接做宽关键词初筛，35 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-5a0dfd8f30f9",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 63 个链接做宽关键词初筛，14 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-f771d4f56ad4",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 30 个链接做宽关键词初筛，5 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-f6aa679babd7",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 37 个链接做宽关键词初筛，6 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-d03e3ca2752c",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 29 个链接做宽关键词初筛，13 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-b22de837fa43",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 97 个链接做宽关键词初筛，60 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-a9d95f65cf92",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 61 个链接做宽关键词初筛，6 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-5b3723c52c73",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 29 个链接做宽关键词初筛，3 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-cab059b2c56d",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 25 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-afe1e125f3ba",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 23 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-d9e1cadbab88",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 71 个链接做宽关键词初筛，4 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-2207a7330a3d",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 76 个链接做宽关键词初筛，8 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-311cc97d144a",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 403；拒绝或限制自动请求，未确认是否需要登录/付费"
+    },
+    {
+      "source_id": "s-ef6b5e14751c",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 153 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-d3be19a673e5",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 50 个链接做宽关键词初筛，4 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-c9c74d270235",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-22705a47de9a",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 22 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-cde363f9a897",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 17 个链接做宽关键词初筛，5 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-4be93a3979d1",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 145 个链接做宽关键词初筛，16 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-2eda91556133",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 162 个链接做宽关键词初筛，14 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-86e00abd227a",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 33 个链接做宽关键词初筛，7 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-83e1c3b069d8",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 39 个链接做宽关键词初筛，13 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-3ccc18a956ca",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 465 个链接做宽关键词初筛，97 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-e2bc2874ac4f",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 10 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-dd2f6b8d4cf9",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 12 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-354afe0e8a79",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 60 个链接做宽关键词初筛，5 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-f180ba1e0e3e",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-e05f46769900",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 9 个链接做宽关键词初筛，1 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-b49b5e8d9733",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 9 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-d0a9b3c9bf15",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 1 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-168d9005b12c",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 18 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-7c5201226b8f",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-d73d294d5617",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 15 个链接做宽关键词初筛，1 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-54bdff1bd90c",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 16 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-aaa9f319c2db",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 12 个链接做宽关键词初筛，4 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-dcfcaed725f8",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 11 个链接做宽关键词初筛，5 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-fb6754b7450f",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 13 个链接做宽关键词初筛，4 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-a0cb29f6eb62",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 10 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-e31f59dfc575",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 3 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-dbd3a3c9bf23",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 21 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-9e51f08fce44",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 111 个链接做宽关键词初筛，31 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-9c0885bdb370",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 54 个链接做宽关键词初筛，14 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-7f3607198ca9",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 12 个链接做宽关键词初筛，1 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-6865704f3c89",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 20 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-394659b22ff2",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 32 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-974a16d902d5",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 26 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-d99d19a77f4c",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 44 个链接做宽关键词初筛，10 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-0354cef6dc81",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 26 个链接做宽关键词初筛，10 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-b30d81a18c00",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 57 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-00debe4964dc",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 14 个链接做宽关键词初筛，7 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-29afaee01ff9",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 17 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-cd3f98cb377d",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 403；拒绝或限制自动请求，未确认是否需要登录/付费"
+    },
+    {
+      "source_id": "s-fceb486df6ca",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 52 个链接做宽关键词初筛，5 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-e072728811bd",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 55 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-832d381eaaae",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 6 个链接做宽关键词初筛，1 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-681b242d3bd4",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 2 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-7707bd122b25",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 6 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-609aff46b0fe",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 17 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-273015bf8390",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-f33a282a1420",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-b68e6d5c5760",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 6 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-a8490bcca260",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "无固定公开地址；需补充具体入口或人工线索"
+    },
+    {
+      "source_id": "s-867297f7506f",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 158 个链接做宽关键词初筛，20 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-509faa7f213e",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 80 个链接做宽关键词初筛，7 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-d554ca3fc8b9",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 31 个链接做宽关键词初筛，5 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-802e41b754b2",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-dafc05254991",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 69 个链接做宽关键词初筛，4 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-3e861c9aa69d",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 31 个链接做宽关键词初筛，10 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-b8a2c7ed1492",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-3df031d4934b",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 59 个链接做宽关键词初筛，1 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-177851808a66",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-d02cc6446087",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 33 个链接做宽关键词初筛，11 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-987c4c108091",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 13 个链接做宽关键词初筛，4 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-4d4e9ba1cdb5",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 68 个链接做宽关键词初筛，28 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-bd5d270af6aa",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 13 个链接做宽关键词初筛，4 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-06dffcab1a70",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-140f23203b8d",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 42 个链接做宽关键词初筛，8 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-02cc831ea783",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 10 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-ea497e9bceb5",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 19 个链接做宽关键词初筛，4 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-b65d50a29383",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 3 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-7415557509fb",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 151 个链接做宽关键词初筛，4 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-d82a766e54b7",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 5 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-12fc9b95b1aa",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 48 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-8f91e6300772",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 83 个链接做宽关键词初筛，4 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-d34868c4eaec",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-444754767fa8",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 15 个链接做宽关键词初筛，3 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-69cd3c05e368",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-6d94b2f94e91",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 20 个链接做宽关键词初筛，1 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-617cd37dbdae",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-b245e6dd56ff",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 5 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-b3eec02ad0c7",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 355 个链接做宽关键词初筛，6 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-55feb116c6bd",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 34 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-665de4e83343",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-744dec9d5016",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 16 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-6ff94f2496d5",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 8 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-272e4f6b8663",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 8 个链接做宽关键词初筛，3 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-3a2f3e9c1247",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 17 个链接做宽关键词初筛，5 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-38f97247d22b",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 17 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-ee55121d3d3e",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 11 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-24b6d5364626",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 19 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-8f4106bb8117",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 19 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-5831aa6a6e05",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 105 个链接做宽关键词初筛，43 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-a6067768775e",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 10 个链接做宽关键词初筛，1 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-248d550054b4",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 67 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-a2fdd037b6b6",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 68 个链接做宽关键词初筛，6 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-ccc69641ceab",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 14 个链接做宽关键词初筛，3 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-0ef381ab95ef",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 13 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-fa382fb9ee0a",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 15 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-7cd006253da2",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 31 个链接做宽关键词初筛，11 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-a6464e1ed6b9",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 17 个链接做宽关键词初筛，3 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-98fe2bd5aeb3",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 24 个链接做宽关键词初筛，7 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-2e634843eaaa",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 20 个链接做宽关键词初筛，5 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-2dad90584fe9",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 15 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-4adb6125d392",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 39 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-972a30f2fd9e",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 38 个链接做宽关键词初筛，3 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-02a89491acca",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 8 个链接做宽关键词初筛，1 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-fe0187725920",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 100 个链接做宽关键词初筛，11 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-9609c6ed163f",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 17 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-9bf4014ab413",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-56c5734bc746",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 35 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-b029bfc231e6",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 42 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-933c9d84b5ff",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 1 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-cf709a60227b",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 78 个链接做宽关键词初筛，5 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-f3dc86fbe8e9",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 20 个链接做宽关键词初筛，6 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-721f6210d50d",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 403；拒绝或限制自动请求，未确认是否需要登录/付费"
+    },
+    {
+      "source_id": "s-a1f487f91d46",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-5a8cbfa3b392",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 6 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-efa84fcedb52",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 33 个链接做宽关键词初筛，11 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-25f86381b889",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "无固定公开地址；需补充具体入口或人工线索"
+    },
+    {
+      "source_id": "s-79387586eda3",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "无固定公开地址；需补充具体入口或人工线索"
+    },
+    {
+      "source_id": "s-0072d33a29df",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 47 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-cb3eafa4e1d0",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 48 个链接做宽关键词初筛，3 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-b98ae424f5a9",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 131 个链接做宽关键词初筛，14 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-cd5dfc8cdc10",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 17 个链接做宽关键词初筛，1 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-c52afc57280a",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 26 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-78bc9cc5cebe",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 23 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-495540ddca51",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 403；拒绝或限制自动请求，未确认是否需要登录/付费"
+    },
+    {
+      "source_id": "s-2ff23cbcbf3f",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 47 个链接做宽关键词初筛，4 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-261f420bbfa9",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-62c2a329a22a",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 69 个链接做宽关键词初筛，8 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-eee13eca07bf",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 15 个链接做宽关键词初筛，3 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-254f4055f59d",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 44 个链接做宽关键词初筛，2 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-8ec1c016a93e",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 15 个链接做宽关键词初筛，12 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-980942803d23",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 15 个链接做宽关键词初筛，10 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-98737b0208e8",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 22 个链接做宽关键词初筛，6 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-8d9cd89f2458",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 80 个链接做宽关键词初筛，10 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-2c5e040e2b68",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 58 个链接做宽关键词初筛，7 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-9757073cb1a1",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 70 个链接做宽关键词初筛，12 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-d9d91ddaaf0e",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 59 个链接做宽关键词初筛，4 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-5a912a127782",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 49 个链接做宽关键词初筛，1 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-7a4ff89d4bb3",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 107 个链接做宽关键词初筛，6 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-dbf67288790e",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 73 个链接做宽关键词初筛，3 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-ec09337b4f24",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 60 个链接做宽关键词初筛，1 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-d8b5b41bf681",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 83 个链接做宽关键词初筛，5 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-7d6f1a46e985",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 61 个链接做宽关键词初筛，4 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-a8fa271caf75",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 85 个链接做宽关键词初筛，11 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-b5a44c85aa77",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 103 个链接做宽关键词初筛，7 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-14191e0e7f5e",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 63 个链接做宽关键词初筛，3 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-6cd0ce857bda",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 24 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-7d81328a5f42",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 18 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-7521b344741a",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 10 个链接做宽关键词初筛，1 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-2d31489c5410",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 11 个链接做宽关键词初筛，1 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-e86c6559775d",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 47 个链接做宽关键词初筛，3 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-4d2d026d3cca",
+      "method": "listing_keyword_screen",
+      "decision": "no_relevant",
+      "note": "程序对公开入口的 9 个链接做宽关键词初筛，0 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-07229557604a",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读"
+    },
+    {
+      "source_id": "s-9981a4cadf3c",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 43 个链接做宽关键词初筛，14 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-c86300435f63",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "无固定公开地址；需补充具体入口或人工线索"
+    },
+    {
+      "source_id": "s-890b807a1061",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "无固定公开地址；需补充具体入口或人工线索"
+    },
+    {
+      "source_id": "s-760d8fbfaebc",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "无固定公开地址；需补充具体入口或人工线索"
+    },
+    {
+      "source_id": "s-0a208deca226",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "无固定公开地址；需补充具体入口或人工线索"
+    },
+    {
+      "source_id": "s-38383beb0977",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "无固定公开地址；需补充具体入口或人工线索"
+    },
+    {
+      "source_id": "s-4317c649bc1b",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 447 个链接做宽关键词初筛，155 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-ff10e47e85d5",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 391 个链接做宽关键词初筛，73 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-1191d2e9306f",
+      "method": "listing_keyword_screen",
+      "decision": "candidates",
+      "note": "程序对公开入口的 193 个链接做宽关键词初筛，58 个命中；未逐篇精读，不把未命中解释为没有新进展。"
+    },
+    {
+      "source_id": "s-b4da21ddd392",
+      "method": "access_check",
+      "decision": "unavailable",
+      "note": "无固定公开地址；需补充具体入口或人工线索"
+    }
+  ],
+  "candidates": [
+    {
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
+      "title": "Research acceleration: The jagged frontier",
+      "decision": "shortlist",
+      "evidence_level": "full_text",
+      "reason": "把“AI 会研发 AI”的大叙事拆成具体工作，看看哪些环节已有证据，哪些仍是推测。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://metr.org/blog/2026-11-24-interpreting-a-recent-acceleration-in-pretraining-loss/",
+      "title": "Interpreting a recent acceleration in pretraining loss",
+      "decision": "shortlist",
+      "evidence_level": "full_text",
+      "reason": "学会读增长曲线里的不确定性，避免把一个指标的改善直接当成递归自我改进已发生。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "decision": "shortlist",
+      "evidence_level": "full_text",
+      "reason": "这是“提出方案—验证—继续改进”的具体案例；验证器如何设计，比单看性能数字更有参考价值。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://www.anthropic.com/research/components-of-agent-memory",
+      "title": "The components of agent memory",
+      "decision": "shortlist",
+      "evidence_level": "full_text",
+      "reason": "做长期运行的 Agent 时，可以据此检查：哪些经验值得保存，哪些内容只会增加检索负担。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.32480",
+      "title": "VISE: Verifier-Independent Skill Self-Evolution with Feedback from Tool Implementations",
+      "decision": "shortlist",
+      "evidence_level": "abstract",
+      "reason": "它直接对应技能维护：一次失败之后，怎样把可验证的原因变成具体修改，而不是继续堆提示词。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+      "title": "AI R&D-relevant model capabilities are improving rapidly and are getting harder to measure",
+      "decision": "shortlist",
+      "evidence_level": "full_text",
+      "reason": "如果你靠排行榜判断 AI 研发能力，这篇能帮你识别分数背后没有被测到的部分。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://sakana.ai/applied-research-lab/",
+      "title": "Introducing the Sakana AI Applied Research Lab",
+      "decision": "shortlist",
+      "evidence_level": "full_text",
+      "reason": "看研究方法怎样进入实际工作，也看“自动执行”和“自主决定研究方向”之间仍隔着什么。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+      "title": "Building strong safety evaluations",
+      "decision": "shortlist",
+      "evidence_level": "full_text",
+      "reason": "自我改进依赖反馈；如果评测奖励了错误目标，系统可能只是越来越会通过测试。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.32508",
+      "title": "RecurSciBench: Benchmarking Recursive Self-Improvement in Data-Driven Scientific Research",
+      "decision": "shortlist",
+      "evidence_level": "abstract",
+      "reason": "判断自我改进研究时，优先看独立测试和跨领域迁移，而不只看训练过的任务涨了多少分。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://arxiv.org/abs/2611.32390",
+      "title": "Evolve to Learn: Gradient-aligned experience evolution for model self-improvement",
+      "decision": "shortlist",
+      "evidence_level": "abstract",
+      "reason": "它提醒我们区分两种进步：这一次任务做得更好，与模型本身学到了可以复用的能力。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://www.primeintellect.ai/blog/introducing-model-factory",
+      "title": "Introducing Model Factory",
+      "decision": "shortlist",
+      "evidence_level": "full_text",
+      "reason": "用它检查自己的改进流程：生产中的问题能否回到训练，训练后的收益又有没有重新验证。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://www.cognitiverevolution.ai/agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment-scope-accord-concord/",
+      "title": "Agents That Think Together: Cisco's Vijoy Pandey on Semantic Alignment, Scope, Accord & Concord",
+      "decision": "shortlist",
+      "evidence_level": "transcript",
+      "reason": "如果你在搭多 Agent 工作流，这期能帮你检查交接处的问题，而不是只盯着每个 Agent 的得分。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://sakana.ai/security-research-group/",
+      "title": "Introducing Sakana AI’s Security Research Group",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "有研究组织信息，但本期优先具体方法与结果；不是技术效果证明。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://sakana.ai/jfinbench/",
+      "title": "JFinBench: 最新の金融資格試験を用いた日本語金融ベンチマークの公開",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "聚焦日本金融资格考试，和本期研发改进的关系较弱。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://sakana.ai/michael-tom/",
+      "title": "マイケル・ロジャース米退役海軍大将、トム・モラン元CIA支局長がSakana AIのシニアアドバイザーに就任",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "顾问任命，公司动态优先级低于技术进展。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://sakana.ai/symposium-2026/",
+      "title": "【開催レポート】Sakana AIシンポジウム：Jürgen Schmidhuberが語るAIのこれまでとこれから、日本から挑む言語モデル・世界モデル・Physical AI",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "会议回顾可作后续线索，本期已有更具体的一手研究。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://sakana.ai/us-midterms-analysis/",
+      "title": "Intelligence Report: SNSのAI分析からみる米中間選挙",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "选举分析应用，不直接回答系统怎样自我改进。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://sakana.ai/api-platform-earlyaccess/",
+      "title": "Sakana API Platform、エンタープライズ向けにアーリーアクセスプログラムを開始",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "偏产品访问公告，阅读增量较少。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://cognition.com/blog/swe-2-1",
+      "title": "Introducing SWE-2.1 2026.11.24 We’re releasing SWE-2.1, a major upgrade over SWE-2. Like its predecessor, it is trained with pure reinforcement learning on Kimi K3.",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "近期模型发布值得跟踪，但未核验全文和独立评测，本期暂不写结论。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://cognition.com/blog/swe-2-flash",
+      "title": "Introducing SWE-2 Flash 2026.11.04 We’re introducing SWE-2 Flash, a fully American coding model that sets a new bar for intelligence at low cost and high speed.",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "产品发布，需进一步核验性能条件；不靠宣传数字挤占精选。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://cognition.com/blog/practical-guide-to-security-november-2026",
+      "title": "A Practical Guide to Security in November 2026 2026.11.03 The security best practices we’ve known about for years still work. Here’s a recap of recent incidents and a practical guide you can use to step up your security now.",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "安全操作材料，本期优先与改进反馈更直接相关的评测设计。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://cognition.com/blog/corridor-joining-cognition",
+      "title": "Corridor is Joining Cognition 2026.10.28 Corridor is joining Cognition, where we’ll be taking Devin Security to the next level.",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "并购动态，当前阅读价值低于具体工程经验。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://cognition.com/blog/frontier-code-2.0",
+      "title": "FrontierCode 2.0 2026.10.27 FrontierCode 2.0 is a new generation of our FrontierCode benchmark: more diverse, challenging tasks from more repositories, graded by open-source maintainers on whether agent output is actually mergeable.",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "可留作评测后续，但本期已有 METR 与评测方法文章。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://cognition.com/blog/devin-security",
+      "title": "Devin Security: Find and fix your most dangerous vulnerabilities 2026.10.26 A major upgrade to Devin Security, with deep scans powered by frontier cyber models, and hundreds of millions of dollars in Devin credits to help enterprises find and fix their most critical vulnerabilities.",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "原文日期已超过本轮 30 天窗口。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://cognition.com/blog/building-in-london",
+      "title": "Building in London 2026.10.22 With our UK team expanding by more than 200% in six months, we’ve opened a new office at The Gilbert in Finsbury Square and brought in senior leaders to work with customers across the region.",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "团队扩张且超过时间窗。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://www.primeintellect.ai/blog/rl-residency-retrospective",
+      "title": "NOV 19 RL Residency: A Retrospective",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "研修回顾，保留线索；本期优先同源的训练与生产反馈流程。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://www.primeintellect.ai/blog/auditing-public-evaluations",
+      "title": "NOV 3 Learnings from Auditing Public Evaluations",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "与本期评测主题接近，暂作候补，避免评测内容过度集中。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://www.primeintellect.ai/blog/prime-mega-moe",
+      "title": "OCT 29 Prime Mega MoE: Fast Fused MoE Kernels for Training",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "内核训练性能较窄；本期优先能解释完整改进流程的材料。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://www.primeintellect.ai/blog/prime-agent-rust",
+      "title": "OCT 9 Rewriting Prime Agent in Rust Read",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "超出 30 天时间窗。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training/",
+      "title": "End‑to‑End 4‑Bit Training Jack Cook in collaboration with others at Thinking Machines Nov 13, 2026",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "近期训练效率线索，但尚未核实全文，不发布效果判断。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://thinkingmachines.ai/blog/a-safe-path-to-open-weights/",
+      "title": "A Safe Path to Open Weights Thinking Machines Jul 31, 2026",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "超出本轮时间窗，保留作背景。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://www.letta.com/blog/towards-agents-that-learn/",
+      "title": "Memory Models: Towards Agents That Learn JUN 2026 Powering agent learning through memory models trained with memory-native RL.",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "已是六月材料，不能拿来填充今天的精选。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://www.letta.com/blog/context-repositories/",
+      "title": "Context Repositories: Git-based Memory FEB 2026 A rebuild of how agent memory works, using programmatic context management and git-based versioning.",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "二月背景材料，超出时间窗。",
+      "reviewed_at": "2026-11-26"
+    },
+    {
+      "url": "https://podcast.latepost.com/178",
+      "title": "178: 与田渊栋聊 RSI：模型自进化如何到来？",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "题目直接涉及 RSI，但本轮尚未核验日期及节目内容，留待复查。",
+      "reviewed_at": "2026-11-26"
+    }
+  ]
+}

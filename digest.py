@@ -114,7 +114,7 @@ def load_editions(root, topic):
     return editions
 
 
-def make_edition(root, day, lead):
+def make_edition(root, day, lead, name=None, keywords=None):
     from build import read_json, load_config, atomic_write, json_text, build_lock
     root = Path(root).resolve()
     topic = read_json(root / 'site.json')['topic']
@@ -123,13 +123,32 @@ def make_edition(root, day, lead):
         raise ValueError('enable daily_brief in the topic configuration first')
     if not lead.strip() or len(lead) > 240:
         raise ValueError('write a short issue introduction (1–240 characters)')
+    coverage = None
+    review = None
+    if config.get('daily_brief', {}).get('require_source_review'):
+        from poll_sources import validate_coverage
+        if not name or not 3 <= len(keywords or []) <= 5:
+            raise ValueError('write a natural issue name and 3–5 keywords')
+        review = read_json(root / 'research' / 'reviews' / f'{day.isoformat()}-{topic}.json')
+        coverage = validate_coverage(root, topic, day, review)
+    if name and (len(name) > 70 or not name.strip()):
+        raise ValueError('issue name must be 1–70 characters')
+    if keywords and (len(set(keywords)) != len(keywords) or any(not x.strip() or len(x) > 24 for x in keywords)):
+        raise ValueError('keywords must be distinct short phrases')
     with build_lock(root):
         previous = load_editions(root, topic)
         chosen = select_items(read_json(root / 'editorial' / f'{topic}.json'), day, policy_for(config), previous)
+        if review:
+            allowed = {url_key(c['url']) for c in review['candidates'] if c['decision'] == 'shortlist'}
+            eligible = [r for r in read_json(root / 'editorial' / f'{topic}.json') if url_key(r['url']) in allowed]
+            chosen = select_items(eligible, day, policy_for(config), previous)
         if not chosen:
             raise ValueError('no fresh, reviewed mixed selection; previous edition retained')
         edition = {'topic': topic, 'date': day.isoformat(), 'timezone': policy_for(config)['timezone'],
                    'lead': lead, 'items': chosen}
+        if name: edition['name'] = name
+        if keywords: edition['keywords'] = keywords
+        if coverage: edition['coverage'] = coverage
         path = root / 'editions' / topic / f'{day.isoformat()}.json'
         atomic_write(path, json_text(edition).encode())
     return path, edition
@@ -147,7 +166,8 @@ def feed_items(editions):
                           'date': datetime.fromisoformat(edition['date']).replace(
                               tzinfo=ZoneInfo(edition.get('timezone', DEFAULTS['timezone']))
                           ).astimezone(timezone.utc).isoformat(),
-                          'summary': f"{row['summary']}\n为什么读：{row['why_read']}\n原文发布：{row['date'][:10]} · {row['source']}"})
+                          'summary': f"{row['summary']}\n为什么读：{row['why_read']}\n原文发布：{row['date'][:10]} · {row['source']}" +
+                          (f"\n本期：{edition['name']}\n关键词：{'、'.join(edition.get('keywords', []))}" if edition.get('name') else '')})
     return items
 
 
@@ -156,9 +176,11 @@ def main():
     p.add_argument('--root', type=Path, default=Path(__file__).resolve().parent)
     p.add_argument('--date', required=True, type=date.fromisoformat)
     p.add_argument('--lead', required=True, help='source-grounded Chinese introduction for this issue')
+    p.add_argument('--name', help='a natural issue name including the number of selections')
+    p.add_argument('--keywords', nargs='+', help='3–5 concrete topic keywords')
     args = p.parse_args()
     try:
-        path, edition = make_edition(args.root, args.date, args.lead)
+        path, edition = make_edition(args.root, args.date, args.lead, args.name, args.keywords)
     except (ValueError, OSError, KeyError, TypeError) as exc:
         p.exit(1, f'Brief not published: {exc}\n')
     print(json.dumps({'edition': str(path), 'items': len(edition['items']),

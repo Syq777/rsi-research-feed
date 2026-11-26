@@ -168,6 +168,14 @@
     "summary": ""
   },
   {
+    "title": "Introducing Model Factory",
+    "url": "https://www.primeintellect.ai/blog/introducing-model-factory",
+    "date": "2026-11-18T00:00:00Z",
+    "source": "Prime Intellect",
+    "source_id": "prime-intellect",
+    "summary": "Prime Intellect 发布 Model Factory，把模型训练、推理、运行记录、评测和沙箱放到同一套流程里。文章说明如何从实际失败出发调整训练，并在独立任务上检查效果；这是厂商的产品说明。"
+  },
+  {
     "title": "Research acceleration: The jagged frontier",
     "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
     "date": "2026-11-18T00:00:00Z",
@@ -190,6 +198,14 @@
     "source": "Anthropic Engineering",
     "source_id": "anthropic-engineering",
     "summary": "Anthropic 从设计、执行和报告三个环节总结评测方法：匹配真实使用场景、区分相关与因果、覆盖多轮互动，并把统计假设和复现条件写清楚。"
+  },
+  {
+    "title": "Agents That Think Together: Cisco's Vijoy Pandey on Semantic Alignment, Scope, Accord & Concord",
+    "url": "https://www.cognitiverevolution.ai/agents-that-think-together-cisco-s-vijoy-pandey-on-semantic-alignment-scope-accord-concord/",
+    "date": "2026-11-11T00:00:00Z",
+    "source": "The Cognitive Revolution",
+    "source_id": "cognitive-revolution",
+    "summary": "Cisco 的 Vijoy Pandey 在访谈中讨论多智能体协作：能互相通信之后，还要对齐目标、交接条件和最终验收。节目用企业案例说明局部任务完成，为何不等于整体结果正确。"
   },
   {
     "title": "The components of agent memory",

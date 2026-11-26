@@ -401,7 +401,7 @@ def build(root, topic, offline, site_url, out, fetch=download, renderer=None):
     if not web_url(site_url) or urlsplit(site_url).query or urlsplit(site_url).fragment:
         raise ValueError("site URL must be an absolute HTTP(S) directory URL")
     site_url = site_url.rstrip("/") + "/"
-    cfg = {**cfg, "site_url": site_url}
+    cfg = {**cfg, "site_url": site_url, "source_registry": (root / 'sources' / f'{topic}.json').exists()}
     catalog = read_json(root / cfg["catalog"]) if cfg.get("catalog") else []
     if not isinstance(catalog, list) or any(not isinstance(row, dict) for row in catalog):
         raise ValueError("catalog must be an array of objects")
@@ -441,6 +441,9 @@ def build(root, topic, offline, site_url, out, fetch=download, renderer=None):
             write_syndication(stage, cfg, feed_records, site_url)
             (stage / "status.json").write_text(json_text(status), encoding="utf-8")
             renderer(cfg, items, catalog, status, stage)
+            if (root / 'sources' / f'{topic}.json').exists():
+                from source_report import render_sources
+                render_sources(root, topic, stage)
             if not (stage / "index.html").is_file():
                 raise ValueError("renderer did not produce index.html")
             publish(stage, out, archive, items)

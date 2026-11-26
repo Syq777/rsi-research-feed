@@ -1,0 +1,3766 @@
+{
+  "topic": "rsi",
+  "updated": "2026-11-26",
+  "ranking_note": "面向 RSI 阅读价值的编辑优先级，非客观榜单。每领域 20 个重点入口；跨领域重复只轮询一次。完整动态来源池每天全部尝试，失败与不可访问项单列，经典资料和工具入口不冒充日更来源。",
+  "domains": [
+    {
+      "id": "methods",
+      "name": "研究方法",
+      "top20": [
+        {
+          "source_id": "s-e2bc2874ac4f",
+          "reason": "进化搜索、自动化科研和项目发布。"
+        },
+        {
+          "source_id": "s-f771d4f56ad4",
+          "reason": "研究团队、论文与技术文章。"
+        },
+        {
+          "source_id": "s-e9aaa7b5e18f",
+          "reason": "研究论文与项目。"
+        },
+        {
+          "source_id": "s-d9e1cadbab88",
+          "reason": "FunSearch、AlphaEvolve、AlphaProof 等项目的官方发布。"
+        },
+        {
+          "source_id": "s-2207a7330a3d",
+          "reason": "研究与工程团队发布。"
+        },
+        {
+          "source_id": "s-4be93a3979d1",
+          "reason": "微软研究院成果，含 rStar 等推理工作线索。"
+        },
+        {
+          "source_id": "s-86e00abd227a",
+          "reason": "研究博客、公开模型与可复现材料。"
+        },
+        {
+          "source_id": "s-22705a47de9a",
+          "reason": "从 Meta 研究入口按 FAIR、MSL、Self-Rewarding 或作者检索。"
+        },
+        {
+          "source_id": "s-d73d294d5617",
+          "reason": "Mira Murati 团队的研究与训练工程栏目。"
+        },
+        {
+          "source_id": "s-681b242d3bd4",
+          "reason": "模型发布、技术报告及官方代码链接。"
+        },
+        {
+          "source_id": "s-fceb486df6ca",
+          "reason": "模型技术报告、开源权重、训练与推理资料。"
+        },
+        {
+          "source_id": "s-e072728811bd",
+          "reason": "Kimi 技术报告与代码。"
+        },
+        {
+          "source_id": "s-832d381eaaae",
+          "reason": "推理、强化学习及 Agent 相关研究。"
+        },
+        {
+          "source_id": "s-06dffcab1a70",
+          "reason": "开放式学习、AI-GAs、ADAS、DGM。"
+        },
+        {
+          "source_id": "s-5933e6517025",
+          "reason": "多智能体、强化学习与开放式学习。"
+        },
+        {
+          "source_id": "s-daf64c76e563",
+          "reason": "开放式学习、强化学习及论文。"
+        },
+        {
+          "source_id": "s-7ed875f54272",
+          "reason": "推理、认知及语言模型，STaR 作者线索。"
+        },
+        {
+          "source_id": "s-69cd3c05e368",
+          "reason": "跨主题技术综述与参考文献。"
+        },
+        {
+          "source_id": "s-b245e6dd56ff",
+          "reason": "推理模型、训练和技术论文解读。"
+        },
+        {
+          "source_id": "s-ad5732584a03",
+          "reason": "社区提交的论文、讨论与项目链接。"
+        }
+      ]
+    },
+    {
+      "id": "engineering",
+      "name": "工程与开源",
+      "top20": [
+        {
+          "source_id": "s-d03e3ca2752c",
+          "reason": "Agent、上下文、工具和工程实践。"
+        },
+        {
+          "source_id": "s-ab2ba528fbe2",
+          "reason": "研究基础设施与工程实现。"
+        },
+        {
+          "source_id": "s-550749f2f032",
+          "reason": "开发者技术文章。"
+        },
+        {
+          "source_id": "s-d8329decb32e",
+          "reason": "工程示例及代码。"
+        },
+        {
+          "source_id": "s-83e1c3b069d8",
+          "reason": "Agent 架构、运行与评测工程。"
+        },
+        {
+          "source_id": "s-3ccc18a956ca",
+          "reason": "数据与 Agent 工程。"
+        },
+        {
+          "source_id": "s-9c0885bdb370",
+          "reason": "编辑器、代码 Agent 与工程实现。"
+        },
+        {
+          "source_id": "s-9e51f08fce44",
+          "reason": "编码 Agent 工程案例，历史材料也可按 Windsurf 检索。"
+        },
+        {
+          "source_id": "s-867297f7506f",
+          "reason": "智能体工程与上下文管理复盘。"
+        },
+        {
+          "source_id": "s-00debe4964dc",
+          "reason": "记忆管理、长期智能体及 sleep-time compute。"
+        },
+        {
+          "source_id": "s-d99d19a77f4c",
+          "reason": "分布式训练与 RL 环境。"
+        },
+        {
+          "source_id": "s-0354cef6dc81",
+          "reason": "开源模型、RL 与社区，Atropos 见代码目录。"
+        },
+        {
+          "source_id": "s-b5a44c85aa77",
+          "reason": "开放软件工程 Agent 仓库。"
+        },
+        {
+          "source_id": "s-509faa7f213e",
+          "reason": "多智能体框架的公开仓库。"
+        },
+        {
+          "source_id": "s-d554ca3fc8b9",
+          "reason": "工作流和 Agent 平台文档、发布与社区。"
+        },
+        {
+          "source_id": "s-6865704f3c89",
+          "reason": "软件工程 Agent 与开发工具。"
+        },
+        {
+          "source_id": "s-394659b22ff2",
+          "reason": "AI 编码工程与产品发布。"
+        },
+        {
+          "source_id": "s-974a16d902d5",
+          "reason": "应用构建与编码 Agent。"
+        },
+        {
+          "source_id": "s-a8fa271caf75",
+          "reason": "Nous 的强化学习环境框架。"
+        },
+        {
+          "source_id": "s-7a4ff89d4bb3",
+          "reason": "社区沿 AlphaEvolve 路线实现的项目。"
+        }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "自动科研",
+      "top20": [
+        {
+          "source_id": "s-e2bc2874ac4f",
+          "reason": "进化搜索、自动化科研和项目发布。"
+        },
+        {
+          "source_id": "s-dd2f6b8d4cf9",
+          "reason": "递归自我改进研究项目的集中入口。"
+        },
+        {
+          "source_id": "s-f180ba1e0e3e",
+          "reason": "AI 科研系统 Zochi 与技术说明。"
+        },
+        {
+          "source_id": "s-e05f46769900",
+          "reason": "AI 科研系统 Carl 及团队发布。"
+        },
+        {
+          "source_id": "s-b49b5e8d9733",
+          "reason": "机器学习工程自动化，AIDE 原始代码见项目目录。"
+        },
+        {
+          "source_id": "s-fb6754b7450f",
+          "reason": "科学发现项目、研究材料及 Robin。"
+        },
+        {
+          "source_id": "s-a0cb29f6eb62",
+          "reason": "科学发现系统、研究与 Kosmos 项目。"
+        },
+        {
+          "source_id": "s-e31f59dfc575",
+          "reason": "物理及材料研究、自动化实验。"
+        },
+        {
+          "source_id": "s-dbd3a3c9bf23",
+          "reason": "实验室自动化和 AI 科学研究。"
+        },
+        {
+          "source_id": "s-d9e1cadbab88",
+          "reason": "FunSearch、AlphaEvolve、AlphaProof 等项目的官方发布。"
+        },
+        {
+          "source_id": "s-2207a7330a3d",
+          "reason": "研究与工程团队发布。"
+        },
+        {
+          "source_id": "s-4be93a3979d1",
+          "reason": "微软研究院成果，含 rStar 等推理工作线索。"
+        },
+        {
+          "source_id": "s-2eda91556133",
+          "reason": "智能体、强化学习及合成数据研究。"
+        },
+        {
+          "source_id": "s-f771d4f56ad4",
+          "reason": "研究团队、论文与技术文章。"
+        },
+        {
+          "source_id": "s-e9aaa7b5e18f",
+          "reason": "研究论文与项目。"
+        },
+        {
+          "source_id": "s-d8b5b41bf681",
+          "reason": "Sakana AI 的自动化科学研究工作流。"
+        },
+        {
+          "source_id": "s-7d6f1a46e985",
+          "reason": "Weco 的机器学习工程 Agent。"
+        },
+        {
+          "source_id": "s-dbf67288790e",
+          "reason": "Sakana AI 的程序进化框架。"
+        },
+        {
+          "source_id": "s-d9d91ddaaf0e",
+          "reason": "智能体自我修改代码，Sakana AI 与学术团队合作。"
+        },
+        {
+          "source_id": "s-5a912a127782",
+          "reason": "自动化设计 Agent 系统的作者仓库。"
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "name": "评测安全",
+      "top20": [
+        {
+          "source_id": "s-5831aa6a6e05",
+          "reason": "自主能力、真实研发流程与评测研究。"
+        },
+        {
+          "source_id": "s-56c5734bc746",
+          "reason": "算力、数据和算法进展的定量研究。"
+        },
+        {
+          "source_id": "s-7cd006253da2",
+          "reason": "AI control 与监督研究。"
+        },
+        {
+          "source_id": "s-a6464e1ed6b9",
+          "reason": "情境感知、模型行为及安全评测。"
+        },
+        {
+          "source_id": "s-2dad90584fe9",
+          "reason": "对齐研究机构，和 ARC Prize 分别收录。"
+        },
+        {
+          "source_id": "s-02a89491acca",
+          "reason": "能力评估、公开报告及研究更新。"
+        },
+        {
+          "source_id": "s-fe0187725920",
+          "reason": "美国前沿 AI 评估与标准机构，按新旧名称均可检索。"
+        },
+        {
+          "source_id": "s-9609c6ed163f",
+          "reason": "国际专家报告及 AI 能力、风险与自动化研发章节。"
+        },
+        {
+          "source_id": "s-b22de837fa43",
+          "reason": "对齐、奖励投机和自动化对齐研究。"
+        },
+        {
+          "source_id": "s-5b3723c52c73",
+          "reason": "前沿能力与风险评估，原清单也称 red.anthropic.com。"
+        },
+        {
+          "source_id": "s-cab059b2c56d",
+          "reason": "按模型发布查系统卡和实测结果。"
+        },
+        {
+          "source_id": "s-5a0dfd8f30f9",
+          "reason": "从研究与具体模型发布页查系统卡、评测和政策文件。"
+        },
+        {
+          "source_id": "s-d3be19a673e5",
+          "reason": "查 ML R&D 等关键能力与框架更新。"
+        },
+        {
+          "source_id": "s-c9c74d270235",
+          "reason": "按模型查能力和安全评测。"
+        },
+        {
+          "source_id": "s-0ef381ab95ef",
+          "reason": "泛化评测、技术报告和赛事，与 Ndea 是独立组织。"
+        },
+        {
+          "source_id": "s-ccc69641ceab",
+          "reason": "软件工程评测及版本，查结果时同时记录评测设置。"
+        },
+        {
+          "source_id": "s-98fe2bd5aeb3",
+          "reason": "开源可解释性研究与工具。"
+        },
+        {
+          "source_id": "s-2e634843eaaa",
+          "reason": "机制可解释性研究与工程应用。"
+        },
+        {
+          "source_id": "s-b8a2c7ed1492",
+          "reason": "上海 AI Lab 的开放评测平台。"
+        },
+        {
+          "source_id": "s-f3dc86fbe8e9",
+          "reason": "软件智能爆炸、AI 发展情景与宏观研究。"
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "name": "产业动态",
+      "top20": [
+        {
+          "source_id": "s-1b6229ca02e0",
+          "reason": "研究发布、技术报告和产品动态，原文所称 /index 是具体文章的路径。"
+        },
+        {
+          "source_id": "s-f6aa679babd7",
+          "reason": "发布、政策声明和模型信息。"
+        },
+        {
+          "source_id": "s-cde363f9a897",
+          "reason": "研究发布与解读。"
+        },
+        {
+          "source_id": "s-5a8cbfa3b392",
+          "reason": "中文研究动态、公众号与论文线索。"
+        },
+        {
+          "source_id": "s-efa84fcedb52",
+          "reason": "中文科技新闻、公司与团队动态。"
+        },
+        {
+          "source_id": "s-0072d33a29df",
+          "reason": "年度 AI 全景报告与存档。"
+        },
+        {
+          "source_id": "s-cb3eafa4e1d0",
+          "reason": "年度指标、统计图表与研究报告。"
+        },
+        {
+          "source_id": "s-b98ae424f5a9",
+          "reason": "技术市场、基础设施与创业观察。"
+        },
+        {
+          "source_id": "s-cd5dfc8cdc10",
+          "reason": "查看 AI Ascent、AI 主题文章与投资人访谈。"
+        },
+        {
+          "source_id": "s-c52afc57280a",
+          "reason": "企业 AI 采用与产业报告。"
+        },
+        {
+          "source_id": "s-78bc9cc5cebe",
+          "reason": "AI 应用、云与产业研究。"
+        },
+        {
+          "source_id": "s-495540ddca51",
+          "reason": "产业报道，部分内容需订阅。"
+        },
+        {
+          "source_id": "s-2ff23cbcbf3f",
+          "reason": "算力成本、芯片与基础设施分析，部分内容需订阅。"
+        },
+        {
+          "source_id": "s-54bdff1bd90c",
+          "reason": "团队研究与自主编码方向发布。"
+        },
+        {
+          "source_id": "s-aaa9f319c2db",
+          "reason": "编码、模型训练与执行反馈。"
+        },
+        {
+          "source_id": "s-dcfcaed725f8",
+          "reason": "长上下文、软件工程与研究方向。"
+        },
+        {
+          "source_id": "s-7707bd122b25",
+          "reason": "GLM 系列与智能体产品，亦可按 Z.ai 搜索。"
+        },
+        {
+          "source_id": "s-609aff46b0fe",
+          "reason": "模型与 Agent 技术发布。"
+        },
+        {
+          "source_id": "s-273015bf8390",
+          "reason": "模型、技术报告和开源发布。"
+        },
+        {
+          "source_id": "s-f33a282a1420",
+          "reason": "混元模型与项目入口。"
+        }
+      ]
+    },
+    {
+      "id": "perspectives",
+      "name": "观点访谈",
+      "top20": [
+        {
+          "source_id": "s-665de4e83343",
+          "reason": "持续学习、智能爆炸与研发瓶颈；播客入口另列于 8.1。"
+        },
+        {
+          "source_id": "s-261f420bbfa9",
+          "reason": "研究者长访谈，可按 Jeff Clune、Schmidhuber 搜索。"
+        },
+        {
+          "source_id": "s-62c2a329a22a",
+          "reason": "AI 工程访谈、社区与 Newsletter。"
+        },
+        {
+          "source_id": "s-eee13eca07bf",
+          "reason": "模型、智能体与产业访谈。"
+        },
+        {
+          "source_id": "s-254f4055f59d",
+          "reason": "前沿 AI、安全与宏观议题访谈。"
+        },
+        {
+          "source_id": "s-8ec1c016a93e",
+          "reason": "大模型从业者、研究团队与创业公司访谈。"
+        },
+        {
+          "source_id": "s-980942803d23",
+          "reason": "科技产业、基础设施与人物。"
+        },
+        {
+          "source_id": "s-98737b0208e8",
+          "reason": "企业、人物与 AI 产业动态。"
+        },
+        {
+          "source_id": "s-6d94b2f94e91",
+          "reason": "后训练、RL、开源模型和产业观察。"
+        },
+        {
+          "source_id": "s-617cd37dbdae",
+          "reason": "跨机构研究动态与作者评论。"
+        },
+        {
+          "source_id": "s-b245e6dd56ff",
+          "reason": "推理模型、训练和技术论文解读。"
+        },
+        {
+          "source_id": "s-69cd3c05e368",
+          "reason": "跨主题技术综述与参考文献。"
+        },
+        {
+          "source_id": "s-b3eec02ad0c7",
+          "reason": "长文、思想史与参考资料。"
+        },
+        {
+          "source_id": "s-55feb116c6bd",
+          "reason": "数据驱动的短文与研究更新。"
+        },
+        {
+          "source_id": "s-3a2f3e9c1247",
+          "reason": "推理、强化学习和验证难度。"
+        },
+        {
+          "source_id": "s-272e4f6b8663",
+          "reason": "Agent 与评测，《The Second Half》作者。"
+        },
+        {
+          "source_id": "s-ee55121d3d3e",
+          "reason": "个人评论与时间表，包括 The Gentle Singularity。"
+        },
+        {
+          "source_id": "s-24b6d5364626",
+          "reason": "个人长文，包括 Machines of Loving Grace。"
+        },
+        {
+          "source_id": "s-8f4106bb8117",
+          "reason": "Imbue 创始人的文章与访谈。"
+        },
+        {
+          "source_id": "s-d34868c4eaec",
+          "reason": "AI Futures Project 的情景分析与预测。"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "s-f7a436a39e71",
+      "name": "arXiv",
+      "url": "https://arxiv.org/",
+      "poll_url": "https://arxiv.org/",
+      "mode": "html",
+      "note": "检索 cs.LG、cs.CL、cs.AI，按题名、作者或关键词查原文。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "arXiv"
+      ]
+    },
+    {
+      "id": "s-ad5732584a03",
+      "name": "Hugging Face Daily Papers",
+      "url": "https://huggingface.co/papers",
+      "poll_url": "https://huggingface.co/papers",
+      "mode": "html",
+      "note": "社区提交的论文、讨论与项目链接。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Hugging Face Daily Papers"
+      ]
+    },
+    {
+      "id": "s-7c57b8d3856f",
+      "name": "alphaXiv",
+      "url": "https://www.alphaxiv.org/",
+      "poll_url": "https://www.alphaxiv.org/",
+      "mode": "html",
+      "note": "论文讨论和相关研究线索。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "alphaXiv"
+      ]
+    },
+    {
+      "id": "s-fb3ace4d4c5a",
+      "name": "Google Scholar",
+      "url": "https://scholar.google.com/",
+      "poll_url": "https://scholar.google.com/",
+      "mode": "reference",
+      "note": "作者主页、引用与新作提醒。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "Google Scholar"
+      ]
+    },
+    {
+      "id": "s-89b49105189d",
+      "name": "Semantic Scholar",
+      "url": "https://www.semanticscholar.org/",
+      "poll_url": "https://www.semanticscholar.org/",
+      "mode": "reference",
+      "note": "引用、被引、相似论文与作者跟踪。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "Semantic Scholar"
+      ]
+    },
+    {
+      "id": "s-23874bbe0a5c",
+      "name": "Connected Papers",
+      "url": "https://www.connectedpapers.com/",
+      "poll_url": "https://www.connectedpapers.com/",
+      "mode": "reference",
+      "note": "从一篇种子论文发现相关工作。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "Connected Papers"
+      ]
+    },
+    {
+      "id": "s-c664eb699751",
+      "name": "A Survey of Self-Evolving Agents",
+      "url": "https://arxiv.org/abs/2507.21046",
+      "poll_url": "https://arxiv.org/abs/2507.21046",
+      "mode": "reference",
+      "note": "自进化智能体综述，配套索引见开源目录。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "A Survey of Self-Evolving Agents"
+      ]
+    },
+    {
+      "id": "s-924aa0f05828",
+      "name": "Self-Improvement of Large Language Models",
+      "url": "https://arxiv.org/abs/2603.25681",
+      "poll_url": "https://arxiv.org/abs/2603.25681",
+      "mode": "reference",
+      "note": "模型自我改进技术综述，数据、学习和评估。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Self-Improvement of Large Language Models"
+      ]
+    },
+    {
+      "id": "s-e96e727970ad",
+      "name": "OpenReview",
+      "url": "https://openreview.net/",
+      "poll_url": "https://openreview.net/",
+      "mode": "html",
+      "note": "会议投稿、公开评审、作者回复和版本记录。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "OpenReview"
+      ]
+    },
+    {
+      "id": "s-0f7f5ebdfabd",
+      "name": "ICLR",
+      "url": "https://iclr.cc/",
+      "poll_url": "https://iclr.cc/",
+      "mode": "html",
+      "note": "研究论文、研讨会、海报和会议录像。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "ICLR"
+      ]
+    },
+    {
+      "id": "s-e90d6734a44f",
+      "name": "NeurIPS",
+      "url": "https://neurips.cc/",
+      "poll_url": "https://neurips.cc/",
+      "mode": "html",
+      "note": "查看历年 workshop 清单、议程、演讲与论文。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "NeurIPS"
+      ]
+    },
+    {
+      "id": "s-024dffd1e724",
+      "name": "ICML",
+      "url": "https://icml.cc/",
+      "poll_url": "https://icml.cc/",
+      "mode": "html",
+      "note": "查看 workshop、教程、议程及会议录。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "ICML"
+      ]
+    },
+    {
+      "id": "s-76759b92bdfc",
+      "name": "ICLR 2026 RSI Workshop",
+      "url": "https://recursive-workshop.github.io/",
+      "poll_url": "https://recursive-workshop.github.io/",
+      "mode": "html",
+      "note": "专门讨论递归自我改进的研讨会主页。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "ICLR 2026 RSI Workshop"
+      ]
+    },
+    {
+      "id": "s-190b4feefbfa",
+      "name": "RSI Workshop 录用论文目录",
+      "url": "https://recursive-workshop.github.io/papers.html",
+      "poll_url": "https://recursive-workshop.github.io/papers.html",
+      "mode": "html",
+      "note": "按报告和论文条目进入原始研究。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "RSI Workshop 录用论文目录"
+      ]
+    },
+    {
+      "id": "s-33ceb59c0853",
+      "name": "UBC · Jeff Clune Lab",
+      "url": "https://www.cs.ubc.ca/people/jeff-clune",
+      "poll_url": "https://www.cs.ubc.ca/people/jeff-clune",
+      "mode": "html",
+      "note": "开放式学习、ADAS、DGM 与 OMNI。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "UBC · Jeff Clune Lab"
+      ]
+    },
+    {
+      "id": "s-5933e6517025",
+      "name": "Oxford · FLAIR / Jakob Foerster",
+      "url": "https://foersterlab.com/",
+      "poll_url": "https://foersterlab.com/",
+      "mode": "html",
+      "note": "多智能体、强化学习与开放式学习。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Oxford · FLAIR / Jakob Foerster"
+      ]
+    },
+    {
+      "id": "s-daf64c76e563",
+      "name": "UCL · DARK",
+      "url": "https://ucldark.com/",
+      "poll_url": "https://ucldark.com/",
+      "mode": "html",
+      "note": "开放式学习、强化学习及论文。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "UCL · DARK"
+      ]
+    },
+    {
+      "id": "s-7ed875f54272",
+      "name": "Stanford · CoCoLab / Noah Goodman",
+      "url": "https://cocolab.stanford.edu/",
+      "poll_url": "https://cocolab.stanford.edu/",
+      "mode": "html",
+      "note": "推理、认知及语言模型，STaR 作者线索。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Stanford · CoCoLab / Noah Goodman"
+      ]
+    },
+    {
+      "id": "s-b26298387c40",
+      "name": "IDSIA",
+      "url": "https://idsia.usi-supsi.ch/",
+      "poll_url": "https://idsia.usi-supsi.ch/",
+      "mode": "html",
+      "note": "Schmidhuber 和 Gödel Machine 的历史研究线索。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "IDSIA"
+      ]
+    },
+    {
+      "id": "s-06cb5867b294",
+      "name": "Berkeley · RAIL / Sergey Levine",
+      "url": "https://rail.eecs.berkeley.edu/",
+      "poll_url": "https://rail.eecs.berkeley.edu/",
+      "mode": "html",
+      "note": "强化学习、机器人与交互学习研究。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Berkeley · RAIL / Sergey Levine"
+      ]
+    },
+    {
+      "id": "s-e9aaa7b5e18f",
+      "name": "OpenAI Research",
+      "url": "https://openai.com/research/",
+      "poll_url": "https://openai.com/research/",
+      "mode": "html",
+      "note": "研究论文与项目。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "OpenAI Research"
+      ]
+    },
+    {
+      "id": "s-1b6229ca02e0",
+      "name": "OpenAI 新闻与发布",
+      "url": "https://openai.com/news/",
+      "poll_url": "https://openai.com/news/rss.xml",
+      "mode": "feed",
+      "note": "研究发布、技术报告和产品动态，原文所称 /index 是具体文章的路径。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "OpenAI 新闻与发布"
+      ]
+    },
+    {
+      "id": "s-ab2ba528fbe2",
+      "name": "OpenAI Engineering",
+      "url": "https://openai.com/news/engineering/",
+      "poll_url": "https://openai.com/news/engineering/",
+      "mode": "html",
+      "note": "研究基础设施与工程实现。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "OpenAI Engineering"
+      ]
+    },
+    {
+      "id": "s-550749f2f032",
+      "name": "OpenAI 开发者博客",
+      "url": "https://developers.openai.com/blog/",
+      "poll_url": "https://developers.openai.com/blog/",
+      "mode": "html",
+      "note": "开发者技术文章。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "OpenAI 开发者博客"
+      ]
+    },
+    {
+      "id": "s-d8329decb32e",
+      "name": "OpenAI Cookbook",
+      "url": "https://developers.openai.com/cookbook/",
+      "poll_url": "https://developers.openai.com/cookbook/",
+      "mode": "html",
+      "note": "工程示例及代码。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "OpenAI Cookbook"
+      ]
+    },
+    {
+      "id": "s-5a0dfd8f30f9",
+      "name": "OpenAI 安全研究与系统卡入口",
+      "url": "https://openai.com/safety-alignment/",
+      "poll_url": "https://openai.com/safety-alignment/",
+      "mode": "html",
+      "note": "从研究与具体模型发布页查系统卡、评测和政策文件。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "OpenAI 安全研究与系统卡入口"
+      ]
+    },
+    {
+      "id": "s-159d28217d06",
+      "name": "OpenAI Preparedness Framework",
+      "url": "https://openai.com/index/updating-our-preparedness-framework/",
+      "poll_url": "https://openai.com/index/updating-our-preparedness-framework/",
+      "mode": "reference",
+      "note": "查 AI self-improvement 类别、版本和阈值。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "OpenAI Preparedness Framework"
+      ]
+    },
+    {
+      "id": "s-58da586369f3",
+      "name": "OpenAI · Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
+      "poll_url": "https://openai.com/index/research-acceleration-jagged-frontier/",
+      "mode": "reference",
+      "note": "研究任务自动化与研发加速的内部测量。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "OpenAI · Research acceleration: The jagged frontier"
+      ]
+    },
+    {
+      "id": "s-f771d4f56ad4",
+      "name": "Anthropic Research",
+      "url": "https://www.anthropic.com/research",
+      "poll_url": "https://www.anthropic.com/research",
+      "mode": "html",
+      "note": "研究团队、论文与技术文章。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Anthropic Research"
+      ]
+    },
+    {
+      "id": "s-f6aa679babd7",
+      "name": "Anthropic News",
+      "url": "https://www.anthropic.com/news",
+      "poll_url": "https://www.anthropic.com/news",
+      "mode": "html",
+      "note": "发布、政策声明和模型信息。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Anthropic News"
+      ]
+    },
+    {
+      "id": "s-d03e3ca2752c",
+      "name": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering",
+      "poll_url": "https://www.anthropic.com/engineering",
+      "mode": "html",
+      "note": "Agent、上下文、工具和工程实践。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Anthropic Engineering"
+      ]
+    },
+    {
+      "id": "s-b22de837fa43",
+      "name": "Anthropic Alignment Science",
+      "url": "https://alignment.anthropic.com/",
+      "poll_url": "https://alignment.anthropic.com/",
+      "mode": "html",
+      "note": "对齐、奖励投机和自动化对齐研究。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Anthropic Alignment Science"
+      ]
+    },
+    {
+      "id": "s-a9d95f65cf92",
+      "name": "Transformer Circuits",
+      "url": "https://transformer-circuits.pub/",
+      "poll_url": "https://transformer-circuits.pub/",
+      "mode": "html",
+      "note": "机制可解释性研究。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Transformer Circuits"
+      ]
+    },
+    {
+      "id": "s-5b3723c52c73",
+      "name": "Anthropic Frontier Red Team",
+      "url": "https://www.anthropic.com/research/team/frontier-red-team",
+      "poll_url": "https://www.anthropic.com/research/team/frontier-red-team",
+      "mode": "html",
+      "note": "前沿能力与风险评估，原清单也称 red.anthropic.com。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Anthropic Frontier Red Team"
+      ]
+    },
+    {
+      "id": "s-cab059b2c56d",
+      "name": "Anthropic System Cards",
+      "url": "https://www.anthropic.com/system-cards",
+      "poll_url": "https://www.anthropic.com/system-cards",
+      "mode": "html",
+      "note": "按模型发布查系统卡和实测结果。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Anthropic System Cards"
+      ]
+    },
+    {
+      "id": "s-afe1e125f3ba",
+      "name": "Anthropic Responsible Scaling Policy（RSP）",
+      "url": "https://www.anthropic.com/responsible-scaling-policy",
+      "poll_url": "https://www.anthropic.com/responsible-scaling-policy",
+      "mode": "html",
+      "note": "查自动化研发相关阈值与版本记录。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Anthropic Responsible Scaling Policy（RSP）"
+      ]
+    },
+    {
+      "id": "s-9e5e9682128d",
+      "name": "Anthropic · When AI builds itself",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "poll_url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "mode": "reference",
+      "note": "团队对研发自动化与递归自我改进的分析。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Anthropic · When AI builds itself"
+      ]
+    },
+    {
+      "id": "s-d9e1cadbab88",
+      "name": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/",
+      "poll_url": "https://deepmind.google/blog/",
+      "mode": "html",
+      "note": "FunSearch、AlphaEvolve、AlphaProof 等项目的官方发布。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Google DeepMind Blog"
+      ]
+    },
+    {
+      "id": "s-2207a7330a3d",
+      "name": "Google Research Blog",
+      "url": "https://research.google/blog/",
+      "poll_url": "https://research.google/blog/",
+      "mode": "html",
+      "note": "研究与工程团队发布。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Google Research Blog"
+      ]
+    },
+    {
+      "id": "s-311cc97d144a",
+      "name": "DeepMind Safety Research",
+      "url": "https://deepmindsafetyresearch.medium.com/",
+      "poll_url": "https://deepmindsafetyresearch.medium.com/",
+      "mode": "html",
+      "note": "团队历史文章及专题长文。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "DeepMind Safety Research"
+      ]
+    },
+    {
+      "id": "s-ef6b5e14751c",
+      "name": "Google DeepMind 开放式学习研究",
+      "url": "https://rockt.ai/",
+      "poll_url": "https://rockt.ai/",
+      "mode": "html",
+      "note": "从 Tim Rocktäschel 的个人研究页追踪论文和合作者。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Google DeepMind 开放式学习研究"
+      ]
+    },
+    {
+      "id": "s-d3be19a673e5",
+      "name": "Google DeepMind Frontier Safety Framework",
+      "url": "https://deepmind.google/frontier-safety/",
+      "poll_url": "https://deepmind.google/frontier-safety/",
+      "mode": "html",
+      "note": "查 ML R&D 等关键能力与框架更新。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Google DeepMind Frontier Safety Framework"
+      ]
+    },
+    {
+      "id": "s-c9c74d270235",
+      "name": "Google DeepMind Model Cards",
+      "url": "https://deepmind.google/models/model-cards/",
+      "poll_url": "https://deepmind.google/models/model-cards/",
+      "mode": "html",
+      "note": "按模型查能力和安全评测。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Google DeepMind Model Cards"
+      ]
+    },
+    {
+      "id": "s-22705a47de9a",
+      "name": "Meta AI / FAIR / Meta Superintelligence Labs",
+      "url": "https://ai.meta.com/research/",
+      "poll_url": "https://ai.meta.com/research/",
+      "mode": "html",
+      "note": "从 Meta 研究入口按 FAIR、MSL、Self-Rewarding 或作者检索。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Meta AI / FAIR / Meta Superintelligence Labs"
+      ]
+    },
+    {
+      "id": "s-cde363f9a897",
+      "name": "Meta AI Blog",
+      "url": "https://ai.meta.com/blog/",
+      "poll_url": "https://ai.meta.com/blog/",
+      "mode": "html",
+      "note": "研究发布与解读。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Meta AI Blog"
+      ]
+    },
+    {
+      "id": "s-4be93a3979d1",
+      "name": "Microsoft Research Blog",
+      "url": "https://www.microsoft.com/en-us/research/blog/",
+      "poll_url": "https://www.microsoft.com/en-us/research/blog/",
+      "mode": "html",
+      "note": "微软研究院成果，含 rStar 等推理工作线索。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Microsoft Research Blog"
+      ]
+    },
+    {
+      "id": "s-2eda91556133",
+      "name": "NVIDIA Research",
+      "url": "https://www.nvidia.com/en-us/research/",
+      "poll_url": "https://www.nvidia.com/en-us/research/",
+      "mode": "html",
+      "note": "智能体、强化学习及合成数据研究。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "NVIDIA Research"
+      ]
+    },
+    {
+      "id": "s-86e00abd227a",
+      "name": "Allen Institute for AI（Ai2）",
+      "url": "https://allenai.org/blog",
+      "poll_url": "https://allenai.org/blog",
+      "mode": "html",
+      "note": "研究博客、公开模型与可复现材料。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Allen Institute for AI（Ai2）"
+      ]
+    },
+    {
+      "id": "s-83e1c3b069d8",
+      "name": "LangChain Blog",
+      "url": "https://blog.langchain.com/",
+      "poll_url": "https://blog.langchain.com/",
+      "mode": "html",
+      "note": "Agent 架构、运行与评测工程。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "LangChain Blog"
+      ]
+    },
+    {
+      "id": "s-3ccc18a956ca",
+      "name": "LlamaIndex Blog",
+      "url": "https://www.llamaindex.ai/blog",
+      "poll_url": "https://www.llamaindex.ai/blog",
+      "mode": "html",
+      "note": "数据与 Agent 工程。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "LlamaIndex Blog"
+      ]
+    },
+    {
+      "id": "s-e2bc2874ac4f",
+      "name": "Sakana AI",
+      "url": "https://sakana.ai/blog/",
+      "poll_url": "https://sakana.ai/feed.xml",
+      "mode": "feed",
+      "note": "进化搜索、自动化科研和项目发布。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Sakana AI"
+      ]
+    },
+    {
+      "id": "s-dd2f6b8d4cf9",
+      "name": "Sakana AI RSI Lab",
+      "url": "https://sakana.ai/rsi-lab/",
+      "poll_url": "https://sakana.ai/rsi-lab/",
+      "mode": "html",
+      "note": "递归自我改进研究项目的集中入口。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Sakana AI RSI Lab"
+      ]
+    },
+    {
+      "id": "s-354afe0e8a79",
+      "name": "Sakana AI GitHub",
+      "url": "https://github.com/SakanaAI",
+      "poll_url": "https://github.com/SakanaAI",
+      "mode": "html",
+      "note": "项目代码、版本与 issues。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Sakana AI GitHub"
+      ]
+    },
+    {
+      "id": "s-f180ba1e0e3e",
+      "name": "Intology",
+      "url": "https://intology.ai/",
+      "poll_url": "https://intology.ai/",
+      "mode": "html",
+      "note": "AI 科研系统 Zochi 与技术说明。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Intology"
+      ]
+    },
+    {
+      "id": "s-e05f46769900",
+      "name": "Autoscience",
+      "url": "https://www.autoscience.ai/",
+      "poll_url": "https://www.autoscience.ai/",
+      "mode": "html",
+      "note": "AI 科研系统 Carl 及团队发布。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Autoscience"
+      ]
+    },
+    {
+      "id": "s-b49b5e8d9733",
+      "name": "Weco AI",
+      "url": "https://weco.ai/",
+      "poll_url": "https://weco.ai/",
+      "mode": "html",
+      "note": "机器学习工程自动化，AIDE 原始代码见项目目录。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Weco AI"
+      ]
+    },
+    {
+      "id": "s-d0a9b3c9bf15",
+      "name": "Ndea",
+      "url": "https://ndea.com/",
+      "poll_url": "https://ndea.com/",
+      "mode": "html",
+      "note": "程序合成、深度学习与泛化研究，创始人为 François Chollet、Mike Knoop。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Ndea"
+      ]
+    },
+    {
+      "id": "s-168d9005b12c",
+      "name": "Mechanize",
+      "url": "https://www.mechanize.work/",
+      "poll_url": "https://www.mechanize.work/",
+      "mode": "html",
+      "note": "工作自动化与强化学习环境。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Mechanize"
+      ]
+    },
+    {
+      "id": "s-7c5201226b8f",
+      "name": "Safe Superintelligence（SSI）",
+      "url": "https://ssi.inc/",
+      "poll_url": "https://ssi.inc/",
+      "mode": "html",
+      "note": "Ilya Sutskever 等创立的团队，跟踪官方发布。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Safe Superintelligence（SSI）"
+      ]
+    },
+    {
+      "id": "s-d73d294d5617",
+      "name": "Thinking Machines Lab · Connectionism",
+      "url": "https://thinkingmachines.ai/blog/",
+      "poll_url": "https://thinkingmachines.ai/blog/",
+      "mode": "html",
+      "note": "Mira Murati 团队的研究与训练工程栏目。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Thinking Machines Lab · Connectionism"
+      ]
+    },
+    {
+      "id": "s-5e7767709cb5",
+      "name": "Tinker",
+      "url": "https://thinkingmachines.ai/tinker/",
+      "poll_url": "https://thinkingmachines.ai/tinker/",
+      "mode": "reference",
+      "note": "Thinking Machines Lab 的训练工具及文档入口。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Tinker"
+      ]
+    },
+    {
+      "id": "s-54bdff1bd90c",
+      "name": "Reflection AI",
+      "url": "https://reflection.ai/",
+      "poll_url": "https://reflection.ai/",
+      "mode": "html",
+      "note": "团队研究与自主编码方向发布。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Reflection AI"
+      ]
+    },
+    {
+      "id": "s-aaa9f319c2db",
+      "name": "Poolside",
+      "url": "https://poolside.ai/",
+      "poll_url": "https://poolside.ai/",
+      "mode": "html",
+      "note": "编码、模型训练与执行反馈。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Poolside"
+      ]
+    },
+    {
+      "id": "s-dcfcaed725f8",
+      "name": "Magic",
+      "url": "https://magic.dev/",
+      "poll_url": "https://magic.dev/",
+      "mode": "html",
+      "note": "长上下文、软件工程与研究方向。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Magic"
+      ]
+    },
+    {
+      "id": "s-fb6754b7450f",
+      "name": "FutureHouse",
+      "url": "https://www.futurehouse.org/",
+      "poll_url": "https://www.futurehouse.org/",
+      "mode": "html",
+      "note": "科学发现项目、研究材料及 Robin。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "FutureHouse"
+      ]
+    },
+    {
+      "id": "s-a0cb29f6eb62",
+      "name": "Edison Scientific",
+      "url": "https://edisonscientific.com/",
+      "poll_url": "https://edisonscientific.com/",
+      "mode": "html",
+      "note": "科学发现系统、研究与 Kosmos 项目。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Edison Scientific"
+      ]
+    },
+    {
+      "id": "s-e31f59dfc575",
+      "name": "Periodic Labs",
+      "url": "https://periodic.com/",
+      "poll_url": "https://periodic.com/",
+      "mode": "html",
+      "note": "物理及材料研究、自动化实验。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Periodic Labs"
+      ]
+    },
+    {
+      "id": "s-dbd3a3c9bf23",
+      "name": "Lila Sciences",
+      "url": "https://www.lila.ai/",
+      "poll_url": "https://www.lila.ai/",
+      "mode": "html",
+      "note": "实验室自动化和 AI 科学研究。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Lila Sciences"
+      ]
+    },
+    {
+      "id": "s-9e51f08fce44",
+      "name": "Cognition / Devin",
+      "url": "https://cognition.com/blog",
+      "poll_url": "https://cognition.com/blog",
+      "mode": "html",
+      "note": "编码 Agent 工程案例，历史材料也可按 Windsurf 检索。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Cognition / Devin"
+      ]
+    },
+    {
+      "id": "s-9c0885bdb370",
+      "name": "Cursor / Anysphere",
+      "url": "https://cursor.com/blog",
+      "poll_url": "https://cursor.com/blog",
+      "mode": "html",
+      "note": "编辑器、代码 Agent 与工程实现。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Cursor / Anysphere"
+      ]
+    },
+    {
+      "id": "s-7f3607198ca9",
+      "name": "OpenHands / All Hands AI",
+      "url": "https://openhands.dev/",
+      "poll_url": "https://openhands.dev/",
+      "mode": "html",
+      "note": "开源软件工程智能体与官方项目。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "OpenHands / All Hands AI"
+      ]
+    },
+    {
+      "id": "s-6865704f3c89",
+      "name": "Factory",
+      "url": "https://factory.com/",
+      "poll_url": "https://factory.com/",
+      "mode": "html",
+      "note": "软件工程 Agent 与开发工具。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Factory"
+      ]
+    },
+    {
+      "id": "s-394659b22ff2",
+      "name": "Augment Code",
+      "url": "https://www.augmentcode.com/",
+      "poll_url": "https://www.augmentcode.com/",
+      "mode": "html",
+      "note": "AI 编码工程与产品发布。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Augment Code"
+      ]
+    },
+    {
+      "id": "s-974a16d902d5",
+      "name": "Replit Agent",
+      "url": "https://replit.com/products/agent",
+      "poll_url": "https://replit.com/products/agent",
+      "mode": "html",
+      "note": "应用构建与编码 Agent。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Replit Agent"
+      ]
+    },
+    {
+      "id": "s-d99d19a77f4c",
+      "name": "Prime Intellect",
+      "url": "https://www.primeintellect.ai/",
+      "poll_url": "https://www.primeintellect.ai/",
+      "mode": "html",
+      "note": "分布式训练与 RL 环境。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Prime Intellect"
+      ]
+    },
+    {
+      "id": "s-1e6832ac63b5",
+      "name": "Prime Intellect Environments Hub",
+      "url": "https://www.primeintellect.ai/blog/environments",
+      "poll_url": "https://www.primeintellect.ai/blog/environments",
+      "mode": "reference",
+      "note": "从官方介绍进入环境目录。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Prime Intellect Environments Hub"
+      ]
+    },
+    {
+      "id": "s-0354cef6dc81",
+      "name": "Nous Research",
+      "url": "https://nousresearch.com/",
+      "poll_url": "https://nousresearch.com/",
+      "mode": "html",
+      "note": "开源模型、RL 与社区，Atropos 见代码目录。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Nous Research"
+      ]
+    },
+    {
+      "id": "s-b30d81a18c00",
+      "name": "EleutherAI",
+      "url": "https://github.com/EleutherAI",
+      "poll_url": "https://github.com/EleutherAI",
+      "mode": "html",
+      "note": "开放研究项目，Discord 入口见机构页。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "EleutherAI"
+      ]
+    },
+    {
+      "id": "s-00debe4964dc",
+      "name": "Letta / MemGPT",
+      "url": "https://www.letta.com/",
+      "poll_url": "https://www.letta.com/",
+      "mode": "html",
+      "note": "记忆管理、长期智能体及 sleep-time compute。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Letta / MemGPT"
+      ]
+    },
+    {
+      "id": "s-29afaee01ff9",
+      "name": "Imbue",
+      "url": "https://imbue.com/",
+      "poll_url": "https://imbue.com/",
+      "mode": "html",
+      "note": "推理、工具和智能体研究，创始人访谈可按 Kanjun Qiu 查找。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Imbue"
+      ]
+    },
+    {
+      "id": "s-cd3f98cb377d",
+      "name": "Adept",
+      "url": "https://www.adept.ai/blog",
+      "poll_url": "https://www.adept.ai/blog",
+      "mode": "html",
+      "note": "行动智能体的历史研究与发布。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Adept"
+      ]
+    },
+    {
+      "id": "s-fceb486df6ca",
+      "name": "DeepSeek",
+      "url": "https://github.com/deepseek-ai",
+      "poll_url": "https://github.com/deepseek-ai",
+      "mode": "html",
+      "note": "模型技术报告、开源权重、训练与推理资料。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "DeepSeek"
+      ]
+    },
+    {
+      "id": "s-e072728811bd",
+      "name": "月之暗面 / Moonshot AI / Kimi",
+      "url": "https://github.com/MoonshotAI",
+      "poll_url": "https://github.com/MoonshotAI",
+      "mode": "html",
+      "note": "Kimi 技术报告与代码。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "月之暗面 / Moonshot AI / Kimi"
+      ]
+    },
+    {
+      "id": "s-832d381eaaae",
+      "name": "字节跳动 Seed",
+      "url": "https://seed.bytedance.com/",
+      "poll_url": "https://seed.bytedance.com/",
+      "mode": "html",
+      "note": "推理、强化学习及 Agent 相关研究。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "字节跳动 Seed"
+      ]
+    },
+    {
+      "id": "s-681b242d3bd4",
+      "name": "阿里通义 / Qwen",
+      "url": "https://qwenlm.github.io/blog/",
+      "poll_url": "https://qwenlm.github.io/blog/",
+      "mode": "html",
+      "note": "模型发布、技术报告及官方代码链接。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "阿里通义 / Qwen"
+      ]
+    },
+    {
+      "id": "s-7707bd122b25",
+      "name": "智谱 / GLM",
+      "url": "https://www.zhipuai.cn/",
+      "poll_url": "https://www.zhipuai.cn/",
+      "mode": "html",
+      "note": "GLM 系列与智能体产品，亦可按 Z.ai 搜索。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "智谱 / GLM"
+      ]
+    },
+    {
+      "id": "s-609aff46b0fe",
+      "name": "MiniMax",
+      "url": "https://www.minimax.cn/",
+      "poll_url": "https://www.minimax.cn/",
+      "mode": "html",
+      "note": "模型与 Agent 技术发布。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "MiniMax"
+      ]
+    },
+    {
+      "id": "s-273015bf8390",
+      "name": "阶跃星辰 / StepFun",
+      "url": "https://www.stepfun.com/",
+      "poll_url": "https://www.stepfun.com/",
+      "mode": "html",
+      "note": "模型、技术报告和开源发布。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "阶跃星辰 / StepFun"
+      ]
+    },
+    {
+      "id": "s-f33a282a1420",
+      "name": "腾讯混元",
+      "url": "https://hunyuan.tencent.com/",
+      "poll_url": "https://hunyuan.tencent.com/",
+      "mode": "html",
+      "note": "混元模型与项目入口。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "腾讯混元"
+      ]
+    },
+    {
+      "id": "s-b68e6d5c5760",
+      "name": "面壁智能 / ModelBest",
+      "url": "https://www.modelbest.cn/",
+      "poll_url": "https://www.modelbest.cn/",
+      "mode": "html",
+      "note": "模型、端侧和开源研究。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "面壁智能 / ModelBest"
+      ]
+    },
+    {
+      "id": "s-a8490bcca260",
+      "name": "微信公众号与国内团队官号",
+      "url": "",
+      "poll_url": "",
+      "mode": "manual",
+      "note": "微信内按团队或栏目全名检索，与官网、技术报告相互核对。",
+      "policy": "未提供固定公开地址，需要人工线索或访问权限，不能计作已成功读取。",
+      "catalog_entries": [
+        "微信公众号与国内团队官号"
+      ]
+    },
+    {
+      "id": "s-867297f7506f",
+      "name": "Manus",
+      "url": "https://manus.im/blog",
+      "poll_url": "https://manus.im/blog",
+      "mode": "html",
+      "note": "智能体工程与上下文管理复盘。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Manus"
+      ]
+    },
+    {
+      "id": "s-509faa7f213e",
+      "name": "DeepWisdom / MetaGPT",
+      "url": "https://github.com/FoundationAgents/MetaGPT",
+      "poll_url": "https://github.com/FoundationAgents/MetaGPT",
+      "mode": "html",
+      "note": "多智能体框架的公开仓库。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "DeepWisdom / MetaGPT"
+      ]
+    },
+    {
+      "id": "s-d554ca3fc8b9",
+      "name": "Dify",
+      "url": "https://dify.ai/",
+      "poll_url": "https://dify.ai/",
+      "mode": "html",
+      "note": "工作流和 Agent 平台文档、发布与社区。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Dify"
+      ]
+    },
+    {
+      "id": "s-802e41b754b2",
+      "name": "扣子 / Coze",
+      "url": "https://www.coze.cn/",
+      "poll_url": "https://www.coze.cn/",
+      "mode": "html",
+      "note": "智能体平台与开发者资源。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "扣子 / Coze"
+      ]
+    },
+    {
+      "id": "s-dafc05254991",
+      "name": "智谱 AutoGLM",
+      "url": "https://github.com/zai-org/Open-AutoGLM",
+      "poll_url": "https://github.com/zai-org/Open-AutoGLM",
+      "mode": "html",
+      "note": "开源实现和工程更新。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "智谱 AutoGLM"
+      ]
+    },
+    {
+      "id": "s-3e861c9aa69d",
+      "name": "上海人工智能实验室",
+      "url": "https://www.shlab.org.cn/",
+      "poll_url": "https://www.shlab.org.cn/",
+      "mode": "html",
+      "note": "学术成果、开源项目和评测体系。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "上海人工智能实验室"
+      ]
+    },
+    {
+      "id": "s-b8a2c7ed1492",
+      "name": "OpenCompass",
+      "url": "https://opencompass.org.cn/",
+      "poll_url": "https://opencompass.org.cn/",
+      "mode": "html",
+      "note": "上海 AI Lab 的开放评测平台。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "OpenCompass"
+      ]
+    },
+    {
+      "id": "s-3df031d4934b",
+      "name": "InternLM / 书生·浦语",
+      "url": "https://github.com/InternLM",
+      "poll_url": "https://github.com/InternLM",
+      "mode": "html",
+      "note": "开源模型、工具与项目仓库。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "InternLM / 书生·浦语"
+      ]
+    },
+    {
+      "id": "s-177851808a66",
+      "name": "北京智源人工智能研究院 / BAAI",
+      "url": "https://www.baai.ac.cn/",
+      "poll_url": "https://www.baai.ac.cn/",
+      "mode": "html",
+      "note": "研究报告、智源大会及公开议程。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "北京智源人工智能研究院 / BAAI"
+      ]
+    },
+    {
+      "id": "s-d02cc6446087",
+      "name": "北京大学智能学院",
+      "url": "https://cis.pku.edu.cn/",
+      "poll_url": "https://cis.pku.edu.cn/",
+      "mode": "html",
+      "note": "从智能科学相关院系查实验室与作者。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "北京大学智能学院"
+      ]
+    },
+    {
+      "id": "s-987c4c108091",
+      "name": "清华大学人工智能学院",
+      "url": "https://collegeai.tsinghua.edu.cn/",
+      "poll_url": "https://collegeai.tsinghua.edu.cn/",
+      "mode": "html",
+      "note": "院系研究动态及团队。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "清华大学人工智能学院"
+      ]
+    },
+    {
+      "id": "s-4d4e9ba1cdb5",
+      "name": "上海交通大学人工智能学院",
+      "url": "https://sai.sjtu.edu.cn/",
+      "poll_url": "https://sai.sjtu.edu.cn/",
+      "mode": "html",
+      "note": "按原稿“交大”选上海交大作为院系入口。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "上海交通大学人工智能学院"
+      ]
+    },
+    {
+      "id": "s-bd5d270af6aa",
+      "name": "浙江大学人工智能学院",
+      "url": "https://ai.zju.edu.cn/",
+      "poll_url": "https://ai.zju.edu.cn/",
+      "mode": "html",
+      "note": "院系、研究团队与论文。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "浙江大学人工智能学院"
+      ]
+    },
+    {
+      "id": "s-06dffcab1a70",
+      "name": "Jeff Clune",
+      "url": "https://jeffclune.com/",
+      "poll_url": "https://jeffclune.com/",
+      "mode": "html",
+      "note": "开放式学习、AI-GAs、ADAS、DGM。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Jeff Clune"
+      ]
+    },
+    {
+      "id": "s-140f23203b8d",
+      "name": "Jenny Zhang",
+      "url": "https://www.jennyzhangzt.com/",
+      "poll_url": "https://www.jennyzhangzt.com/",
+      "mode": "html",
+      "note": "DGM、开放式学习及研究论文。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Jenny Zhang"
+      ]
+    },
+    {
+      "id": "s-02cc831ea783",
+      "name": "Shengran Hu",
+      "url": "https://www.shengranhu.com/",
+      "poll_url": "https://www.shengranhu.com/",
+      "mode": "html",
+      "note": "ADAS、Agent 设计与开放式学习。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Shengran Hu"
+      ]
+    },
+    {
+      "id": "s-ea497e9bceb5",
+      "name": "Eric Zelikman",
+      "url": "https://zelikman.me/",
+      "poll_url": "https://zelikman.me/",
+      "mode": "html",
+      "note": "STaR、STOP 和自改进推理。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Eric Zelikman"
+      ]
+    },
+    {
+      "id": "s-b65d50a29383",
+      "name": "Jason Weston",
+      "url": "https://www.thespermwhale.com/jaseweston/",
+      "poll_url": "https://www.thespermwhale.com/jaseweston/",
+      "mode": "html",
+      "note": "Self-Rewarding、对齐与推理。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Jason Weston"
+      ]
+    },
+    {
+      "id": "s-7415557509fb",
+      "name": "Jürgen Schmidhuber",
+      "url": "https://people.idsia.ch/~juergen/",
+      "poll_url": "https://people.idsia.ch/~juergen/",
+      "mode": "html",
+      "note": "Gödel Machine、元学习与自我修改。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Jürgen Schmidhuber"
+      ]
+    },
+    {
+      "id": "s-d82a766e54b7",
+      "name": "David Ha / hardmaru",
+      "url": "https://blog.otoro.net/",
+      "poll_url": "https://blog.otoro.net/",
+      "mode": "html",
+      "note": "进化计算、开放式学习及 Sakana AI。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "David Ha / hardmaru"
+      ]
+    },
+    {
+      "id": "s-12fc9b95b1aa",
+      "name": "Jim Fan",
+      "url": "https://jimfan.me/",
+      "poll_url": "https://jimfan.me/",
+      "mode": "html",
+      "note": "具身智能、开放式 Agent、Voyager、Eureka。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Jim Fan"
+      ]
+    },
+    {
+      "id": "s-8f91e6300772",
+      "name": "Andrej Karpathy",
+      "url": "https://karpathy.ai/",
+      "poll_url": "https://karpathy.ai/",
+      "mode": "html",
+      "note": "个人文章、公开视频与研究观点。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Andrej Karpathy"
+      ]
+    },
+    {
+      "id": "s-d34868c4eaec",
+      "name": "Daniel Kokotajlo",
+      "url": "https://blog.aifutures.org/",
+      "poll_url": "https://blog.aifutures.org/",
+      "mode": "html",
+      "note": "AI Futures Project 的情景分析与预测。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Daniel Kokotajlo"
+      ]
+    },
+    {
+      "id": "s-444754767fa8",
+      "name": "Ryan Greenblatt",
+      "url": "https://www.alignmentforum.org/users/ryan_greenblatt",
+      "poll_url": "https://www.alignmentforum.org/users/ryan_greenblatt",
+      "mode": "html",
+      "note": "AI 控制、对齐与研究讨论。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Ryan Greenblatt"
+      ]
+    },
+    {
+      "id": "s-69cd3c05e368",
+      "name": "Lil’Log · Lilian Weng",
+      "url": "https://lilianweng.github.io/",
+      "poll_url": "https://lilianweng.github.io/",
+      "mode": "html",
+      "note": "跨主题技术综述与参考文献。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Lil’Log · Lilian Weng"
+      ]
+    },
+    {
+      "id": "s-6d94b2f94e91",
+      "name": "Interconnects · Nathan Lambert",
+      "url": "https://www.interconnects.ai/",
+      "poll_url": "https://www.interconnects.ai/feed",
+      "mode": "feed",
+      "note": "后训练、RL、开源模型和产业观察。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Interconnects · Nathan Lambert"
+      ]
+    },
+    {
+      "id": "s-617cd37dbdae",
+      "name": "Import AI · Jack Clark",
+      "url": "https://importai.substack.com/",
+      "poll_url": "https://importai.substack.com/",
+      "mode": "html",
+      "note": "跨机构研究动态与作者评论。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Import AI · Jack Clark"
+      ]
+    },
+    {
+      "id": "s-b245e6dd56ff",
+      "name": "Ahead of AI · Sebastian Raschka",
+      "url": "https://magazine.sebastianraschka.com/",
+      "poll_url": "https://magazine.sebastianraschka.com/",
+      "mode": "html",
+      "note": "推理模型、训练和技术论文解读。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Ahead of AI · Sebastian Raschka"
+      ]
+    },
+    {
+      "id": "s-b3eec02ad0c7",
+      "name": "Gwern",
+      "url": "https://gwern.net/",
+      "poll_url": "https://gwern.net/",
+      "mode": "html",
+      "note": "长文、思想史与参考资料。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Gwern"
+      ]
+    },
+    {
+      "id": "s-55feb116c6bd",
+      "name": "Epoch AI · Gradient Updates",
+      "url": "https://epoch.ai/gradient-updates",
+      "poll_url": "https://epoch.ai/gradient-updates",
+      "mode": "html",
+      "note": "数据驱动的短文与研究更新。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Epoch AI · Gradient Updates"
+      ]
+    },
+    {
+      "id": "s-665de4e83343",
+      "name": "Dwarkesh Patel · 个人文章与访谈",
+      "url": "https://www.dwarkesh.com/",
+      "poll_url": "https://www.dwarkesh.com/",
+      "mode": "html",
+      "note": "持续学习、智能爆炸与研发瓶颈；播客入口另列于 8.1。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Dwarkesh Patel · 个人文章与访谈",
+        "Dwarkesh Podcast / Dwarkesh Patel"
+      ]
+    },
+    {
+      "id": "s-744dec9d5016",
+      "name": "Richard Sutton",
+      "url": "https://apps.ualberta.ca/directory/person/rsutton",
+      "poll_url": "https://apps.ualberta.ca/directory/person/rsutton",
+      "mode": "html",
+      "note": "强化学习，《The Bitter Lesson》作者。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Richard Sutton"
+      ]
+    },
+    {
+      "id": "s-6ff94f2496d5",
+      "name": "David Silver",
+      "url": "https://www.davidsilver.uk/",
+      "poll_url": "https://www.davidsilver.uk/",
+      "mode": "html",
+      "note": "自博弈、强化学习和经验学习。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "David Silver"
+      ]
+    },
+    {
+      "id": "s-272e4f6b8663",
+      "name": "姚顺雨 / Shunyu Yao",
+      "url": "https://ysymyth.github.io/",
+      "poll_url": "https://ysymyth.github.io/",
+      "mode": "html",
+      "note": "Agent 与评测，《The Second Half》作者。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "姚顺雨 / Shunyu Yao"
+      ]
+    },
+    {
+      "id": "s-3a2f3e9c1247",
+      "name": "Jason Wei",
+      "url": "https://www.jasonwei.net/blog",
+      "poll_url": "https://www.jasonwei.net/blog",
+      "mode": "html",
+      "note": "推理、强化学习和验证难度。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Jason Wei"
+      ]
+    },
+    {
+      "id": "s-38f97247d22b",
+      "name": "John Schulman",
+      "url": "https://x.com/johnschulman2",
+      "poll_url": "https://x.com/johnschulman2",
+      "mode": "html",
+      "note": "强化学习与后训练，可沿本人账号找文章及访谈。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "John Schulman"
+      ]
+    },
+    {
+      "id": "s-ee55121d3d3e",
+      "name": "Sam Altman",
+      "url": "https://blog.samaltman.com/",
+      "poll_url": "https://blog.samaltman.com/",
+      "mode": "html",
+      "note": "个人评论与时间表，包括 The Gentle Singularity。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Sam Altman"
+      ]
+    },
+    {
+      "id": "s-24b6d5364626",
+      "name": "Dario Amodei",
+      "url": "https://darioamodei.com/",
+      "poll_url": "https://darioamodei.com/",
+      "mode": "html",
+      "note": "个人长文，包括 Machines of Loving Grace。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Dario Amodei"
+      ]
+    },
+    {
+      "id": "s-8f4106bb8117",
+      "name": "Kanjun Qiu",
+      "url": "https://www.kanjun.me/",
+      "poll_url": "https://www.kanjun.me/",
+      "mode": "html",
+      "note": "Imbue 创始人的文章与访谈。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Kanjun Qiu"
+      ]
+    },
+    {
+      "id": "s-a348307123ac",
+      "name": "Leopold Aschenbrenner · Situational Awareness",
+      "url": "https://situational-awareness.ai/",
+      "poll_url": "https://situational-awareness.ai/",
+      "mode": "reference",
+      "note": "关于算力、自动化研究与未来情景的系列文章。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Leopold Aschenbrenner · Situational Awareness"
+      ]
+    },
+    {
+      "id": "s-e8e07e53a39d",
+      "name": "Richard Sutton · The Bitter Lesson",
+      "url": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html",
+      "poll_url": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html",
+      "mode": "reference",
+      "note": "作者原文为历史链接，若访问不稳可按题名检索。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Richard Sutton · The Bitter Lesson"
+      ]
+    },
+    {
+      "id": "s-73c66b38b49b",
+      "name": "David Silver、Richard Sutton · Welcome to the Era of Experience",
+      "url": "https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf",
+      "poll_url": "https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf",
+      "mode": "reference",
+      "note": "作者论述如何从环境经验中学习。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "David Silver、Richard Sutton · Welcome to the Era of Experience"
+      ]
+    },
+    {
+      "id": "s-d3aee90e6975",
+      "name": "姚顺雨 · The Second Half",
+      "url": "https://ysymyth.github.io/The-Second-Half/",
+      "poll_url": "https://ysymyth.github.io/The-Second-Half/",
+      "mode": "reference",
+      "note": "任务、评测与 AI 发展阶段。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "姚顺雨 · The Second Half"
+      ]
+    },
+    {
+      "id": "s-e68f7827004e",
+      "name": "Jeff Clune · AI-GAs",
+      "url": "https://arxiv.org/abs/1905.10985",
+      "poll_url": "https://arxiv.org/abs/1905.10985",
+      "mode": "reference",
+      "note": "AI-generating algorithms 研究纲领。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Jeff Clune · AI-GAs"
+      ]
+    },
+    {
+      "id": "s-2bc0d4251ea0",
+      "name": "Sam Altman · The Gentle Singularity",
+      "url": "https://blog.samaltman.com/the-gentle-singularity",
+      "poll_url": "https://blog.samaltman.com/the-gentle-singularity",
+      "mode": "reference",
+      "note": "作者个人观点与未来情景。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Sam Altman · The Gentle Singularity"
+      ]
+    },
+    {
+      "id": "s-51571460a6fe",
+      "name": "Dario Amodei · Machines of Loving Grace",
+      "url": "https://darioamodei.com/essay/machines-of-loving-grace",
+      "poll_url": "https://darioamodei.com/essay/machines-of-loving-grace",
+      "mode": "reference",
+      "note": "个人宏观论述。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Dario Amodei · Machines of Loving Grace"
+      ]
+    },
+    {
+      "id": "s-5831aa6a6e05",
+      "name": "METR",
+      "url": "https://metr.org/",
+      "poll_url": "https://metr.org/feed.xml",
+      "mode": "feed",
+      "note": "自主能力、真实研发流程与评测研究。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "METR"
+      ]
+    },
+    {
+      "id": "s-a6067768775e",
+      "name": "METR Time Horizons",
+      "url": "https://metr.org/time-horizons/",
+      "poll_url": "https://metr.org/time-horizons/",
+      "mode": "html",
+      "note": "查看任务时长曲线、成功率定义和所用任务集。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "METR Time Horizons"
+      ]
+    },
+    {
+      "id": "s-248d550054b4",
+      "name": "RE-Bench",
+      "url": "https://github.com/METR/RE-Bench",
+      "poll_url": "https://github.com/METR/RE-Bench",
+      "mode": "html",
+      "note": "研究工程任务、专家对照和方法，原版任务仓库已标记弃用。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "RE-Bench"
+      ]
+    },
+    {
+      "id": "s-a2fdd037b6b6",
+      "name": "MLE-bench",
+      "url": "https://github.com/openai/mle-bench",
+      "poll_url": "https://github.com/openai/mle-bench",
+      "mode": "html",
+      "note": "机器学习工程竞赛任务、代码和评测说明。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "MLE-bench"
+      ]
+    },
+    {
+      "id": "s-a58fadf0d59c",
+      "name": "PaperBench",
+      "url": "https://openai.com/index/paperbench/",
+      "poll_url": "https://openai.com/index/paperbench/",
+      "mode": "reference",
+      "note": "论文复现任务、评分方法与项目资源。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "PaperBench"
+      ]
+    },
+    {
+      "id": "s-ccc69641ceab",
+      "name": "SWE-bench / SWE-bench Verified",
+      "url": "https://www.swebench.com/",
+      "poll_url": "https://www.swebench.com/",
+      "mode": "html",
+      "note": "软件工程评测及版本，查结果时同时记录评测设置。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "SWE-bench / SWE-bench Verified"
+      ]
+    },
+    {
+      "id": "s-0ef381ab95ef",
+      "name": "ARC Prize / ARC-AGI",
+      "url": "https://arcprize.org/",
+      "poll_url": "https://arcprize.org/",
+      "mode": "html",
+      "note": "泛化评测、技术报告和赛事，与 Ndea 是独立组织。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "ARC Prize / ARC-AGI"
+      ]
+    },
+    {
+      "id": "s-fa382fb9ee0a",
+      "name": "PostTrainBench",
+      "url": "https://posttrainbench.com/",
+      "poll_url": "https://posttrainbench.com/",
+      "mode": "html",
+      "note": "上一版补充来源，自动化后训练的任务设置与轨迹。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "PostTrainBench"
+      ]
+    },
+    {
+      "id": "s-4a4ac6dd3283",
+      "name": "METR · Anthropic AI R&D acceleration assessment",
+      "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "poll_url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "mode": "reference",
+      "note": "对研发加速的外部评估。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "METR · Anthropic AI R&D acceleration assessment"
+      ]
+    },
+    {
+      "id": "s-7cd006253da2",
+      "name": "Redwood Research",
+      "url": "https://www.redwoodresearch.org/",
+      "poll_url": "https://www.redwoodresearch.org/",
+      "mode": "html",
+      "note": "AI control 与监督研究。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Redwood Research"
+      ]
+    },
+    {
+      "id": "s-a6464e1ed6b9",
+      "name": "Apollo Research",
+      "url": "https://www.apolloresearch.ai/",
+      "poll_url": "https://www.apolloresearch.ai/",
+      "mode": "html",
+      "note": "情境感知、模型行为及安全评测。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Apollo Research"
+      ]
+    },
+    {
+      "id": "s-98fe2bd5aeb3",
+      "name": "Transluce",
+      "url": "https://transluce.org/",
+      "poll_url": "https://transluce.org/",
+      "mode": "html",
+      "note": "开源可解释性研究与工具。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Transluce"
+      ]
+    },
+    {
+      "id": "s-2e634843eaaa",
+      "name": "Goodfire",
+      "url": "https://www.goodfire.com/",
+      "poll_url": "https://www.goodfire.com/",
+      "mode": "html",
+      "note": "机制可解释性研究与工程应用。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Goodfire"
+      ]
+    },
+    {
+      "id": "s-2dad90584fe9",
+      "name": "Alignment Research Center（ARC）",
+      "url": "https://www.alignment.org/",
+      "poll_url": "https://www.alignment.org/",
+      "mode": "html",
+      "note": "对齐研究机构，和 ARC Prize 分别收录。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Alignment Research Center（ARC）"
+      ]
+    },
+    {
+      "id": "s-4adb6125d392",
+      "name": "LessWrong",
+      "url": "https://www.lesswrong.com/",
+      "poll_url": "https://www.lesswrong.com/",
+      "mode": "html",
+      "note": "按 recursive self-improvement 或 intelligence explosion 搜讨论。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "LessWrong"
+      ]
+    },
+    {
+      "id": "s-972a30f2fd9e",
+      "name": "Alignment Forum",
+      "url": "https://www.alignmentforum.org/",
+      "poll_url": "https://www.alignmentforum.org/",
+      "mode": "html",
+      "note": "技术对齐、安全与研究评论。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Alignment Forum"
+      ]
+    },
+    {
+      "id": "s-02a89491acca",
+      "name": "英国 AI Security Institute（UK AISI）",
+      "url": "https://www.aisi.gov.uk/",
+      "poll_url": "https://www.aisi.gov.uk/",
+      "mode": "html",
+      "note": "能力评估、公开报告及研究更新。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "英国 AI Security Institute（UK AISI）"
+      ]
+    },
+    {
+      "id": "s-fe0187725920",
+      "name": "美国 NIST · CAISSI（原 CAISI 入口）",
+      "url": "https://www.nist.gov/caissi",
+      "poll_url": "https://www.nist.gov/caissi",
+      "mode": "html",
+      "note": "美国前沿 AI 评估与标准机构，按新旧名称均可检索。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "美国 NIST · CAISSI（原 CAISI 入口）"
+      ]
+    },
+    {
+      "id": "s-9609c6ed163f",
+      "name": "International AI Safety Report",
+      "url": "https://internationalaisafetyreport.org/",
+      "poll_url": "https://internationalaisafetyreport.org/",
+      "mode": "html",
+      "note": "国际专家报告及 AI 能力、风险与自动化研发章节。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "International AI Safety Report"
+      ]
+    },
+    {
+      "id": "s-9bf4014ab413",
+      "name": "美国国会听证与证词",
+      "url": "https://www.govinfo.gov/app/collection/chrg",
+      "poll_url": "https://www.govinfo.gov/app/collection/chrg",
+      "mode": "html",
+      "note": "按机构、人物与日期查证词，政策表态可与实验室官网对照。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "美国国会听证与证词"
+      ]
+    },
+    {
+      "id": "s-56c5734bc746",
+      "name": "Epoch AI",
+      "url": "https://epoch.ai/",
+      "poll_url": "https://epoch.ai/",
+      "mode": "html",
+      "note": "算力、数据和算法进展的定量研究。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Epoch AI"
+      ]
+    },
+    {
+      "id": "s-b029bfc231e6",
+      "name": "Epoch AI · Trends in AI",
+      "url": "https://epoch.ai/trends",
+      "poll_url": "https://epoch.ai/trends",
+      "mode": "html",
+      "note": "定量趋势与数据入口。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Epoch AI · Trends in AI"
+      ]
+    },
+    {
+      "id": "s-933c9d84b5ff",
+      "name": "AI Futures Project",
+      "url": "https://www.aifutures.org/",
+      "poll_url": "https://www.aifutures.org/",
+      "mode": "html",
+      "note": "AI 研发自动化与未来情景研究。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "AI Futures Project"
+      ]
+    },
+    {
+      "id": "s-cf709a60227b",
+      "name": "AI 2027",
+      "url": "https://ai-2027.com/",
+      "poll_url": "https://ai-2027.com/",
+      "mode": "html",
+      "note": "情景文本、假设和配套预测。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "AI 2027"
+      ]
+    },
+    {
+      "id": "s-f3dc86fbe8e9",
+      "name": "Forethought",
+      "url": "https://www.forethought.org/",
+      "poll_url": "https://www.forethought.org/",
+      "mode": "html",
+      "note": "软件智能爆炸、AI 发展情景与宏观研究。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Forethought"
+      ]
+    },
+    {
+      "id": "s-721f6210d50d",
+      "name": "Metaculus",
+      "url": "https://www.metaculus.com/",
+      "poll_url": "https://www.metaculus.com/",
+      "mode": "html",
+      "note": "按 AGI、AI R&D 或 automated research 查题目及概率变化。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Metaculus"
+      ]
+    },
+    {
+      "id": "s-a1f487f91d46",
+      "name": "Manifold",
+      "url": "https://manifold.markets/",
+      "poll_url": "https://manifold.markets/",
+      "mode": "html",
+      "note": "预测市场与参与者观点，留意问题的结算规则。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Manifold"
+      ]
+    },
+    {
+      "id": "s-5a8cbfa3b392",
+      "name": "机器之心",
+      "url": "https://www.jiqizhixin.com/",
+      "poll_url": "https://www.jiqizhixin.com/",
+      "mode": "html",
+      "note": "中文研究动态、公众号与论文线索。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "机器之心"
+      ]
+    },
+    {
+      "id": "s-efa84fcedb52",
+      "name": "量子位",
+      "url": "https://www.qbitai.com/",
+      "poll_url": "https://www.qbitai.com/",
+      "mode": "html",
+      "note": "中文科技新闻、公司与团队动态。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "量子位"
+      ]
+    },
+    {
+      "id": "s-25f86381b889",
+      "name": "PaperWeekly",
+      "url": "",
+      "poll_url": "",
+      "mode": "manual",
+      "note": "微信搜索 → 公众号 → PaperWeekly，按论文题名查解读。",
+      "policy": "未提供固定公开地址，需要人工线索或访问权限，不能计作已成功读取。",
+      "catalog_entries": [
+        "PaperWeekly"
+      ]
+    },
+    {
+      "id": "s-79387586eda3",
+      "name": "夕小瑶科技说",
+      "url": "",
+      "poll_url": "",
+      "mode": "manual",
+      "note": "微信搜索 → 公众号 → 夕小瑶科技说，查模型与论文解读。",
+      "policy": "未提供固定公开地址，需要人工线索或访问权限，不能计作已成功读取。",
+      "catalog_entries": [
+        "夕小瑶科技说"
+      ]
+    },
+    {
+      "id": "s-0072d33a29df",
+      "name": "State of AI Report / Air Street Capital",
+      "url": "https://www.stateof.ai/",
+      "poll_url": "https://www.stateof.ai/",
+      "mode": "html",
+      "note": "年度 AI 全景报告与存档。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "State of AI Report / Air Street Capital"
+      ]
+    },
+    {
+      "id": "s-cb3eafa4e1d0",
+      "name": "Stanford HAI · AI Index",
+      "url": "https://hai.stanford.edu/ai-index",
+      "poll_url": "https://hai.stanford.edu/ai-index",
+      "mode": "html",
+      "note": "年度指标、统计图表与研究报告。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Stanford HAI · AI Index"
+      ]
+    },
+    {
+      "id": "s-b98ae424f5a9",
+      "name": "a16z AI",
+      "url": "https://a16z.com/ai/",
+      "poll_url": "https://a16z.com/ai/",
+      "mode": "html",
+      "note": "技术市场、基础设施与创业观察。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "a16z AI"
+      ]
+    },
+    {
+      "id": "s-cd5dfc8cdc10",
+      "name": "Sequoia Capital",
+      "url": "https://sequoiacap.com/",
+      "poll_url": "https://sequoiacap.com/",
+      "mode": "html",
+      "note": "查看 AI Ascent、AI 主题文章与投资人访谈。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Sequoia Capital"
+      ]
+    },
+    {
+      "id": "s-c52afc57280a",
+      "name": "Menlo Ventures",
+      "url": "https://menlovc.com/",
+      "poll_url": "https://menlovc.com/",
+      "mode": "html",
+      "note": "企业 AI 采用与产业报告。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Menlo Ventures"
+      ]
+    },
+    {
+      "id": "s-78bc9cc5cebe",
+      "name": "Bessemer Venture Partners",
+      "url": "https://www.bvp.com/",
+      "poll_url": "https://www.bvp.com/",
+      "mode": "html",
+      "note": "AI 应用、云与产业研究。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Bessemer Venture Partners"
+      ]
+    },
+    {
+      "id": "s-495540ddca51",
+      "name": "The Information",
+      "url": "https://www.theinformation.com/",
+      "poll_url": "https://www.theinformation.com/",
+      "mode": "html",
+      "note": "产业报道，部分内容需订阅。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "The Information"
+      ]
+    },
+    {
+      "id": "s-2ff23cbcbf3f",
+      "name": "SemiAnalysis",
+      "url": "https://semianalysis.com/",
+      "poll_url": "https://semianalysis.com/",
+      "mode": "html",
+      "note": "算力成本、芯片与基础设施分析，部分内容需订阅。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "SemiAnalysis"
+      ]
+    },
+    {
+      "id": "s-261f420bbfa9",
+      "name": "Machine Learning Street Talk",
+      "url": "https://www.mlst.ai/",
+      "poll_url": "https://www.mlst.ai/",
+      "mode": "html",
+      "note": "研究者长访谈，可按 Jeff Clune、Schmidhuber 搜索。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Machine Learning Street Talk"
+      ]
+    },
+    {
+      "id": "s-62c2a329a22a",
+      "name": "Latent Space",
+      "url": "https://www.latent.space/",
+      "poll_url": "https://www.latent.space/",
+      "mode": "html",
+      "note": "AI 工程访谈、社区与 Newsletter。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Latent Space"
+      ]
+    },
+    {
+      "id": "s-eee13eca07bf",
+      "name": "The Cognitive Revolution",
+      "url": "https://www.cognitiverevolution.ai/",
+      "poll_url": "https://www.cognitiverevolution.ai/",
+      "mode": "html",
+      "note": "模型、智能体与产业访谈。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "The Cognitive Revolution"
+      ]
+    },
+    {
+      "id": "s-254f4055f59d",
+      "name": "80,000 Hours Podcast",
+      "url": "https://80000hours.org/podcast/",
+      "poll_url": "https://80000hours.org/podcast/",
+      "mode": "html",
+      "note": "前沿 AI、安全与宏观议题访谈。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "80,000 Hours Podcast"
+      ]
+    },
+    {
+      "id": "s-8ec1c016a93e",
+      "name": "张小珺Jùn｜商业访谈录",
+      "url": "https://www.xiaoyuzhoufm.com/podcast/626b46ea9cbbf0451cf5a962",
+      "poll_url": "https://www.xiaoyuzhoufm.com/podcast/626b46ea9cbbf0451cf5a962",
+      "mode": "html",
+      "note": "大模型从业者、研究团队与创业公司访谈。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "张小珺Jùn｜商业访谈录"
+      ]
+    },
+    {
+      "id": "s-980942803d23",
+      "name": "硅谷101",
+      "url": "https://www.xiaoyuzhoufm.com/podcast/5e5c52c9418a84a04625e6cc",
+      "poll_url": "https://www.xiaoyuzhoufm.com/podcast/5e5c52c9418a84a04625e6cc",
+      "mode": "html",
+      "note": "科技产业、基础设施与人物。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "硅谷101"
+      ]
+    },
+    {
+      "id": "s-98737b0208e8",
+      "name": "晚点聊",
+      "url": "https://podcast.latepost.com/",
+      "poll_url": "https://podcast.latepost.com/",
+      "mode": "html",
+      "note": "企业、人物与 AI 产业动态。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "晚点聊"
+      ]
+    },
+    {
+      "id": "s-d9331ac12870",
+      "name": "YouTube 学术演讲",
+      "url": "https://www.youtube.com/",
+      "poll_url": "https://www.youtube.com/",
+      "mode": "reference",
+      "note": "按作者、论文题目、conference keynote 或 seminar 查录像。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "YouTube 学术演讲"
+      ]
+    },
+    {
+      "id": "s-8d9cd89f2458",
+      "name": "Simons Institute",
+      "url": "https://simons.berkeley.edu/videos",
+      "poll_url": "https://simons.berkeley.edu/videos",
+      "mode": "html",
+      "note": "研究讲座、研讨会与录像。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Simons Institute"
+      ]
+    },
+    {
+      "id": "s-cf4eec972595",
+      "name": "Berkeley LLM Agents MOOC",
+      "url": "https://llmagents-learning.org/f24",
+      "poll_url": "https://llmagents-learning.org/f24",
+      "mode": "reference",
+      "note": "公开课页面及讲座。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Berkeley LLM Agents MOOC"
+      ]
+    },
+    {
+      "id": "s-7a2952f41418",
+      "name": "Stanford CS329A（Self-Improving AI Agents）",
+      "url": "https://cs329a.stanford.edu/",
+      "poll_url": "https://cs329a.stanford.edu/",
+      "mode": "reference",
+      "note": "自改进智能体研讨课与论文目录。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Stanford CS329A（Self-Improving AI Agents）"
+      ]
+    },
+    {
+      "id": "s-daf9a1501f6e",
+      "name": "Stanford CS234（强化学习）",
+      "url": "https://web.stanford.edu/class/cs234/",
+      "poll_url": "https://web.stanford.edu/class/cs234/",
+      "mode": "reference",
+      "note": "原稿所提 Stanford 强化学习课的具体入口。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Stanford CS234（强化学习）"
+      ]
+    },
+    {
+      "id": "s-08eab8bc1014",
+      "name": "Berkeley CS285（深度强化学习）",
+      "url": "https://rail.eecs.berkeley.edu/deeprlcourse/",
+      "poll_url": "https://rail.eecs.berkeley.edu/deeprlcourse/",
+      "mode": "reference",
+      "note": "Berkeley 强化学习课的公开资料。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Berkeley CS285（深度强化学习）"
+      ]
+    },
+    {
+      "id": "s-ccbce1f3b0cd",
+      "name": "Nick Bostrom · Superintelligence",
+      "url": "https://nickbostrom.com/",
+      "poll_url": "https://nickbostrom.com/",
+      "mode": "reference",
+      "note": "作者官网进入书目，查《超级智能》。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Nick Bostrom · Superintelligence"
+      ]
+    },
+    {
+      "id": "s-8c0dd60a20a3",
+      "name": "Kenneth Stanley、Joel Lehman · Why Greatness Cannot Be Planned",
+      "url": "https://link.springer.com/book/10.1007/978-3-319-15524-1",
+      "poll_url": "https://link.springer.com/book/10.1007/978-3-319-15524-1",
+      "mode": "reference",
+      "note": "开放式探索与目标设定，出版社书页。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Kenneth Stanley、Joel Lehman · Why Greatness Cannot Be Planned"
+      ]
+    },
+    {
+      "id": "s-dfc4e4d58a13",
+      "name": "I. J. Good · Speculations Concerning the First Ultraintelligent Machine",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0065245808604180",
+      "poll_url": "https://www.sciencedirect.com/science/article/pii/S0065245808604180",
+      "mode": "reference",
+      "note": "早期智能爆炸论述。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "I. J. Good · Speculations Concerning the First Ultraintelligent Machine"
+      ]
+    },
+    {
+      "id": "s-c54cf2a63b9c",
+      "name": "STaR",
+      "url": "https://arxiv.org/abs/2203.14465",
+      "poll_url": "https://arxiv.org/abs/2203.14465",
+      "mode": "reference",
+      "note": "Bootstrapping Reasoning With Reasoning。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "STaR"
+      ]
+    },
+    {
+      "id": "s-c8c8dbd29753",
+      "name": "ReST",
+      "url": "https://arxiv.org/abs/2308.08998",
+      "poll_url": "https://arxiv.org/abs/2308.08998",
+      "mode": "reference",
+      "note": "Reinforced Self-Training for Language Modeling。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "ReST"
+      ]
+    },
+    {
+      "id": "s-f33278a9cc46",
+      "name": "ReST-EM",
+      "url": "https://arxiv.org/abs/2312.06585",
+      "poll_url": "https://arxiv.org/abs/2312.06585",
+      "mode": "reference",
+      "note": "Beyond Human Data，基于模型生成结果的自训练。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "ReST-EM"
+      ]
+    },
+    {
+      "id": "s-449cd991aa91",
+      "name": "Self-Rewarding Language Models",
+      "url": "https://arxiv.org/abs/2401.10020",
+      "poll_url": "https://arxiv.org/abs/2401.10020",
+      "mode": "reference",
+      "note": "模型参与生成偏好反馈。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Self-Rewarding Language Models"
+      ]
+    },
+    {
+      "id": "s-be5cce90fe7e",
+      "name": "Meta-Rewarding Language Models",
+      "url": "https://arxiv.org/abs/2407.19594",
+      "poll_url": "https://arxiv.org/abs/2407.19594",
+      "mode": "reference",
+      "note": "LLM-as-a-Meta-Judge。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Meta-Rewarding Language Models"
+      ]
+    },
+    {
+      "id": "s-f14fdc9c4246",
+      "name": "AlphaZero",
+      "url": "https://arxiv.org/abs/1712.01815",
+      "poll_url": "https://arxiv.org/abs/1712.01815",
+      "mode": "reference",
+      "note": "基于自博弈的棋类学习。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "AlphaZero"
+      ]
+    },
+    {
+      "id": "s-39a424694a20",
+      "name": "Absolute Zero",
+      "url": "https://arxiv.org/abs/2505.03335",
+      "poll_url": "https://arxiv.org/abs/2505.03335",
+      "mode": "reference",
+      "note": "后训练任务的自生成与可验证反馈。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Absolute Zero"
+      ]
+    },
+    {
+      "id": "s-496b6f5df96e",
+      "name": "R-Zero",
+      "url": "https://arxiv.org/abs/2508.05004",
+      "poll_url": "https://arxiv.org/abs/2508.05004",
+      "mode": "reference",
+      "note": "Self-Evolving Reasoning LLM from Zero Data。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "R-Zero"
+      ]
+    },
+    {
+      "id": "s-d6a03b7d697f",
+      "name": "SPIRAL",
+      "url": "https://arxiv.org/abs/2506.24119",
+      "poll_url": "https://arxiv.org/abs/2506.24119",
+      "mode": "reference",
+      "note": "多智能体、多轮零和博弈。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "SPIRAL"
+      ]
+    },
+    {
+      "id": "s-4cd8fde22db0",
+      "name": "DeepSeek-R1 / R1-Zero",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "poll_url": "https://arxiv.org/abs/2501.12948",
+      "mode": "reference",
+      "note": "推理模型与强化学习技术报告。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "DeepSeek-R1 / R1-Zero"
+      ]
+    },
+    {
+      "id": "s-b3051457af17",
+      "name": "Gödel Machine",
+      "url": "https://arxiv.org/abs/cs/0309048",
+      "poll_url": "https://arxiv.org/abs/cs/0309048",
+      "mode": "reference",
+      "note": "理论上的自指与可证明的自我修改。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Gödel Machine"
+      ]
+    },
+    {
+      "id": "s-5b6d22f98d70",
+      "name": "STOP",
+      "url": "https://arxiv.org/abs/2310.02304",
+      "poll_url": "https://arxiv.org/abs/2310.02304",
+      "mode": "reference",
+      "note": "让改进程序参与改写自身。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "STOP"
+      ]
+    },
+    {
+      "id": "s-ba43875287a1",
+      "name": "Gödel Agent",
+      "url": "https://arxiv.org/abs/2410.04444",
+      "poll_url": "https://arxiv.org/abs/2410.04444",
+      "mode": "reference",
+      "note": "自指智能体框架。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Gödel Agent"
+      ]
+    },
+    {
+      "id": "s-bf0b34f8ced5",
+      "name": "ADAS 论文",
+      "url": "https://arxiv.org/abs/2408.08435",
+      "poll_url": "https://arxiv.org/abs/2408.08435",
+      "mode": "reference",
+      "note": "自动设计智能体系统。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "ADAS 论文"
+      ]
+    },
+    {
+      "id": "s-ecf75af7df1c",
+      "name": "Darwin Gödel Machine 项目说明",
+      "url": "https://sakana.ai/dgm/",
+      "poll_url": "https://sakana.ai/dgm/",
+      "mode": "reference",
+      "note": "作者介绍、论文与实验说明。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Darwin Gödel Machine 项目说明"
+      ]
+    },
+    {
+      "id": "s-1121dd89733e",
+      "name": "FunSearch",
+      "url": "https://deepmind.google/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/",
+      "poll_url": "https://deepmind.google/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/",
+      "mode": "reference",
+      "note": "大模型与程序搜索。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "FunSearch"
+      ]
+    },
+    {
+      "id": "s-682aca50f983",
+      "name": "AlphaEvolve",
+      "url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+      "poll_url": "https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/",
+      "mode": "reference",
+      "note": "基于 Gemini 的程序进化项目。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "AlphaEvolve"
+      ]
+    },
+    {
+      "id": "s-1e23a748ca2a",
+      "name": "The AI Scientist 项目说明",
+      "url": "https://sakana.ai/ai-scientist/",
+      "poll_url": "https://sakana.ai/ai-scientist/",
+      "mode": "reference",
+      "note": "作者对自动化科研流程的说明。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "The AI Scientist 项目说明"
+      ]
+    },
+    {
+      "id": "s-670753accf4a",
+      "name": "Model Collapse（Nature 2024）",
+      "url": "https://doi.org/10.1038/s41586-024-07566-y",
+      "poll_url": "https://doi.org/10.1038/s41586-024-07566-y",
+      "mode": "reference",
+      "note": "递归使用生成数据及模型塌缩。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Model Collapse（Nature 2024）"
+      ]
+    },
+    {
+      "id": "s-b276b4af9d56",
+      "name": "Weak-to-Strong Generalization",
+      "url": "https://openai.com/index/weak-to-strong-generalization/",
+      "poll_url": "https://openai.com/index/weak-to-strong-generalization/",
+      "mode": "reference",
+      "note": "弱监督与强模型泛化。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Weak-to-Strong Generalization"
+      ]
+    },
+    {
+      "id": "s-2c5e040e2b68",
+      "name": "Awesome Self-Evolving Agents",
+      "url": "https://github.com/XMUDeepLIT/Awesome-Self-Evolving-Agents",
+      "poll_url": "https://github.com/XMUDeepLIT/Awesome-Self-Evolving-Agents",
+      "mode": "html",
+      "note": "综述配套文献与开源清单。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Awesome Self-Evolving Agents"
+      ]
+    },
+    {
+      "id": "s-9757073cb1a1",
+      "name": "Awesome Self-Improving Agents",
+      "url": "https://github.com/selfimproving-agent/awesome-self-improving-agents",
+      "poll_url": "https://github.com/selfimproving-agent/awesome-self-improving-agents",
+      "mode": "html",
+      "note": "自我改进智能体的文献、方法与资源。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Awesome Self-Improving Agents"
+      ]
+    },
+    {
+      "id": "s-30995bdaf27d",
+      "name": "GitHub 项目检索",
+      "url": "https://github.com/search",
+      "poll_url": "https://github.com/search",
+      "mode": "reference",
+      "note": "原稿检索词包括 awesome-self-evolving-agents、awesome-self-improvement、awesome-llm-self-play。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "GitHub 项目检索"
+      ]
+    },
+    {
+      "id": "s-d9d91ddaaf0e",
+      "name": "Darwin Gödel Machine · DGM",
+      "url": "https://github.com/jennyzzt/dgm",
+      "poll_url": "https://github.com/jennyzzt/dgm",
+      "mode": "html",
+      "note": "智能体自我修改代码，Sakana AI 与学术团队合作。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Darwin Gödel Machine · DGM"
+      ]
+    },
+    {
+      "id": "s-5a912a127782",
+      "name": "ADAS",
+      "url": "https://github.com/ShengranHu/ADAS",
+      "poll_url": "https://github.com/ShengranHu/ADAS",
+      "mode": "html",
+      "note": "自动化设计 Agent 系统的作者仓库。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "ADAS"
+      ]
+    },
+    {
+      "id": "s-7a4ff89d4bb3",
+      "name": "OpenEvolve",
+      "url": "https://github.com/algorithmicsuperintelligence/openevolve",
+      "poll_url": "https://github.com/algorithmicsuperintelligence/openevolve",
+      "mode": "html",
+      "note": "社区沿 AlphaEvolve 路线实现的项目。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "OpenEvolve"
+      ]
+    },
+    {
+      "id": "s-dbf67288790e",
+      "name": "ShinkaEvolve",
+      "url": "https://github.com/SakanaAI/ShinkaEvolve",
+      "poll_url": "https://github.com/SakanaAI/ShinkaEvolve",
+      "mode": "html",
+      "note": "Sakana AI 的程序进化框架。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "ShinkaEvolve"
+      ]
+    },
+    {
+      "id": "s-ec09337b4f24",
+      "name": "CarperAI/OpenELM",
+      "url": "https://github.com/CarperAI/OpenELM",
+      "poll_url": "https://github.com/CarperAI/OpenELM",
+      "mode": "html",
+      "note": "开放式进化搜索库。可用组织名区分 Apple 的同名模型。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "CarperAI/OpenELM"
+      ]
+    },
+    {
+      "id": "s-1cb9a52c9c54",
+      "name": "Evolutionary Model Merge",
+      "url": "https://sakana.ai/evolutionary-model-merge/",
+      "poll_url": "https://sakana.ai/evolutionary-model-merge/",
+      "mode": "reference",
+      "note": "Sakana AI 的模型合并研究。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Evolutionary Model Merge"
+      ]
+    },
+    {
+      "id": "s-28a3b0e35d28",
+      "name": "Transformer²",
+      "url": "https://sakana.ai/transformer-squared/",
+      "poll_url": "https://sakana.ai/transformer-squared/",
+      "mode": "reference",
+      "note": "Sakana AI 的自适应模型研究。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Transformer²"
+      ]
+    },
+    {
+      "id": "s-d8b5b41bf681",
+      "name": "The AI Scientist",
+      "url": "https://github.com/SakanaAI/AI-Scientist",
+      "poll_url": "https://github.com/SakanaAI/AI-Scientist",
+      "mode": "html",
+      "note": "Sakana AI 的自动化科学研究工作流。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "The AI Scientist"
+      ]
+    },
+    {
+      "id": "s-7d6f1a46e985",
+      "name": "AIDE",
+      "url": "https://github.com/WecoAI/aideml",
+      "poll_url": "https://github.com/WecoAI/aideml",
+      "mode": "html",
+      "note": "Weco 的机器学习工程 Agent。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "AIDE"
+      ]
+    },
+    {
+      "id": "s-a8fa271caf75",
+      "name": "Atropos",
+      "url": "https://github.com/NousResearch/atropos",
+      "poll_url": "https://github.com/NousResearch/atropos",
+      "mode": "html",
+      "note": "Nous 的强化学习环境框架。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Atropos"
+      ]
+    },
+    {
+      "id": "s-b5a44c85aa77",
+      "name": "OpenHands 代码",
+      "url": "https://github.com/OpenHands/OpenHands",
+      "poll_url": "https://github.com/OpenHands/OpenHands",
+      "mode": "html",
+      "note": "开放软件工程 Agent 仓库。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "OpenHands 代码"
+      ]
+    },
+    {
+      "id": "s-18aed676d797",
+      "name": "Zochi",
+      "url": "https://intology.ai/blog/zochi-acl",
+      "poll_url": "https://intology.ai/blog/zochi-acl",
+      "mode": "reference",
+      "note": "Intology 的项目说明与人类参与披露。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Zochi"
+      ]
+    },
+    {
+      "id": "s-6678a8186bfd",
+      "name": "Carl",
+      "url": "https://www.autoscience.ai/blog/meet-carl",
+      "poll_url": "https://www.autoscience.ai/blog/meet-carl",
+      "mode": "reference",
+      "note": "Autoscience 的项目及发表说明。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Carl"
+      ]
+    },
+    {
+      "id": "s-3a4497eed64d",
+      "name": "Robin",
+      "url": "https://www.futurehouse.org/research/demonstrating-end-to-end-scientific-discovery-with-robin-a-multi-agent-system",
+      "poll_url": "https://www.futurehouse.org/research/demonstrating-end-to-end-scientific-discovery-with-robin-a-multi-agent-system",
+      "mode": "reference",
+      "note": "FutureHouse 的 AI 科学家项目说明。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Robin"
+      ]
+    },
+    {
+      "id": "s-8382e10ef3bb",
+      "name": "Kosmos",
+      "url": "https://edisonscientific.com/news/announcing-kosmos",
+      "poll_url": "https://edisonscientific.com/news/announcing-kosmos",
+      "mode": "reference",
+      "note": "Edison Scientific 的 AI 科学家报告。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Kosmos"
+      ]
+    },
+    {
+      "id": "s-619a4e7f5817",
+      "name": "AlphaProof",
+      "url": "https://deepmind.google/blog/ai-solves-imo-problems-at-silver-medal-level/",
+      "poll_url": "https://deepmind.google/blog/ai-solves-imo-problems-at-silver-medal-level/",
+      "mode": "reference",
+      "note": "DeepMind 的数学证明研究及结果说明。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "AlphaProof"
+      ]
+    },
+    {
+      "id": "s-14191e0e7f5e",
+      "name": "Microsoft rStar",
+      "url": "https://github.com/microsoft/rStar",
+      "poll_url": "https://github.com/microsoft/rStar",
+      "mode": "html",
+      "note": "推理与自改进相关研究代码。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Microsoft rStar"
+      ]
+    },
+    {
+      "id": "s-0772ef85d34d",
+      "name": "Eureka",
+      "url": "https://eureka-research.github.io/",
+      "poll_url": "https://eureka-research.github.io/",
+      "mode": "reference",
+      "note": "使用大模型生成奖励函数的项目。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Eureka"
+      ]
+    },
+    {
+      "id": "s-fe78bb6fd979",
+      "name": "Voyager",
+      "url": "https://voyager.minedojo.org/",
+      "poll_url": "https://voyager.minedojo.org/",
+      "mode": "reference",
+      "note": "开放式智能体研究项目。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "Voyager"
+      ]
+    },
+    {
+      "id": "s-497e51989897",
+      "name": "OMNI",
+      "url": "https://arxiv.org/abs/2306.01711",
+      "poll_url": "https://arxiv.org/abs/2306.01711",
+      "mode": "reference",
+      "note": "Open-endedness via Models of human Notions of Interestingness。",
+      "policy": "单篇论文、文章、经典书籍或固定课程，作为背景资料；通过其作者或机构的更新入口发现后续内容。",
+      "catalog_entries": [
+        "OMNI"
+      ]
+    },
+    {
+      "id": "s-50d75e6ab17a",
+      "name": "X / Twitter",
+      "url": "https://x.com/search",
+      "poll_url": "https://x.com/search",
+      "mode": "reference",
+      "note": "个人列表可收录本目录的研究者，以及 Sakana AI、Google DeepMind、METR、Epoch AI。关注作者引用的原始资料。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "X / Twitter"
+      ]
+    },
+    {
+      "id": "s-6cd0ce857bda",
+      "name": "Sakana AI · X",
+      "url": "https://x.com/SakanaAILabs",
+      "poll_url": "https://x.com/SakanaAILabs",
+      "mode": "html",
+      "note": "团队论文、开源发布和作者转发。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Sakana AI · X"
+      ]
+    },
+    {
+      "id": "s-7d81328a5f42",
+      "name": "Google DeepMind · X",
+      "url": "https://x.com/GoogleDeepMind",
+      "poll_url": "https://x.com/GoogleDeepMind",
+      "mode": "html",
+      "note": "官方研究与发布动态。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Google DeepMind · X"
+      ]
+    },
+    {
+      "id": "s-7521b344741a",
+      "name": "METR · X",
+      "url": "https://x.com/METR_Evals",
+      "poll_url": "https://x.com/METR_Evals",
+      "mode": "html",
+      "note": "评估机构的项目与更新。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "METR · X"
+      ]
+    },
+    {
+      "id": "s-2d31489c5410",
+      "name": "Epoch AI · X",
+      "url": "https://x.com/EpochAIResearch",
+      "poll_url": "https://x.com/EpochAIResearch",
+      "mode": "html",
+      "note": "研究图表、数据和预算分析。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Epoch AI · X"
+      ]
+    },
+    {
+      "id": "s-9cbed52d5be1",
+      "name": "Discord",
+      "url": "https://discord.com/",
+      "poll_url": "https://discord.com/",
+      "mode": "reference",
+      "note": "EleutherAI、Nous Research 等社区的邀请从各自官方资料进入。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "Discord"
+      ]
+    },
+    {
+      "id": "s-6aa46af0eedd",
+      "name": "Slack",
+      "url": "https://slack.com/",
+      "poll_url": "https://slack.com/",
+      "mode": "reference",
+      "note": "实验室、会议及行业社群，入口通常由组织方提供。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "Slack"
+      ]
+    },
+    {
+      "id": "s-9a5b632f97b9",
+      "name": "知乎",
+      "url": "https://www.zhihu.com/",
+      "poll_url": "https://www.zhihu.com/",
+      "mode": "reference",
+      "note": "按具体论文名或项目名查中文讨论。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "知乎"
+      ]
+    },
+    {
+      "id": "s-95be79e7d08d",
+      "name": "小红书",
+      "url": "https://www.xiaohongshu.com/",
+      "poll_url": "https://www.xiaohongshu.com/",
+      "mode": "reference",
+      "note": "会议海报、参会笔记和招聘线索。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "小红书"
+      ]
+    },
+    {
+      "id": "s-c53526a0b5fc",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/",
+      "poll_url": "https://www.linkedin.com/",
+      "mode": "reference",
+      "note": "按姓名查作者任职、自述与团队动向。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "LinkedIn"
+      ]
+    },
+    {
+      "id": "s-e86c6559775d",
+      "name": "OpenAI Careers",
+      "url": "https://openai.com/careers/",
+      "poll_url": "https://openai.com/careers/",
+      "mode": "html",
+      "note": "检索 automated research、AI R&D、self-improvement 等职位。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "OpenAI Careers"
+      ]
+    },
+    {
+      "id": "s-4d2d026d3cca",
+      "name": "Anthropic Careers",
+      "url": "https://www.anthropic.com/careers",
+      "poll_url": "https://www.anthropic.com/careers",
+      "mode": "html",
+      "note": "检索 research engineer、agent RL、automated research 等关键词。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Anthropic Careers"
+      ]
+    },
+    {
+      "id": "s-07229557604a",
+      "name": "Google DeepMind Careers",
+      "url": "https://deepmind.google/careers/",
+      "poll_url": "https://deepmind.google/careers/",
+      "mode": "html",
+      "note": "研究与工程岗位。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Google DeepMind Careers"
+      ]
+    },
+    {
+      "id": "s-9981a4cadf3c",
+      "name": "Sakana AI Careers",
+      "url": "https://sakana.ai/careers/",
+      "poll_url": "https://sakana.ai/careers/",
+      "mode": "html",
+      "note": "查看研究岗位、方向与职责。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "Sakana AI Careers"
+      ]
+    },
+    {
+      "id": "s-c86300435f63",
+      "name": "国内团队招聘与作者流动",
+      "url": "",
+      "poll_url": "",
+      "mode": "manual",
+      "note": "从上方各机构官网进入招聘栏目，对照论文署名单位、个人主页、LinkedIn 和 X 的公开信息。",
+      "policy": "未提供固定公开地址，需要人工线索或访问权限，不能计作已成功读取。",
+      "catalog_entries": [
+        "国内团队招聘与作者流动"
+      ]
+    },
+    {
+      "id": "s-02e941474304",
+      "name": "Google Patents",
+      "url": "https://patents.google.com/",
+      "poll_url": "https://patents.google.com/",
+      "mode": "reference",
+      "note": "按机构、发明人或关键词检索。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "Google Patents"
+      ]
+    },
+    {
+      "id": "s-d9a42aa9b628",
+      "name": "WIPO PATENTSCOPE",
+      "url": "https://patentscope.wipo.int/",
+      "poll_url": "https://patentscope.wipo.int/",
+      "mode": "reference",
+      "note": "国际专利检索。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "WIPO PATENTSCOPE"
+      ]
+    },
+    {
+      "id": "s-890b807a1061",
+      "name": "论文致谢、引用与被引网络",
+      "url": "",
+      "poll_url": "",
+      "mode": "manual",
+      "note": "在论文原文查致谢，用 Scholar、Semantic Scholar 或 Connected Papers 追踪后续工作。",
+      "policy": "未提供固定公开地址，需要人工线索或访问权限，不能计作已成功读取。",
+      "catalog_entries": [
+        "论文致谢、引用与被引网络"
+      ]
+    },
+    {
+      "id": "s-996e1f714b08",
+      "name": "GitHub issues、PR、commits 与 releases",
+      "url": "https://github.com/",
+      "poll_url": "https://github.com/",
+      "mode": "reference",
+      "note": "从具体仓库查看讨论、提交记录及版本变更。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "GitHub issues、PR、commits 与 releases"
+      ]
+    },
+    {
+      "id": "s-760d8fbfaebc",
+      "name": "会议提案、海报与线下讨论",
+      "url": "",
+      "poll_url": "",
+      "mode": "manual",
+      "note": "从 ICLR、ICML、NeurIPS 的征稿公告、Workshop 议程和会议现场进入。",
+      "policy": "未提供固定公开地址，需要人工线索或访问权限，不能计作已成功读取。",
+      "catalog_entries": [
+        "会议提案、海报与线下讨论"
+      ]
+    },
+    {
+      "id": "s-d66369083651",
+      "name": "Meetup",
+      "url": "https://www.meetup.com/",
+      "poll_url": "https://www.meetup.com/",
+      "mode": "reference",
+      "note": "按研究方向和城市查询公开活动。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "Meetup"
+      ]
+    },
+    {
+      "id": "s-0a208deca226",
+      "name": "内部组会、同事清单、闭门会",
+      "url": "",
+      "poll_url": "",
+      "mode": "manual",
+      "note": "通过团队资料库、组会纪要、同事共享清单或主办方邀请获取。",
+      "policy": "未提供固定公开地址，需要人工线索或访问权限，不能计作已成功读取。",
+      "catalog_entries": [
+        "内部组会、同事清单、闭门会"
+      ]
+    },
+    {
+      "id": "s-38383beb0977",
+      "name": "评测版本与历史分数",
+      "url": "",
+      "poll_url": "",
+      "mode": "manual",
+      "note": "跟踪 MLE-bench、SWE-bench Verified、RE-Bench、ARC-AGI 等基准的版本与历史分数。",
+      "policy": "未提供固定公开地址，需要人工线索或访问权限，不能计作已成功读取。",
+      "catalog_entries": [
+        "评测版本与历史分数"
+      ]
+    },
+    {
+      "id": "s-3d37caf9cb1d",
+      "name": "arXiv 分类订阅",
+      "url": "https://info.arxiv.org/help/rss.html",
+      "poll_url": "https://info.arxiv.org/help/rss.html",
+      "mode": "reference",
+      "note": "查看官方 RSS 与 Atom，分别订阅相关学科。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "arXiv 分类订阅"
+      ]
+    },
+    {
+      "id": "s-4317c649bc1b",
+      "name": "arXiv · cs.AI",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "poll_url": "https://rss.arxiv.org/rss/cs.AI",
+      "mode": "feed",
+      "note": "人工智能。复制链接到 RSS 阅读器。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "arXiv · cs.AI"
+      ]
+    },
+    {
+      "id": "s-ff10e47e85d5",
+      "name": "arXiv · cs.LG",
+      "url": "https://rss.arxiv.org/rss/cs.LG",
+      "poll_url": "https://rss.arxiv.org/rss/cs.LG",
+      "mode": "feed",
+      "note": "机器学习。复制链接到 RSS 阅读器。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "arXiv · cs.LG"
+      ]
+    },
+    {
+      "id": "s-1191d2e9306f",
+      "name": "arXiv · cs.CL",
+      "url": "https://rss.arxiv.org/rss/cs.CL",
+      "poll_url": "https://rss.arxiv.org/rss/cs.CL",
+      "mode": "feed",
+      "note": "计算语言学与 NLP。复制链接到 RSS 阅读器。",
+      "policy": "每天轮询内容入口；是否值得读由编辑比较后决定。",
+      "catalog_entries": [
+        "arXiv · cs.CL"
+      ]
+    },
+    {
+      "id": "s-e5ba48279a41",
+      "name": "Folo",
+      "url": "https://folo.is/",
+      "poll_url": "https://folo.is/",
+      "mode": "reference",
+      "note": "聚合 RSS 等来源，可按博客、论文、机构分组。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "Folo"
+      ]
+    },
+    {
+      "id": "s-46c45754f1f9",
+      "name": "Inoreader",
+      "url": "https://www.inoreader.com/",
+      "poll_url": "https://www.inoreader.com/",
+      "mode": "reference",
+      "note": "RSS 阅读与过滤。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "Inoreader"
+      ]
+    },
+    {
+      "id": "s-a9478cd0f00b",
+      "name": "Feedly",
+      "url": "https://feedly.com/news-reader",
+      "poll_url": "https://feedly.com/news-reader",
+      "mode": "reference",
+      "note": "RSS 与新闻订阅。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "Feedly"
+      ]
+    },
+    {
+      "id": "s-5af93d4d4c07",
+      "name": "RSSHub",
+      "url": "https://github.com/DIYgod/RSSHub",
+      "poll_url": "https://github.com/DIYgod/RSSHub",
+      "mode": "reference",
+      "note": "查询可用路由，为部分站点生成订阅源。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "RSSHub"
+      ]
+    },
+    {
+      "id": "s-b4da21ddd392",
+      "name": "OPML",
+      "url": "",
+      "poll_url": "",
+      "mode": "manual",
+      "note": "订阅清单格式，用于在阅读器之间导入、导出订阅目录。",
+      "policy": "未提供固定公开地址，需要人工线索或访问权限，不能计作已成功读取。",
+      "catalog_entries": [
+        "OPML"
+      ]
+    },
+    {
+      "id": "s-642a7d632592",
+      "name": "Zotero",
+      "url": "https://www.zotero.org/",
+      "poll_url": "https://www.zotero.org/",
+      "mode": "reference",
+      "note": "保存论文、作者元数据与引文。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "Zotero"
+      ]
+    },
+    {
+      "id": "s-c2e3ff50afd2",
+      "name": "Readwise / Reader",
+      "url": "https://readwise.io/",
+      "poll_url": "https://readwise.io/",
+      "mode": "reference",
+      "note": "保存长文与 Newsletter，检索摘录。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "Readwise / Reader"
+      ]
+    },
+    {
+      "id": "s-e5eefade953c",
+      "name": "Notion",
+      "url": "https://www.notion.com/",
+      "poll_url": "https://www.notion.com/",
+      "mode": "reference",
+      "note": "管理信息源、阅读笔记和内部清单。",
+      "policy": "检索、社交或资料管理工具的通用入口；按具体线索检索，不把工具首页当作每日更新源。",
+      "catalog_entries": [
+        "Notion"
+      ]
+    }
+  ]
+}

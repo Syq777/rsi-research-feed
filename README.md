@@ -4,6 +4,12 @@
 
 [阅读网站](https://syq777.github.io/rsi-research-feed/) · [订阅精选 RSS](https://syq777.github.io/rsi-research-feed/feed.xml) · [候选与来源目录](https://syq777.github.io/rsi-research-feed/archive.html) · [可复用 Skill](https://github.com/Syq777/github-research-feed)
 
+[来源 Top 20 与访问实测](https://syq777.github.io/rsi-research-feed/sources.html) · [完整表格 CSV](https://syq777.github.io/rsi-research-feed/sources.csv)
+
+先轮询完整动态来源池，再选十条。六个领域各有 Top 20，合并后 112 个重点入口；完整目录去重 270 项，其中 185 个动态公开入口每天尝试。没有具体公开地址的 9 项单列，经典文章、书籍和工具不冒充日更来源。每个源记录重要性、本轮抓取结果、登录/付费限制；HTTP 可达不等于读到文章全文。
+
+每日先运行 `python3 poll_sources.py --date YYYY-MM-DD`，保存来源检查及候选入选/落选理由到 research/reviews，通常比较至少 30 个候选，实际不足需说明。每期另有自然名字与 3–5 个关键词：digest.py 使用 `--name '本期名字' --keywords 词一 词二 词三`。轮询未覆盖全池或仅凭列表入围时，程序拒绝生成新一期。
+
 | 路径 | 用途 |
 | --- | --- |
 | topics/ | 研究范围、关键词、已验证 RSS 和 daily_brief 选稿规则 |
