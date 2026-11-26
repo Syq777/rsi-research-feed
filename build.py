@@ -286,7 +286,19 @@ def merge_items(previous, incoming, curated):
     # Curated rows take precedence regardless of concurrent feed response order.
     for item in curated:
         by_url[item["url"]] = item
-    return sorted(by_url.values(), key=lambda it: (it["date"], it["url"]), reverse=True)
+    # Publishers sometimes alternate /article and /article/. Only collapse that
+    # difference when titles also agree; keep query strings and published URLs.
+    curated_urls = {item["url"] for item in curated}
+    by_article = {}
+    for item in by_url.values():
+        parts = urlsplit(item["url"])
+        path_key = urlunsplit((parts.scheme, parts.netloc, parts.path.rstrip("/") or "/", parts.query, ""))
+        key = (path_key, item["title"].casefold())
+        old = by_article.get(key)
+        if (old is None or item["url"] in curated_urls or
+                (old["url"] not in curated_urls and item["date"] > old["date"])):
+            by_article[key] = item
+    return sorted(by_article.values(), key=lambda it: (it["date"], it["url"]), reverse=True)
 
 
 def xml_file(root, path):

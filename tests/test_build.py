@@ -73,6 +73,15 @@ class FeedTests(unittest.TestCase):
         stale = {**first, "title": "Old", "date": "2023-01-01T00:00:00Z"}
         self.assertEqual(build.merge_items([first], [stale], []), [first])
 
+    def test_trailing_slash_duplicate_prefers_curated_without_changing_urls(self):
+        feed = build.normalized_item(article("https://lab.test/article", "Same article", "lab"))
+        curated = build.normalized_item(article("https://lab.test/article/", "Same article", "ed"))
+        self.assertEqual(build.merge_items([feed, curated], [feed], [curated]), [curated])
+        different_title = {**curated, "title": "Different page"}
+        self.assertEqual(len(build.merge_items([], [feed, different_title], [])), 2)
+        different_query = {**curated, "url": "https://lab.test/article/?version=2"}
+        self.assertEqual(len(build.merge_items([], [feed, different_query], [])), 2)
+
 
 class BuildTests(unittest.TestCase):
     def setUp(self):
