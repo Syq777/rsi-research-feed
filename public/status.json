@@ -3,19 +3,19 @@
     "id": "arxiv-ai",
     "name": "arXiv · cs.AI",
     "status": "ok",
-    "detail": "匹配 15 条，过滤 432 条，无效 0 条"
+    "detail": "匹配 16 条，过滤 382 条，无效 0 条"
   },
   {
     "id": "arxiv-lg",
     "name": "arXiv · cs.LG",
     "status": "ok",
-    "detail": "匹配 4 条，过滤 387 条，无效 0 条"
+    "detail": "匹配 3 条，过滤 416 条，无效 0 条"
   },
   {
     "id": "arxiv-cl",
     "name": "arXiv · cs.CL",
     "status": "ok",
-    "detail": "匹配 1 条，过滤 192 条，无效 0 条"
+    "detail": "匹配 7 条，过滤 170 条，无效 0 条"
   },
   {
     "id": "sakana",
