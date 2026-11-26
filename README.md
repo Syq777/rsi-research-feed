@@ -1,29 +1,37 @@
-# 主题研究仓库
+# RSI 每日精选
 
-主题名称和说明位于 topics/，启用的主题 ID 在 site.json。这个仓库存放来源、研究记录、文章归档、网站源代码、生成的网页和 RSS。
+每天读几篇值得读的 AI 自我改进进展：先看中文概要，再看一句“为什么读”，感兴趣时打开原文。首页默认最多 10 篇，论文目标三成、最多四成，其他名额在工程、研究观察、评测和观点访谈中调整；内容不足就少选。
 
-| 路径 | 内容 |
+[阅读网站](https://syq777.github.io/rsi-research-feed/) · [订阅精选 RSS](https://syq777.github.io/rsi-research-feed/feed.xml) · [候选与来源目录](https://syq777.github.io/rsi-research-feed/archive.html) · [可复用 Skill](https://github.com/Syq777/github-research-feed)
+
+| 路径 | 用途 |
 | --- | --- |
-| topics/ | 主题范围、关键词和已验证的上游订阅地址 |
-| catalog/ | 按大类、小类整理的完整来源目录，包括需要人工查阅的来源 |
-| research/ | 有出处的调研记录、覆盖情况和待查问题 |
-| editorial/ | 经核对的公开条目，每条有标题、原文地址、原始发布日期、来源、来源 ID 与短摘要 |
-| state/ | 历次获取和精选条目的累计索引，以规范化原文地址去重 |
-| public/ | 生成的 index.html、feed.xml、feeds.opml、status.json |
-| .github/workflows/research-feed.yml | 每日、手动和默认分支相关改动触发的构建发布流程 |
+| topics/ | 研究范围、关键词、已验证 RSS 和 daily_brief 选稿规则 |
+| catalog/ | 完整来源目录，供主动检索使用，不要求每天逐个展示 |
+| editorial/ | 原文资料、中文标题、概要、阅读理由、类型及核对日期 |
+| editions/ | 带明确日期的每日精选快照 |
+| research/ | 有出处的研究笔记及未覆盖限制 |
+| state/ | 原始抓取和人工条目的候选索引 |
+| public/ | 精选首页、issues/ 往期、archive.html 候选目录、精选 RSS 和抓取状态 |
 
-## 本地检查
+## 每日运行
 
-使用 Python 3.10+ 和 Linux 或 macOS。先运行 `python3 -B -m unittest discover -s tests`，再运行 `python3 update.py`。离线预览用 `python3 update.py --offline`。在仓库根目录运行 `python3 -m http.server 8000 --directory public`，打开 http://localhost:8000/ 。本地预览地址只供本机使用。线上构建从 Pages 配置读取实际网址及项目路径。
+GitHub Actions 每天 UTC 00:17（北京时间 08:17）刷新原始候选。本机 Codex 每天北京时间 08:30 按 Skill 阅读原文、编写中文概要与推荐理由、生成新一期、提交并发布。无需额外模型 API，电脑需在线；错过执行时网站保留最近一期的真实日期。GitHub 调度可能延迟，本机任务也会刷新候选。
 
-## GitHub 上自动更新
+模型从完整来源池寻找材料，不限于已接通的 7 个 RSS 端点。优先近 14 天，必要时回看 30 天；同一事件和过去七天已选文章不重复。论文形式按内容判断，不能通过改成“研究观察”绕过比例。RSS 只发布精选，目录中的 271 个入口不等于 271 个自动订阅。
 
-将本仓库的文件提交到 GitHub 默认分支，在 Settings → Pages → Build and deployment → Source 选择 GitHub Actions，并启用仓库的 Actions。工作流需要把 state/ 和 public/ 写回默认分支，仓库的工作流权限及分支规则须允许该写入。首次在 Actions → Update research feed → Run workflow 运行；之后每天 UTC 00:17（北京时间 08:17）触发，实际执行时间由 GitHub 调度。首次部署或故障恢复后，在 Actions 的部署环境或 Settings → Pages 查看真实网址，打开首页并校验其 RSS 链接。公开访问以仓库的 Pages 配置为准。
+## 编辑与检查
 
-日常提问可以用「更新今天的订阅」或「调研本周这个主题的新进展，把带证据的摘要写进仓库」。前者抓取配置中的公开 RSS/Atom；后者由你正在使用的 AI 查阅原文、归档并生成精选。无人值守获取使用订阅源提供的标题和摘要，无需模型密钥。手动维护的研究、社交媒体或会议线索可在调研时补入。部分源失败时保留历史；所有已配置订阅源同时失败时构建失败，维持上一次站点。没有订阅源的主题可发布已有人工精选。
+使用 Python 3.10+。先读 AGENTS.md 和主题配置，打开原文核实并更新 editorial；必需字段见 Skill 的数据约定。reviewed_at 取实际核对日，date 保留首次发表日。
 
-读者可以订阅首页提供的 feed.xml 获取最近至多 200 条更新，或将 feeds.opml 导入阅读器单独订阅上游源。历史索引在 state/ 中。订阅条目的原文及第三方作品的权利归相应权利人。
+```bash
+python3 digest.py --date YYYY-MM-DD --lead '本期导读'
+python3 -B -m unittest discover -s tests
+python3 update.py --site-url https://syq777.github.io/rsi-research-feed/
+```
 
-## 可选的 GitHub 托管 AI 调研
+update.py 只抓取和渲染，不自动生成中文或新一期。--offline 用于离线构建；python3 -m http.server 8000 --directory public 可预览。发布前在干净工作树 fast-forward 同步远端，只提交本轮改动；推送 main 后跟到 Pages 部署成功并检查首页和 feed.xml。
 
-仓库持有人可以设置 Actions secret `OPENAI_API_KEY` 和仓库变量 `RESEARCH_MODEL` 启用带网页检索的候选发现。模型 ID 需要支持 Responses API 的 web search，调用计入该 API 账户。在 research/主题/ 下查看带原文链接的每日候选报告，核对后写入 editorial/ 可进入订阅。自动检索只使用本主题配置的来源域名和关键词。
+feed.xml 提供最近至多 200 篇精选，概要包含阅读理由与原文日期。feeds.opml 提供未经精选的上游订阅，二者用途不同。全部已配置源失败时保留上一次站点；没有新稿时不伪造今日更新。
+
+可选 research_ai.py 需要另配 OPENAI_API_KEY 和 RESEARCH_MODEL，当前未启用。它仅产出待复核候选报告，不等价于完整编辑发布。第三方文章及作品权利归原作者。

@@ -1,7 +1,7 @@
 {
   "id": "rsi",
-  "title": "RSI 信息源",
-  "description": "追踪递归自我改进、自博弈、开放式搜索与 AI 研发自动化。",
+  "title": "RSI 每日精选",
+  "description": "从研究、工程实践与不同观点中，选出值得读的 AI 自我改进进展，说明它讲什么、为什么与你有关。",
   "keywords": [
     "self-improvement",
     "self improvement",
@@ -94,5 +94,17 @@
       "filter": true
     }
   ],
-  "catalog": "catalog/rsi.json"
+  "catalog": "catalog/rsi.json",
+  "daily_brief": {
+    "size": 10,
+    "paper_target": 0.3,
+    "paper_max": 0.4,
+    "recent_days": 14,
+    "max_age_days": 30,
+    "repeat_days": 7,
+    "max_per_source": 3,
+    "min_score": 3,
+    "timezone": "Asia/Shanghai"
+  },
+  "brief_tagline": "关于 AI 自我改进的每日阅读"
 }

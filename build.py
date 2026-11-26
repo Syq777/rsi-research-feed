@@ -427,12 +427,18 @@ def build(root, topic, offline, site_url, out, fetch=download, renderer=None):
             if not status and not (previous or curated):
                 raise ValueError("topic has no configured feeds or archived/editorial articles")
         items = merge_items(previous, incoming, curated)
+        feed_records = items
+        if cfg.get("daily_brief"):
+            from digest import load_editions, feed_items
+            editions = load_editions(root, topic)
+            cfg = {**cfg, "editions": editions}
+            feed_records = feed_items(editions)
         if renderer is None:
             from render_site import render_site
             renderer = render_site
         with tempfile.TemporaryDirectory(prefix=".topic-site-", dir=out.parent) as staging:
             stage = Path(staging)
-            write_syndication(stage, cfg, items, site_url)
+            write_syndication(stage, cfg, feed_records, site_url)
             (stage / "status.json").write_text(json_text(status), encoding="utf-8")
             renderer(cfg, items, catalog, status, stage)
             if not (stage / "index.html").is_file():
@@ -440,6 +446,7 @@ def build(root, topic, offline, site_url, out, fetch=download, renderer=None):
             publish(stage, out, archive, items)
         added = len(set(i["url"] for i in items) - set(i["url"] for i in previous))
         return {"topic": topic, "items": len(items), "added": added, "offline": offline,
+                "brief_items": len(cfg["editions"][0]["items"]) if cfg.get("editions") else 0,
                 "sources_ok": sum(s["status"] == "ok" for s in status),
                 "sources_error": sum(s["status"] == "error" for s in status),
                 "feed": urljoin(site_url, "feed.xml")}
