@@ -12,7 +12,7 @@
 
 每日编辑需从完整 catalog/ 发现线索，不限于七个 RSS 端点；优先近期一手文章、工程实践、独立评测、观点访谈，再补论文。打开原文，核对日期，写入 editorial/ 中的 headline、summary、why_read、kind、score、event_id 和 reviewed_at。概要写文章具体说了什么，阅读理由说明读者能带走什么，两者不要重复。
 
-默认每日 10 条，论文目标 30%、硬上限 40%，同类不足自动让给其他非论文类型；不为数量牺牲相关性。普通候选限最近 30 天，过去七天已选文章和同一事件不重复。
+默认每日最多 10 条。按周看均衡，取消每日固定分类名额：先运行 balance.py --date YYYY-MM-DD，看过去七天的领域、形式、来源与过去四周覆盖。每周根据新进展和近期缺口维护 weeks/YYYY-Www-rsi.json，focus_domains 零至两个、reason 写依据。重点可以每周改变，不机械轮换，也不缩小每天轮询范围。文章填写 domain 与 kind。论文三成只是滚动参考，每日硬上限四成；不为补周配额选低质量稿。候选限近 30 天，过去七天同文同事件不重复。
 
 用 python3 digest.py --date YYYY-MM-DD --lead '本期导读' 生成带明确日期的 editions/rsi/YYYY-MM-DD.json，再运行测试和 python3 update.py --site-url https://syq777.github.io/rsi-research-feed/。未形成新一期则保留旧一期日期。不得把自动抓取时间当作精选更新时间。
 

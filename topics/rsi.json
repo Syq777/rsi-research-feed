@@ -105,7 +105,8 @@
     "max_per_source": 3,
     "min_score": 3,
     "timezone": "Asia/Shanghai",
-    "require_source_review": true
+    "require_source_review": true,
+    "require_week_plan": true
   },
   "brief_tagline": "关于 AI 自我改进的每日阅读"
 }

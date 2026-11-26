@@ -11,7 +11,8 @@
     "why_read": "把“AI 会研发 AI”的大叙事拆成具体工作，看看哪些环节已有证据，哪些仍是推测。",
     "score": 5,
     "event_id": "openai-research-acceleration-2026-11",
-    "reviewed_at": "2026-11-26"
+    "reviewed_at": "2026-11-26",
+    "domain": "science"
   },
   {
     "title": "PostTrainBench: Can LLM Agents Automate LLM Post-Training?",
@@ -65,7 +66,8 @@
     "why_read": "学会读增长曲线里的不确定性，避免把一个指标的改善直接当成递归自我改进已发生。",
     "score": 4.8,
     "event_id": "metr-pretraining-loss-2026-11",
-    "reviewed_at": "2026-11-26"
+    "reviewed_at": "2026-11-26",
+    "domain": "safety"
   },
   {
     "title": "Finding faster quantum algorithms with agents and formal verification",
@@ -79,7 +81,8 @@
     "why_read": "这是“提出方案—验证—继续改进”的具体案例；验证器如何设计，比单看性能数字更有参考价值。",
     "score": 4.7,
     "event_id": "deepmind-quantum-algorithms-2026-11",
-    "reviewed_at": "2026-11-26"
+    "reviewed_at": "2026-11-26",
+    "domain": "science"
   },
   {
     "title": "The components of agent memory",
@@ -93,7 +96,8 @@
     "why_read": "做长期运行的 Agent 时，可以据此检查：哪些经验值得保存，哪些内容只会增加检索负担。",
     "score": 4.8,
     "event_id": "anthropic-agent-memory-2026-11",
-    "reviewed_at": "2026-11-26"
+    "reviewed_at": "2026-11-26",
+    "domain": "engineering"
   },
   {
     "title": "VISE: Verifier-Independent Skill Self-Evolution with Feedback from Tool Implementations",
@@ -107,7 +111,8 @@
     "why_read": "它直接对应技能维护：一次失败之后，怎样把可验证的原因变成具体修改，而不是继续堆提示词。",
     "score": 4.6,
     "event_id": "vise-skill-evolution",
-    "reviewed_at": "2026-11-26"
+    "reviewed_at": "2026-11-26",
+    "domain": "methods"
   },
   {
     "title": "AI R&D-relevant model capabilities are improving rapidly and are getting harder to measure",
@@ -121,7 +126,8 @@
     "why_read": "如果你靠排行榜判断 AI 研发能力，这篇能帮你识别分数背后没有被测到的部分。",
     "score": 4.6,
     "event_id": "metr-q4-capabilities-2026",
-    "reviewed_at": "2026-11-26"
+    "reviewed_at": "2026-11-26",
+    "domain": "safety"
   },
   {
     "title": "Introducing the Sakana AI Applied Research Lab",
@@ -135,7 +141,8 @@
     "why_read": "看研究方法怎样进入实际工作，也看“自动执行”和“自主决定研究方向”之间仍隔着什么。",
     "score": 4.4,
     "event_id": "sakana-applied-research-lab",
-    "reviewed_at": "2026-11-26"
+    "reviewed_at": "2026-11-26",
+    "domain": "science"
   },
   {
     "title": "Building strong safety evaluations",
@@ -149,7 +156,8 @@
     "why_read": "自我改进依赖反馈；如果评测奖励了错误目标，系统可能只是越来越会通过测试。",
     "score": 4.3,
     "event_id": "anthropic-strong-evaluations",
-    "reviewed_at": "2026-11-26"
+    "reviewed_at": "2026-11-26",
+    "domain": "engineering"
   },
   {
     "title": "RecurSciBench: Benchmarking Recursive Self-Improvement in Data-Driven Scientific Research",
@@ -163,7 +171,8 @@
     "why_read": "判断自我改进研究时，优先看独立测试和跨领域迁移，而不只看训练过的任务涨了多少分。",
     "score": 4.2,
     "event_id": "recurscibench",
-    "reviewed_at": "2026-11-26"
+    "reviewed_at": "2026-11-26",
+    "domain": "methods"
   },
   {
     "title": "Evolve to Learn: Gradient-aligned experience evolution for model self-improvement",
@@ -177,7 +186,8 @@
     "why_read": "它提醒我们区分两种进步：这一次任务做得更好，与模型本身学到了可以复用的能力。",
     "score": 4.1,
     "event_id": "evolve-to-learn",
-    "reviewed_at": "2026-11-26"
+    "reviewed_at": "2026-11-26",
+    "domain": "methods"
   },
   {
     "title": "Introducing Model Factory",
@@ -191,7 +201,8 @@
     "kind": "engineering",
     "score": 4.8,
     "event_id": "prime-model-factory-2026-11",
-    "reviewed_at": "2026-11-26"
+    "reviewed_at": "2026-11-26",
+    "domain": "engineering"
   },
   {
     "title": "Agents That Think Together: Cisco's Vijoy Pandey on Semantic Alignment, Scope, Accord & Concord",
@@ -205,6 +216,7 @@
     "kind": "podcast",
     "score": 5,
     "event_id": "cisco-semantic-alignment-podcast-2026-11",
-    "reviewed_at": "2026-11-26"
+    "reviewed_at": "2026-11-26",
+    "domain": "perspectives"
   }
 ]

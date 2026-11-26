@@ -10,6 +10,7 @@ import math
 from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 from zoneinfo import ZoneInfo
+from balance import DOMAINS, history_stats, adjustment, load_plan
 
 KINDS = {'research': '研究观察', 'engineering': '工程实践', 'assessment': '评测解读',
          'perspective': '观点分析', 'podcast': '访谈播客', 'paper': '论文'}
@@ -38,6 +39,9 @@ def checked_item(raw):
     if isinstance(score, bool) or not isinstance(score, (int, float)) or not 1 <= score <= 5:
         raise ValueError('brief item needs a score from 1 to 5')
     item.update(kind=raw['kind'], score=score, reviewed_at=date.fromisoformat(raw['reviewed_at']).isoformat())
+    if raw.get('domain'):
+        if raw['domain'] not in DOMAINS: raise ValueError('unknown content domain')
+        item['domain'] = raw['domain']
     return item
 
 
@@ -69,9 +73,7 @@ def select_items(candidates, day, policy, prior=()):
         eligible.append(item)
     eligible.sort(key=lambda row: (-row['_rank'], row['url']))
     size = policy['size']
-    quotas = {'paper': round(size * policy['paper_target']), 'engineering': round(size * .2),
-              'assessment': round(size * .2), 'research': round(size * .2),
-              'perspective': max(1, round(size * .1)), 'podcast': max(1, round(size * .1))}
+    history = history_stats(prior, day)
     selected, sources, counts, events, urls = [], Counter(), Counter(), set(), set()
     def take(item):
         if (len(selected) >= size or sources[item['source_id']] >= policy['max_per_source']
@@ -81,14 +83,11 @@ def select_items(candidates, day, policy, prior=()):
             return False
         selected.append(item); sources[item['source_id']] += 1; counts[item['kind']] += 1
         events.add(item['event_id']); urls.add(url_key(item['url'])); return True
-    # A first pass keeps room for different kinds; unavailable slots are shared.
-    for item in eligible:
-        if counts[item['kind']] < quotas[item['kind']]:
-            take(item)
-    for item in eligible:
-        if item['kind'] != 'paper':
-            take(item)
-    for item in eligible:
+    # No fixed daily slots: quality first, then rolling diversity and weekly focus.
+    remaining = list(eligible)
+    while remaining and len(selected) < size:
+        item = min(remaining, key=lambda row: (-(row['_rank'] + adjustment(row, selected, history, policy)), row['url']))
+        remaining.remove(item)
         take(item)
     # The ceiling applies to the actual issue length too, including sparse days.
     while selected and counts['paper'] / len(selected) > policy['paper_max']:
@@ -137,18 +136,24 @@ def make_edition(root, day, lead, name=None, keywords=None):
         raise ValueError('keywords must be distinct short phrases')
     with build_lock(root):
         previous = load_editions(root, topic)
-        chosen = select_items(read_json(root / 'editorial' / f'{topic}.json'), day, policy_for(config), previous)
+        plan = load_plan(root, topic, day, config['daily_brief'].get('require_week_plan', False))
+        policy = {**policy_for(config), 'focus_domains': plan['focus_domains']}
+        chosen = select_items(read_json(root / 'editorial' / f'{topic}.json'), day, policy, previous)
         if review:
             allowed = {url_key(c['url']) for c in review['candidates'] if c['decision'] == 'shortlist'}
             eligible = [r for r in read_json(root / 'editorial' / f'{topic}.json') if url_key(r['url']) in allowed]
-            chosen = select_items(eligible, day, policy_for(config), previous)
+            chosen = select_items(eligible, day, policy, previous)
         if not chosen:
             raise ValueError('no fresh, reviewed mixed selection; previous edition retained')
+        if config['daily_brief'].get('require_week_plan') and any(not row.get('domain') for row in chosen):
+            raise ValueError('classify the content domain of each selected article for weekly balance')
         edition = {'topic': topic, 'date': day.isoformat(), 'timezone': policy_for(config)['timezone'],
                    'lead': lead, 'items': chosen}
         if name: edition['name'] = name
         if keywords: edition['keywords'] = keywords
         if coverage: edition['coverage'] = coverage
+        edition['weekly_focus'] = plan
+        edition['reading_history'] = history_stats(previous, day)
         path = root / 'editions' / topic / f'{day.isoformat()}.json'
         atomic_write(path, json_text(edition).encode())
     return path, edition

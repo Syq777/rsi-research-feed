@@ -301,6 +301,10 @@ def render_brief(config, edition, editions, out, prefix=''):
     issue_name = edition.get('name', '每天几分钟，看懂值得关注的进展。') if edition else '第一期正在整理'
     keywords = ' · '.join(edition.get('keywords', [])) if edition else ''
     coverage = edition.get('coverage') if edition else None
+    weekly = edition.get('weekly_focus', {}) if edition else {}
+    from balance import DOMAINS
+    weekly_names = '、'.join(DOMAINS.get(d, d) for d in weekly.get('focus_domains', []))
+    weekly_html = f'<p class="edition-note">本周多看一点：{_text(weekly_names)}。{_text(weekly.get("reason", ""))}</p>' if weekly_names else ''
     source_table_link = f'<a href="{prefix}sources.html">信息源 Top 20 与访问表</a>' if config.get('source_registry') else ''
     coverage_html = ''
     if coverage:
@@ -327,7 +331,7 @@ def render_brief(config, edition, editions, out, prefix=''):
 <main class="wrap"><section class="mast" aria-labelledby="title"><p class="eyebrow">{_text(config.get("brief_tagline", config["title"]))}</p><h1 id="title">{_text(issue_name)}</h1><p class="intro">{_text(keywords or config['description'])}</p><div class="issue-meta"><span>精选日期 {date_meta}</span><span>{len(items)} 条精选</span><span>约 {minutes} 分钟读完本页</span></div></section>
 {lead}<section id="reading" aria-label="本期精选"><div class="filters js-only" role="group" aria-label="按内容类型筛选"><button type="button" data-filter="" aria-pressed="true">全部 {len(items)}</button>{filters}</div><p id="filter-status" class="sr-only" role="status"></p><ol class="reading-list">{''.join(cards)}</ol></section>
 <details class="past" id="past"><summary>往期精选</summary><ul>{past}</ul></details>
-<details class="past"><summary>这 {len(items)} 条怎么选出来的</summary><p class="edition-note">先轮询完整的动态来源池，再比较候选；找到十篇不会结束检索。优先近两周，必要时回看一个月。论文最多四成，其他内容按当天质量调整。不凑数，同一件事不重复推荐。</p>{coverage_html}</details>
+<details class="past"><summary>这 {len(items)} 条怎么选出来的</summary><p class="edition-note">先轮询完整来源池，再比较候选；找到十篇不会结束检索。每天参考过去七天读过的领域、形式和来源，适当补充缺少的视角；每周结合近四周的覆盖与新进展调整重点，不固定每天的分类名额。论文最多四成，质量优先，不凑数。</p>{weekly_html}{coverage_html}</details>
 <section class="subscribe-box" id="subscribe" aria-label="订阅每日精选"><label for="rss-url">把这个地址加入你的 RSS 阅读器</label><div class="copy-row"><input id="rss-url" readonly value="{_text(feed_url)}"><button id="copy-rss" type="button">复制地址</button></div><p class="copy-status" id="copy-status" role="status"></p></section></main>
 <footer class="wrap"><nav aria-label="更多资料">{source_table_link}<a href="{prefix}archive.html#catalog">原始目录</a><a href="{prefix}archive.html">全部候选资料</a><a href="{prefix}feed.xml">打开 RSS</a></nav><p>精选日期与原文发布日期分别标注；没有新一期时，保留最近一期。</p></footer><script>{BRIEF_SCRIPT}</script></body></html>'''
     Path(out).write_text(html, encoding='utf-8')

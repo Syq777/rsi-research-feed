@@ -2,7 +2,7 @@
   "topic": "rsi",
   "date": "2026-11-26",
   "timezone": "Asia/Shanghai",
-  "lead": "今天读到的材料有个共同问题：分数变好之后，真实工作有没有跟着变好？先看研发和评测的实测，再看训练平台、多智能体协作和三篇论文。",
+  "lead": "今天读到的材料有个共同问题：分数变好之后，真实工作有没有跟着变好？先看研发和评测的实测，再看训练平台、多智能体协作和相关论文。",
   "items": [
     {
       "title": "Interpreting a recent acceleration in pretraining loss",
@@ -16,7 +16,8 @@
       "event_id": "metr-pretraining-loss-2026-11",
       "kind": "assessment",
       "score": 4.8,
-      "reviewed_at": "2026-11-26"
+      "reviewed_at": "2026-11-26",
+      "domain": "safety"
     },
     {
       "title": "Research acceleration: The jagged frontier",
@@ -30,7 +31,8 @@
       "event_id": "openai-research-acceleration-2026-11",
       "kind": "research",
       "score": 5,
-      "reviewed_at": "2026-11-26"
+      "reviewed_at": "2026-11-26",
+      "domain": "science"
     },
     {
       "title": "Finding faster quantum algorithms with agents and formal verification",
@@ -44,7 +46,8 @@
       "event_id": "deepmind-quantum-algorithms-2026-11",
       "kind": "research",
       "score": 4.7,
-      "reviewed_at": "2026-11-26"
+      "reviewed_at": "2026-11-26",
+      "domain": "science"
     },
     {
       "title": "VISE: Verifier-Independent Skill Self-Evolution with Feedback from Tool Implementations",
@@ -58,7 +61,8 @@
       "event_id": "vise-skill-evolution",
       "kind": "paper",
       "score": 4.6,
-      "reviewed_at": "2026-11-26"
+      "reviewed_at": "2026-11-26",
+      "domain": "methods"
     },
     {
       "title": "Introducing Model Factory",
@@ -72,7 +76,8 @@
       "event_id": "prime-model-factory-2026-11",
       "kind": "engineering",
       "score": 4.8,
-      "reviewed_at": "2026-11-26"
+      "reviewed_at": "2026-11-26",
+      "domain": "engineering"
     },
     {
       "title": "AI R&D-relevant model capabilities are improving rapidly and are getting harder to measure",
@@ -86,21 +91,23 @@
       "event_id": "metr-q4-capabilities-2026",
       "kind": "assessment",
       "score": 4.6,
-      "reviewed_at": "2026-11-26"
+      "reviewed_at": "2026-11-26",
+      "domain": "safety"
     },
     {
-      "title": "RecurSciBench: Benchmarking Recursive Self-Improvement in Data-Driven Scientific Research",
-      "url": "https://arxiv.org/abs/2611.32508",
+      "title": "Introducing the Sakana AI Applied Research Lab",
+      "url": "https://sakana.ai/applied-research-lab/",
       "date": "2026-11-24T00:00:00Z",
-      "source": "arXiv",
-      "source_id": "arxiv-ai",
-      "summary": "RecurSciBench 把科学建模与数据分析做成可执行任务，在独立任务上比较智能体改进前后的表现。作者发现总体收益可能与个别任务退步同时出现。",
-      "headline": "“进化后更强”需要在没练过的任务上检验",
-      "why_read": "判断自我改进研究时，优先看独立测试和跨领域迁移，而不只看训练过的任务涨了多少分。",
-      "event_id": "recurscibench",
-      "kind": "paper",
-      "score": 4.2,
-      "reviewed_at": "2026-11-26"
+      "source": "Sakana AI",
+      "source_id": "sakana",
+      "summary": "Sakana 新设应用研究实验室，先从金融与经济系统入手，将进化搜索、模拟和自动科研组合起来：由人判断什么问题重要，让 AI 扩大实现与验证的规模。",
+      "headline": "自动化科研开始走进真实的复杂系统",
+      "why_read": "看研究方法怎样进入实际工作，也看“自动执行”和“自主决定研究方向”之间仍隔着什么。",
+      "event_id": "sakana-applied-research-lab",
+      "kind": "research",
+      "score": 4.4,
+      "reviewed_at": "2026-11-26",
+      "domain": "science"
     },
     {
       "title": "Evolve to Learn: Gradient-aligned experience evolution for model self-improvement",
@@ -114,7 +121,8 @@
       "event_id": "evolve-to-learn",
       "kind": "paper",
       "score": 4.1,
-      "reviewed_at": "2026-11-26"
+      "reviewed_at": "2026-11-26",
+      "domain": "methods"
     },
     {
       "title": "Agents That Think Together: Cisco's Vijoy Pandey on Semantic Alignment, Scope, Accord & Concord",
@@ -128,7 +136,8 @@
       "event_id": "cisco-semantic-alignment-podcast-2026-11",
       "kind": "podcast",
       "score": 5,
-      "reviewed_at": "2026-11-26"
+      "reviewed_at": "2026-11-26",
+      "domain": "perspectives"
     },
     {
       "title": "Building strong safety evaluations",
@@ -142,7 +151,8 @@
       "event_id": "anthropic-strong-evaluations",
       "kind": "engineering",
       "score": 4.3,
-      "reviewed_at": "2026-11-26"
+      "reviewed_at": "2026-11-26",
+      "domain": "engineering"
     }
   ],
   "name": "RSI 十条｜模型进步了，工作变好了吗？",
@@ -159,5 +169,23 @@
     "candidates_compared": 34,
     "candidates_read": 12,
     "poll": "research/polls/2026-11-26-rsi.json"
+  },
+  "weekly_focus": {
+    "week": "2026-W48",
+    "focus_domains": [
+      "engineering",
+      "perspectives"
+    ],
+    "reason": "刚开始积累阅读记录，本周先多看工程实践和访谈，补充论文与机构研究之外的视角；仍以当周实际材料质量决定入选。下一周结合过去四周的覆盖和新进展重新选择重点，不固定轮班。",
+    "reviewed_at": "2026-11-26"
+  },
+  "reading_history": {
+    "issues_7d": 0,
+    "items_7d": 0,
+    "kinds_7d": {},
+    "domains_7d": {},
+    "sources_7d": {},
+    "domains_28d": {},
+    "weeks": {}
   }
 }

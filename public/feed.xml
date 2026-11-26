@@ -78,16 +78,16 @@
       <category>METR</category>
     </item>
     <item>
-      <title>“进化后更强”需要在没练过的任务上检验</title>
-      <link>https://arxiv.org/abs/2611.32508</link>
-      <guid isPermaLink="true">https://arxiv.org/abs/2611.32508</guid>
+      <title>自动化科研开始走进真实的复杂系统</title>
+      <link>https://sakana.ai/applied-research-lab/</link>
+      <guid isPermaLink="true">https://sakana.ai/applied-research-lab/</guid>
       <pubDate>Wed, 25 Nov 2026 16:00:00 GMT</pubDate>
-      <description>RecurSciBench 把科学建模与数据分析做成可执行任务，在独立任务上比较智能体改进前后的表现。作者发现总体收益可能与个别任务退步同时出现。
-为什么读：判断自我改进研究时，优先看独立测试和跨领域迁移，而不只看训练过的任务涨了多少分。
-原文发布：2026-11-24 · arXiv
+      <description>Sakana 新设应用研究实验室，先从金融与经济系统入手，将进化搜索、模拟和自动科研组合起来：由人判断什么问题重要，让 AI 扩大实现与验证的规模。
+为什么读：看研究方法怎样进入实际工作，也看“自动执行”和“自主决定研究方向”之间仍隔着什么。
+原文发布：2026-11-24 · Sakana AI
 本期：RSI 十条｜模型进步了，工作变好了吗？
 关键词：研发效率、训练反馈、多智能体、评测</description>
-      <category>arXiv</category>
+      <category>Sakana AI</category>
     </item>
     <item>
       <title>一次解题有用的经验，未必适合拿去训练</title>
