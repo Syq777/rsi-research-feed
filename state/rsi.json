@@ -1,0 +1,706 @@
+[
+  {
+    "title": "RecurSciBench: Benchmarking Recursive Self-Improvement in Data-Driven Scientific Research",
+    "url": "https://arxiv.org/abs/2611.32508",
+    "date": "2026-11-25T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.32508v1 Announce Type: new Abstract: Large language model (LLM)-based agents are advancing the automation of data-driven scientific research. Recent advances in recursive self-improvement (RSI) offer the potential for these agents to continuously improve through experience, but evaluating transfer across scientific tasks requires executable, scientifically verifiable tasks and independ…"
+  },
+  {
+    "title": "VISE: Verifier-Independent Skill Self-Evolution with Feedback from Tool Implementations",
+    "url": "https://arxiv.org/abs/2611.32480",
+    "date": "2026-11-25T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.32480v1 Announce Type: new Abstract: Agent skills provide reusable workflows that guide LLM agents in using tools. Refining these workflows requires feedback on missing or incorrect instructions, but task-specific verifiers are not always available. We propose VISE (Verifier-Independent Skill Evolution), a scripts-first approach that uses tool implementations to guide skill revision. I…"
+  },
+  {
+    "title": "Evolve to Learn: Gradient-aligned experience evolution for model self-improvement",
+    "url": "https://arxiv.org/abs/2611.32390",
+    "date": "2026-11-25T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.32390v1 Announce Type: cross Abstract: Self-evolving language models can continuously acquire useful experience through test-time interaction, reflection, and prompt optimization, yet turning such experience into model itself to ensure self improvement remains challenging. On-policy self-distillation (OPSD) provides a natural mechanism for internalizing test-time information into model…"
+  },
+  {
+    "title": "A recursive self-improvement framework for electron microscopy analysis",
+    "url": "https://arxiv.org/abs/2611.32325",
+    "date": "2026-11-25T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.32325v1 Announce Type: cross Abstract: Resolving local atomic structures such as defects and interfaces from electron microscopy contrast relies heavily on researcher judgement, leading to low efficiency and subjective standards. Here we present PhyEvo-Mic-RSI, a physics-guided and expert-informed recursive self-improvement framework that turns one-off human corrections into reusable,…"
+  },
+  {
+    "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+    "url": "https://arxiv.org/abs/2611.32238",
+    "date": "2026-11-25T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.32238v1 Announce Type: cross Abstract: Agent-orchestrated robot systems combine the general reasoning capability of multimodal agents with the precise physical control of learned visuomotor policies. Yet such systems often fail at the moment of handoff: a policy is reliable only from a limited set of start states, while the agent may invoke it outside this region. We call this region t…"
+  },
+  {
+    "title": "Unifying Partner and Environment Diversity to Improve Human-AI Coordination",
+    "url": "https://arxiv.org/abs/2611.32031",
+    "date": "2026-11-25T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.32031v1 Announce Type: cross Abstract: Real-world applications of modern AI systems require generalization to both unseen environments and novel human users. The field of zero-shot coordination (ZSC) has focused primarily on deploying AI to cooperate with novel partners in otherwise familiar environments. Popular population-based methods achieve this by partnering the agent with a dive…"
+  },
+  {
+    "title": "Agentic Discovery of Soundness Bugs in Safe Rust Bindings",
+    "url": "https://arxiv.org/abs/2611.31813",
+    "date": "2026-11-25T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.31813v1 Announce Type: cross Abstract: Rust crates confine unsafe code, such as calls into C or C++ libraries or system calls, behind safe interfaces that must uphold Rust's invariants. If an interface encodes one rule of the code beneath it too weakly, a program written in purely safe Rust can cause undefined behavior. Static analyzers and fuzzers are bound to fixed patterns or to the…"
+  },
+  {
+    "title": "Self-Improving Long-Horizon Reasoning by Learning Summaries from Local Continuations",
+    "url": "https://arxiv.org/abs/2611.31621",
+    "date": "2026-11-25T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.31621v1 Announce Type: new Abstract: Reasoning models degrade as their context grows, so longer reasoning traces do not by themselves give longer effective horizons. One way to extend the horizon is to compress the reasoning history into a compact state from time to time and continue from the state. Existing methods train the state with the final-answer reward or distill it from a stro…"
+  },
+  {
+    "title": "SpatialCraft: Evolving Procedural Intelligence from Experience and Skills for Spatial Reasoning Agents",
+    "url": "https://arxiv.org/abs/2611.31475",
+    "date": "2026-11-25T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.31475v1 Announce Type: new Abstract: Spatial reasoning agents increasingly rely on external tools, such as 3D reconstruction, segmentation, and geometric computation, to answer questions that a multimodal large language model (MLLM) cannot resolve from pixels alone. Tool access, however, shifts the bottleneck to orchestration: the agent must decide which tools to call, in what order, a…"
+  },
+  {
+    "title": "Improving the Improver: Semantic PID Control for Medical Agent Self-Improvement",
+    "url": "https://arxiv.org/abs/2611.28680",
+    "date": "2026-11-25T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.28680v2 Announce Type: replace Abstract: High-stakes vertical medical tasks, such as postoperative pathological staging and long-term survival prediction, demand multi-step clinical reasoning over heterogeneous evidence under weak supervision and high outcome uncertainty. While we first orchestrate CliAgent, a domain-tailored clinical agent workflow that systematically grounds predicti…"
+  },
+  {
+    "title": "EvoViM: Recursively Self-Evolving Visual Agents for Exploration with Deferred Queries",
+    "url": "https://arxiv.org/abs/2611.28574",
+    "date": "2026-11-25T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.28574v2 Announce Type: replace Abstract: Multimodal large language model (MLLM) agents have shown promising capabilities in task-oriented environments. However, they still struggle when queries are deferred until after exploration, requiring them to retain visual evidence before knowing which details will matter. We introduce EvoViM, a recursively self-evolving framework in which a fro…"
+  },
+  {
+    "title": "GEPA-Curator: Curated Learning for Self Improving Agents",
+    "url": "https://arxiv.org/abs/2610.37651",
+    "date": "2026-11-25T05:00:00Z",
+    "source": "arXiv · cs.CL",
+    "source_id": "arxiv-cl",
+    "summary": "arXiv:2610.37651v2 Announce Type: replace Abstract: Large Language Models (LLMs) are increasingly used in multi-turn agentic workloads that require sustained interaction with complex environments. Existing reflective prompt optimizers such as GEPA learn from failed rollouts, but agentic failures can also come from prompt weaknesses, harness limitations, stochastic execution, or noisy judges. We a…"
+  },
+  {
+    "title": "EvolveMAS: A Unified Self-Evolution Framework for Decentralized Multi-Agent Systems",
+    "url": "https://arxiv.org/abs/2610.34450",
+    "date": "2026-11-25T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2610.34450v2 Announce Type: replace-cross Abstract: Decentralized multi-agent systems (MAS) enable large language model agents to interact without centralized control. Agents need to adapt to other agents at test time and reuse accumulated experience to refine their interaction strategies for future interactions across cooperative, mixed-motive, and adversarial settings. However, existing a…"
+  },
+  {
+    "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Graphic Design Agent",
+    "url": "https://arxiv.org/abs/2609.22086",
+    "date": "2026-11-25T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2609.22086v3 Announce Type: replace Abstract: Deployed software agents face a continuous stream of user requests while their foundation-model weights remain frozen between releases. Recursive self-improvement (RSI) via external memory offers a practical path to continual adaptation, yet prior methods largely assume programmatic verifiers, cheap retries, or a single global prompt. Creative s…"
+  },
+  {
+    "title": "SkillBoost: A Constrained Exploration-Exploitation Process for Mitigating Skill Overfitting",
+    "url": "https://arxiv.org/abs/2607.26643",
+    "date": "2026-11-25T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2607.26643v4 Announce Type: replace Abstract: Enabling large language model (LLM) agents to accumulate and reuse experience from past interactions remains a central challenge in real-world applications. A promising solution is to treat skills as trainable states and optimize them in the same way as model parameters in neural network training. However, data-driven skill optimization is prone…"
+  },
+  {
+    "title": "Oracle-Budgeted Protein Design with Stochastic Search and Iterative Imitation",
+    "url": "https://arxiv.org/abs/2605.26690",
+    "date": "2026-11-25T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2605.26690v2 Announce Type: replace-cross Abstract: Optimizing protein sequences under tight oracle budgets requires methods that can explore a vast combinatorial mutational search space. These methods must also remain robust in the presence of surrogate noise and propose mutations on positions where substitutions are predicted to have favorable effects. We introduce SILO (Self-improvement…"
+  },
+  {
+    "title": "Interpreting a recent acceleration in pretraining loss",
+    "url": "https://metr.org/blog/2026-11-24-interpreting-a-recent-acceleration-in-pretraining-loss/",
+    "date": "2026-11-24T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Introducing the Sakana AI Applied Research Lab",
+    "url": "https://sakana.ai/applied-research-lab/",
+    "date": "2026-11-23T15:00:00Z",
+    "source": "Sakana AI",
+    "source_id": "sakana",
+    "summary": ""
+  },
+  {
+    "title": "AI R&D-relevant model capabilities are improving rapidly and are getting harder to measure",
+    "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+    "date": "2026-11-20T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Introducing Sakana AI’s Security Research Group",
+    "url": "https://sakana.ai/security-research-group/",
+    "date": "2026-11-19T15:00:00Z",
+    "source": "Sakana AI",
+    "source_id": "sakana",
+    "summary": ""
+  },
+  {
+    "title": "Research acceleration: The jagged frontier",
+    "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+    "date": "2026-11-18T08:00:00Z",
+    "source": "OpenAI News",
+    "source_id": "openai-news",
+    "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement."
+  },
+  {
+    "title": "Research acceleration: The jagged frontier",
+    "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
+    "date": "2026-11-18T00:00:00Z",
+    "source": "OpenAI",
+    "source_id": "openai-news",
+    "summary": "OpenAI 对照内部研发任务、工程师使用记录和人工用时，讨论哪些研究环节已能交给智能体，以及研究速度仍受哪些环节制约。"
+  },
+  {
+    "title": "JFinBench: 最新の金融資格試験を用いた日本語金融ベンチマークの公開",
+    "url": "https://sakana.ai/jfinbench/",
+    "date": "2026-11-16T15:00:00Z",
+    "source": "Sakana AI",
+    "source_id": "sakana",
+    "summary": "図：Sakana AIが開発した日本語金融ベンチマーク「JFinBench」の全体スコアと1問あたりのコスト（ツールなし設定）。主要ベンチマークでプロプライエタリモデルに肩を並べつつあるオープンウェイトモデルも、JFinBenchでは大きな差がある。"
+  },
+  {
+    "title": "Review of the \"Risks from automated R&D\" section in Anthropic's Risk Report (August 2026)",
+    "url": "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/",
+    "date": "2026-11-05T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
+    "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+    "date": "2026-11-05T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "【開催レポート】Sakana AIシンポジウム：Jürgen Schmidhuberが語るAIのこれまでとこれから、日本から挑む言語モデル・世界モデル・Physical AI",
+    "url": "https://sakana.ai/symposium-2026/",
+    "date": "2026-11-01T15:00:00Z",
+    "source": "Sakana AI",
+    "source_id": "sakana",
+    "summary": "基調講演を行うSakana AI Chief Scientific Advisorのユルゲン・シュミットフーバー教授"
+  },
+  {
+    "title": "Intelligence Report: SNSのAI分析からみる米中間選挙",
+    "url": "https://sakana.ai/us-midterms-analysis/",
+    "date": "2026-10-29T15:00:00Z",
+    "source": "Sakana AI",
+    "source_id": "sakana",
+    "summary": ""
+  },
+  {
+    "title": "Artificial Analysis v5 and the benchmarker's dilemma",
+    "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+    "date": "2026-10-28T12:58:39Z",
+    "source": "Interconnects",
+    "source_id": "interconnects",
+    "summary": "A sort of review of the benchmarking industry and what's missing."
+  },
+  {
+    "title": "A proposal for better informing the public about loss-of-control risks from frontier AI development",
+    "url": "https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/",
+    "date": "2026-10-14T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "How an assessor could investigate evidence of acceleration from the automation of AI R&D",
+    "url": "https://metr.org/blog/2026-10-14-ai-rd-acceleration-assessment-proposal/",
+    "date": "2026-10-14T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "I expect rapid progress but not towards general superintelligence",
+    "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
+    "date": "2026-10-09T21:33:47Z",
+    "source": "Interconnects",
+    "source_id": "interconnects",
+    "summary": "I’ve often been surprised when I hear from top researchers in industry that they think AI will be better than them at their job in a few years, and I didn’t really know why I doubted it."
+  },
+  {
+    "title": "Chris Painter's testimony to the U.S. Senate on AI agent incidents",
+    "url": "https://metr.org/blog/2026-09-30-chris-painter-senate-testimony/",
+    "date": "2026-09-30T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Debating RSI, the US-China Gap, and Jaggedness with JS Denain of Epoch AI",
+    "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
+    "date": "2026-09-22T13:37:45Z",
+    "source": "Interconnects",
+    "source_id": "interconnects",
+    "summary": "Podcast #19"
+  },
+  {
+    "title": "Summary of METR's predeployment evaluation of Claude Opus 5.5",
+    "url": "https://metr.org/blog/2026-09-22-claude-opus-5-5/",
+    "date": "2026-09-22T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Why I still haven’t bought into true RSI",
+    "url": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
+    "date": "2026-09-19T15:42:20Z",
+    "source": "Interconnects",
+    "source_id": "interconnects",
+    "summary": "An “AI moderate’s” view on recent events and the trajectory of frontier models."
+  },
+  {
+    "title": "One resignation turned the embers of AI fear into a wildfire",
+    "url": "https://www.interconnects.ai/p/one-resignation-turned-the-embers",
+    "date": "2026-09-10T15:28:52Z",
+    "source": "Interconnects",
+    "source_id": "interconnects",
+    "summary": "Some quick notes on a truly weird week."
+  },
+  {
+    "title": "Research acceleration: The view inside OpenAI",
+    "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "date": "2026-09-06T08:00:00Z",
+    "source": "OpenAI News",
+    "source_id": "openai-news",
+    "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration."
+  },
+  {
+    "title": "GLM-5.3: How Chinese labs keep stride with the frontier",
+    "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride",
+    "date": "2026-08-14T21:23:35Z",
+    "source": "Interconnects",
+    "source_id": "interconnects",
+    "summary": "Hint: It’s really not a distillation story."
+  },
+  {
+    "title": "Have We Seen an Acceleration in Discoveries?",
+    "url": "https://metr.org/notes/2026-08-14-llm-contribution-to-discoveries/",
+    "date": "2026-08-14T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Funding update",
+    "url": "https://metr.org/blog/2026-08-14-funding-update/",
+    "date": "2026-08-14T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Metrics of Agent Ability",
+    "url": "https://metr.org/notes/2026-07-24-metrics-of-model-ability/",
+    "date": "2026-07-24T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "The Economics of Recursive Self-Improvement",
+    "url": "https://metr.org/notes/2026-07-22-economics-of-recursive-self-improvement/",
+    "date": "2026-07-22T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Expenditure Horizon: Measuring Optimization Ability, with an Application to NanoGPT",
+    "url": "https://metr.org/blog/2026-07-21-expenditure-horizon/",
+    "date": "2026-07-21T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+    "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+    "date": "2026-07-15T10:00:00Z",
+    "source": "OpenAI News",
+    "source_id": "openai-news",
+    "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness."
+  },
+  {
+    "title": "Because 8 ≈ e², Anthropic's researcher uplift is plausibly >2x",
+    "url": "https://metr.org/notes/2026-07-08-anthropic-researcher-uplift/",
+    "date": "2026-07-08T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Summary of METR's predeployment evaluation of GPT-5.6 Sol",
+    "url": "https://metr.org/blog/2026-06-26-gpt-5-6-sol/",
+    "date": "2026-06-26T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Building self-improving tax agents with Codex",
+    "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+    "date": "2026-05-27T07:00:00Z",
+    "source": "OpenAI News",
+    "source_id": "openai-news",
+    "summary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows."
+  },
+  {
+    "title": "Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity",
+    "url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
+    "date": "2026-05-11T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Review of the \"Risks from automated R&D\" section in the Anthropic Risk Report (February 2026)",
+    "url": "https://metr.org/blog/2026-05-08-rd-section-anthropic-risk-report-feb-2026-review/",
+    "date": "2026-05-08T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Evidence on AI R&D Progress from NanoGPT",
+    "url": "https://metr.org/notes/2026-04-21-ai-rd-nanogpt-progress/",
+    "date": "2026-04-21T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Impact of modeling assumptions on time horizon results",
+    "url": "https://metr.org/notes/2026-03-20-impact-of-modelling-assumptions-on-time-horizon-results/",
+    "date": "2026-03-20T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "We spent 2 hours working in the future",
+    "url": "https://metr.org/notes/2026-03-19-org-uplift-game/",
+    "date": "2026-03-19T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "PostTrainBench: Can LLM Agents Automate LLM Post-Training?",
+    "url": "https://arxiv.org/abs/2603.08640",
+    "date": "2026-03-09T00:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "作者把语言模型后训练交给编码智能体，用实际训练产物的表现衡量它们选择数据、编写训练代码和分配有限计算资源的能力。"
+  },
+  {
+    "title": "We are Changing our Developer Productivity Experiment Design",
+    "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+    "date": "2026-02-24T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "A simpler AI timelines model predicts 99% AI R&D automation in ~2032",
+    "url": "https://metr.org/notes/2026-02-10-simpler-ai-timelines-model/",
+    "date": "2026-02-10T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Common Elements of Frontier AI Safety Policies (December 2025 Update)",
+    "url": "https://metr.org/blog/2025-12-09-common-elements-of-frontier-ai-safety-policies/",
+    "date": "2025-12-09T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "GPT-5.1-Codex-Max Evaluation Results",
+    "url": "https://metr.org/evaluations/gpt-5-1-codex-max-report/",
+    "date": "2025-11-19T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Forecasting the Impacts of AI R&D Acceleration: Results of a Pilot Study",
+    "url": "https://metr.org/blog/2025-08-20-forecasting-impacts-of-ai-acceleration/",
+    "date": "2025-08-20T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "GPT-5 Evaluation Results",
+    "url": "https://metr.org/evaluations/gpt-5-report/",
+    "date": "2025-08-07T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "How Does Time Horizon Vary Across Domains?",
+    "url": "https://metr.org/blog/2025-07-14-how-does-time-horizon-vary-across-domains/",
+    "date": "2025-07-14T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity",
+    "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+    "date": "2025-07-10T12:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "What should companies share about risks from frontier AI models?",
+    "url": "https://metr.org/blog/2025-06-27-risk-transparency/",
+    "date": "2025-06-27T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Recent Frontier Models Are Reward Hacking",
+    "url": "https://metr.org/blog/2025-06-05-recent-reward-hacking/",
+    "date": "2025-06-05T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents",
+    "url": "https://arxiv.org/abs/2505.22954",
+    "date": "2025-05-29T00:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "系统让编码智能体修改自身实现，通过编程基准评估改动，并从保留的多个历史版本继续搜索。"
+  },
+  {
+    "title": "Absolute Zero: Reinforced Self-play Reasoning with Zero Data",
+    "url": "https://arxiv.org/abs/2505.03335",
+    "date": "2025-05-06T00:00:00Z",
+    "source": "arXiv · cs.LG",
+    "source_id": "arxiv-lg",
+    "summary": "同一个模型提出和求解推理任务，代码执行环境验证答案，为强化学习提供反馈。文中的零数据指这个训练阶段无需外部题集。"
+  },
+  {
+    "title": "OpenAI o3 and o4-mini Evaluation Results",
+    "url": "https://metr.org/evaluations/openai-o3-report/",
+    "date": "2025-04-16T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Claude 3.7 Evaluation Results",
+    "url": "https://metr.org/evaluations/claude-3-7-report/",
+    "date": "2025-04-04T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Response to OSTP on AI Action Plan",
+    "url": "https://metr.org/METR_ai_action_plan_comment.pdf",
+    "date": "2025-03-15T09:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": "Suggested priorities for the Office of Science and Technology Policy as it develops an AI Action Plan."
+  },
+  {
+    "title": "DeepSeek-R1 Evaluation Results",
+    "url": "https://metr.org/evaluations/deepseek-r1-report/",
+    "date": "2025-03-05T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Measuring Automated Kernel Engineering",
+    "url": "https://metr.org/blog/2025-02-14-measuring-automated-kernel-engineering/",
+    "date": "2025-02-14T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "DeepSeek-V3 Evaluation Results",
+    "url": "https://metr.org/evaluations/deepseek-v3-report/",
+    "date": "2025-02-12T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "An update on our preliminary evaluations of Claude 3.5 Sonnet and o1",
+    "url": "https://metr.org/blog/2025-01-31-update-sonnet-o1-evals/",
+    "date": "2025-01-31T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "AI models can be dangerous before public deployment",
+    "url": "https://metr.org/blog/2025-01-17-ai-models-dangerous-before-public-deployment/",
+    "date": "2025-01-17T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Evaluating frontier AI R&D capabilities of language model agents against human experts",
+    "url": "https://metr.org/blog/2024-11-22-evaluating-r-d-capabilities-of-llms/",
+    "date": "2024-11-22T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "The Rogue Replication Threat Model",
+    "url": "https://metr.org/blog/2024-11-12-rogue-replication-threat-model/",
+    "date": "2024-11-12T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Details about METR’s preliminary evaluation of o1-preview",
+    "url": "https://metr.org/evaluations/openai-o1-preview-report/",
+    "date": "2024-09-12T17:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Automated Design of Agentic Systems",
+    "url": "https://arxiv.org/abs/2408.08435",
+    "date": "2024-08-15T00:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "元智能体用代码描述新智能体，并参考已评估方案继续设计。论文用多项任务检验搜索得到的结构及其迁移表现。"
+  },
+  {
+    "title": "Details about METR’s preliminary evaluation of GPT-4o",
+    "url": "https://metr.org/evaluations/gpt-4o-report/",
+    "date": "2024-08-07T17:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "An update on our general capability evaluations",
+    "url": "https://metr.org/blog/2024-08-06-update-on-evaluations/",
+    "date": "2024-08-06T17:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "ML Engineers Needed for New AI R&D Evals Project",
+    "url": "https://metr.org/blog/2024-05-16-ml-engineers-needed/",
+    "date": "2024-05-16T07:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Example autonomy evaluation protocol",
+    "url": "https://metr.org/blog/2024-03-15-example-autonomy-evaluation-protocol/",
+    "date": "2024-03-15T11:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Measuring the impact of post-training enhancements",
+    "url": "https://metr.org/blog/2024-03-15-measuring-post-impact-enhancements/",
+    "date": "2024-03-15T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Portable Evaluation Tasks via the METR Task Standard",
+    "url": "https://metr.org/blog/2024-02-29-METR-task-standard/",
+    "date": "2024-02-29T08:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Bounty: Diverse hard tasks for LLM agents",
+    "url": "https://metr.org/blog/2023-12-16-bounty-diverse-hard-tasks-for-llm-agents/",
+    "date": "2023-12-16T20:00:00Z",
+    "source": "METR",
+    "source_id": "metr",
+    "summary": ""
+  },
+  {
+    "title": "Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation",
+    "url": "https://arxiv.org/abs/2310.02304",
+    "date": "2023-10-03T00:00:00Z",
+    "source": "arXiv · cs.CL",
+    "source_id": "arxiv-cl",
+    "summary": "让语言模型修改调用模型的优化程序，再用候选程序继续改进优化器。实验追踪这种递归过程对代码优化任务的影响。"
+  },
+  {
+    "title": "Competitive self-play",
+    "url": "https://openai.com/index/competitive-self-play",
+    "date": "2017-10-11T07:00:00Z",
+    "source": "OpenAI News",
+    "source_id": "openai-news",
+    "summary": "We’ve found that self-play allows simulated AIs to discover physical skills like tackling, ducking, faking, kicking, catching, and diving for the ball, without explicitly designing an environment with these skills in mind. Self-play ensures that the environment is always the right difficulty for an AI to improve. Taken alongside our Dota 2 self-play results, we have increasing confidence that sel…"
+  },
+  {
+    "title": "More on Dota 2",
+    "url": "https://openai.com/index/more-on-dota-2",
+    "date": "2017-08-16T07:00:00Z",
+    "source": "OpenAI News",
+    "source_id": "openai-news",
+    "summary": "Our Dota 2 result shows that self-play can catapult the performance of machine learning systems from far below human level to superhuman, given sufficient compute. In the span of a month, our system went from barely matching a high-ranked player to beating the top pros and has continued to improve since then. Supervised deep learning systems can only be as good as their training datasets, but in…"
+  },
+  {
+    "title": "Dota 2",
+    "url": "https://openai.com/index/dota-2",
+    "date": "2017-08-11T07:00:00Z",
+    "source": "OpenAI News",
+    "source_id": "openai-news",
+    "summary": "We’ve created a bot which beats the world’s top professionals at 1v1 matches of Dota 2 under standard tournament rules. The bot learned the game from scratch by self-play, and does not use imitation learning or tree search. This is a step towards building AI systems which accomplish well-defined goals in messy, complicated situations involving real humans."
+  }
+]

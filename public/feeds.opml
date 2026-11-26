@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<opml version="2.0">
+  <head>
+    <title>RSI 信息源</title>
+  </head>
+  <body>
+    <outline type="rss" text="arXiv · cs.AI" title="arXiv · cs.AI" xmlUrl="https://rss.arxiv.org/rss/cs.AI" htmlUrl="https://arxiv.org/list/cs.AI/recent" />
+    <outline type="rss" text="arXiv · cs.LG" title="arXiv · cs.LG" xmlUrl="https://rss.arxiv.org/rss/cs.LG" htmlUrl="https://arxiv.org/list/cs.LG/recent" />
+    <outline type="rss" text="arXiv · cs.CL" title="arXiv · cs.CL" xmlUrl="https://rss.arxiv.org/rss/cs.CL" htmlUrl="https://arxiv.org/list/cs.CL/recent" />
+    <outline type="rss" text="Sakana AI" title="Sakana AI" xmlUrl="https://sakana.ai/feed.xml" htmlUrl="https://sakana.ai/blog/" />
+    <outline type="rss" text="METR" title="METR" xmlUrl="https://metr.org/feed.xml" htmlUrl="https://metr.org/blog/" />
+    <outline type="rss" text="Interconnects" title="Interconnects" xmlUrl="https://www.interconnects.ai/feed" htmlUrl="https://www.interconnects.ai/" />
+    <outline type="rss" text="OpenAI News" title="OpenAI News" xmlUrl="https://openai.com/news/rss.xml" htmlUrl="https://openai.com/news/" />
+  </body>
+</opml>

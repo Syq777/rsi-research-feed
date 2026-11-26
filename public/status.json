@@ -1,0 +1,44 @@
+[
+  {
+    "id": "arxiv-ai",
+    "name": "arXiv · cs.AI",
+    "status": "ok",
+    "detail": "匹配 15 条，过滤 432 条，无效 0 条"
+  },
+  {
+    "id": "arxiv-lg",
+    "name": "arXiv · cs.LG",
+    "status": "ok",
+    "detail": "匹配 4 条，过滤 387 条，无效 0 条"
+  },
+  {
+    "id": "arxiv-cl",
+    "name": "arXiv · cs.CL",
+    "status": "ok",
+    "detail": "匹配 1 条，过滤 192 条，无效 0 条"
+  },
+  {
+    "id": "sakana",
+    "name": "Sakana AI",
+    "status": "ok",
+    "detail": "匹配 5 条，过滤 5 条，无效 0 条"
+  },
+  {
+    "id": "metr",
+    "name": "METR",
+    "status": "ok",
+    "detail": "匹配 48 条，过滤 57 条，无效 0 条"
+  },
+  {
+    "id": "interconnects",
+    "name": "Interconnects",
+    "status": "ok",
+    "detail": "匹配 6 条，过滤 14 条，无效 0 条"
+  },
+  {
+    "id": "openai-news",
+    "name": "OpenAI News",
+    "status": "ok",
+    "detail": "匹配 7 条，过滤 1423 条，无效 0 条"
+  }
+]

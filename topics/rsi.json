@@ -1,0 +1,98 @@
+{
+  "id": "rsi",
+  "title": "RSI 信息源",
+  "description": "追踪递归自我改进、自博弈、开放式搜索与 AI 研发自动化。",
+  "keywords": [
+    "self-improvement",
+    "self improvement",
+    "self-improving",
+    "self improving",
+    "self-evolving",
+    "self evolving",
+    "self-rewarding",
+    "self rewarding",
+    "recursive self",
+    "self-play",
+    "self play",
+    "self-training",
+    "self training",
+    "self-modifying",
+    "self modifying",
+    "open-ended evolution",
+    "open-ended search",
+    "open-ended learning",
+    "automated research",
+    "research automation",
+    "research acceleration",
+    "automated discovery",
+    "agentic discovery",
+    "AI R&D",
+    "AI research and development",
+    "AI scientist",
+    "AlphaEvolve",
+    "Darwin Godel",
+    "Darwin Gödel",
+    "agentic systems design",
+    "automated design of agentic systems",
+    "model collapse",
+    "software intelligence explosion",
+    "posttrainbench",
+    "self-evolution",
+    "递归自我改进",
+    "自我进化",
+    "自博弈",
+    "自动化科研"
+  ],
+  "sources": [
+    {
+      "id": "arxiv-ai",
+      "name": "arXiv · cs.AI",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "feed": "https://rss.arxiv.org/rss/cs.AI",
+      "filter": true
+    },
+    {
+      "id": "arxiv-lg",
+      "name": "arXiv · cs.LG",
+      "url": "https://arxiv.org/list/cs.LG/recent",
+      "feed": "https://rss.arxiv.org/rss/cs.LG",
+      "filter": true
+    },
+    {
+      "id": "arxiv-cl",
+      "name": "arXiv · cs.CL",
+      "url": "https://arxiv.org/list/cs.CL/recent",
+      "feed": "https://rss.arxiv.org/rss/cs.CL",
+      "filter": true
+    },
+    {
+      "id": "sakana",
+      "name": "Sakana AI",
+      "url": "https://sakana.ai/blog/",
+      "feed": "https://sakana.ai/feed.xml",
+      "filter": true
+    },
+    {
+      "id": "metr",
+      "name": "METR",
+      "url": "https://metr.org/blog/",
+      "feed": "https://metr.org/feed.xml",
+      "filter": true
+    },
+    {
+      "id": "interconnects",
+      "name": "Interconnects",
+      "url": "https://www.interconnects.ai/",
+      "feed": "https://www.interconnects.ai/feed",
+      "filter": true
+    },
+    {
+      "id": "openai-news",
+      "name": "OpenAI News",
+      "url": "https://openai.com/news/",
+      "feed": "https://openai.com/news/rss.xml",
+      "filter": true
+    }
+  ],
+  "catalog": "catalog/rsi.json"
+}

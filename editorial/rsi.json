@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Research acceleration: The jagged frontier",
+    "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
+    "date": "2026-11-18",
+    "source": "OpenAI",
+    "source_id": "openai-news",
+    "summary": "OpenAI 对照内部研发任务、工程师使用记录和人工用时，讨论哪些研究环节已能交给智能体，以及研究速度仍受哪些环节制约。"
+  },
+  {
+    "title": "PostTrainBench: Can LLM Agents Automate LLM Post-Training?",
+    "url": "https://arxiv.org/abs/2603.08640",
+    "date": "2026-03-09",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "作者把语言模型后训练交给编码智能体，用实际训练产物的表现衡量它们选择数据、编写训练代码和分配有限计算资源的能力。"
+  },
+  {
+    "title": "Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents",
+    "url": "https://arxiv.org/abs/2505.22954",
+    "date": "2025-05-29",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "系统让编码智能体修改自身实现，通过编程基准评估改动，并从保留的多个历史版本继续搜索。"
+  },
+  {
+    "title": "Absolute Zero: Reinforced Self-play Reasoning with Zero Data",
+    "url": "https://arxiv.org/abs/2505.03335",
+    "date": "2025-05-06",
+    "source": "arXiv · cs.LG",
+    "source_id": "arxiv-lg",
+    "summary": "同一个模型提出和求解推理任务，代码执行环境验证答案，为强化学习提供反馈。文中的零数据指这个训练阶段无需外部题集。"
+  },
+  {
+    "title": "Automated Design of Agentic Systems",
+    "url": "https://arxiv.org/abs/2408.08435",
+    "date": "2024-08-15",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "元智能体用代码描述新智能体，并参考已评估方案继续设计。论文用多项任务检验搜索得到的结构及其迁移表现。"
+  },
+  {
+    "title": "Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation",
+    "url": "https://arxiv.org/abs/2310.02304",
+    "date": "2023-10-03",
+    "source": "arXiv · cs.CL",
+    "source_id": "arxiv-cl",
+    "summary": "让语言模型修改调用模型的优化程序，再用候选程序继续改进优化器。实验追踪这种递归过程对代码优化任务的影响。"
+  }
+]
