@@ -2,7 +2,7 @@
   {
     "title": "RoboEvo$^2$: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution",
     "url": "https://arxiv.org/abs/2611.34675",
-    "date": "2026-11-26T05:00:00Z",
+    "date": "2026-11-27T05:00:00Z",
     "source": "arXiv · cs.AI",
     "source_id": "arxiv-ai",
     "summary": "arXiv:2611.34675v1 Announce Type: cross Abstract: Robots should adapt to unfamiliar environments and acquire new skills through interaction, then execute those skills efficiently with practice. Vision-language-action policies provide efficient control, but often need additional human demonstrations to handle unfamiliar settings; reasoning agents can discover solutions using broad prior knowledge…"
@@ -10,7 +10,7 @@
   {
     "title": "EvoLink-Bench: A Benchmark for Evaluating Self-Evolving Agents in Long-Horizon Interdependent Task Streams",
     "url": "https://arxiv.org/abs/2611.34400",
-    "date": "2026-11-26T05:00:00Z",
+    "date": "2026-11-27T05:00:00Z",
     "source": "arXiv · cs.AI",
     "source_id": "arxiv-ai",
     "summary": "arXiv:2611.34400v1 Announce Type: new Abstract: Large language model (LLM) agents are evolving from passive chatbots into autonomous systems that operate continuously in dynamic environments. Such agents need not only solve current tasks but also learn from past interactions to improve future performance. However, existing streaming benchmarks often rely on short task sequences or largely indepen…"
@@ -18,7 +18,7 @@
   {
     "title": "When Skills Fail to Compose: Compatibility and Retention in Language Models",
     "url": "https://arxiv.org/abs/2611.34398",
-    "date": "2026-11-26T05:00:00Z",
+    "date": "2026-11-27T05:00:00Z",
     "source": "arXiv · cs.AI",
     "source_id": "arxiv-ai",
     "summary": "arXiv:2611.34398v1 Announce Type: cross Abstract: Skill acquisition alone does not establish a reusable skill library: task proficiency does not specify a compositional interface. Motivated by agents that acquire and refine skills, we study independently learned soft-prompt skills on frozen language models, with skill identities and execution order supplied. Across four digit-task bases and three…"
@@ -26,7 +26,7 @@
   {
     "title": "IRTIQA: Evolving in English, Evaluated in Urdu -- Does Agent Self-Evolution Transfer from English to Urdu and Code-Switched Input?",
     "url": "https://arxiv.org/abs/2611.34303",
-    "date": "2026-11-26T05:00:00Z",
+    "date": "2026-11-27T05:00:00Z",
     "source": "arXiv · cs.CL",
     "source_id": "arxiv-cl",
     "summary": "arXiv:2611.34303v1 Announce Type: new Abstract: As LLM agents increasingly learn from their own experience, the tasks they learn from and are evaluated on are almost always in English. We ask whether self-evolution transfers from English to Urdu, and release IRTIQA, a benchmark of aligned English, Urdu-translated, and Urdu code-switched variants of DROP, SNIPS, AppWorld, and SkillsBench, built wi…"
@@ -34,10 +34,114 @@
   {
     "title": "Navigent: A Geometry-Grounded Agentic Framework for Vision Language Navigation",
     "url": "https://arxiv.org/abs/2611.34249",
-    "date": "2026-11-26T05:00:00Z",
+    "date": "2026-11-27T05:00:00Z",
     "source": "arXiv · cs.AI",
     "source_id": "arxiv-ai",
     "summary": "arXiv:2611.34249v1 Announce Type: new Abstract: Vision-and-Language Navigation (VLN) with general-purpose multimodal large language models (MLLMs) offers a flexible alternative to task-specific navigation policies, while reliable long-horizon execution remains challenging. Agents must track navigation progress, detect discrepancies between commanded and actual motion, and recognize when movement…"
+  },
+  {
+    "title": "AI Buckingham: Agentic Discovery of Dimensionless Scaling Laws Across Physical Regimes",
+    "url": "https://arxiv.org/abs/2611.33961",
+    "date": "2026-11-27T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.33961v1 Announce Type: cross Abstract: Classical dimensional analysis defines admissible dimensionless representations but does not determine which combinations capture the dominant physical dependence, whether it changes across physical regimes, or when dependent-variable rescaling is required. We present AI Buckingham, an agentic framework for autonomous dimensionless discovery from…"
+  },
+  {
+    "title": "Can Its Own Misses Teach an MLLM to Find Small Brain Metastases?",
+    "url": "https://arxiv.org/abs/2611.33836",
+    "date": "2026-11-27T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.33836v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) are becoming general readers of medical images, yet they remain weak at locating small abnormalities. Brain metastases expose this gap: at 384 px a 0.1 mL lesion covers less than a quarter of one visual token, and at one false positive per scan frontier MLLMs find fewer than 30% of lesions of 0.1-1 mL. Fine-t…"
+  },
+  {
+    "title": "Keep or Roll Back? Out-of-Loop Judges for Self-Improving VLA and End-to-End Embodied Policies",
+    "url": "https://arxiv.org/abs/2611.33794",
+    "date": "2026-11-27T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.33794v1 Announce Type: new Abstract: Self-improvement is now a practical recipe for embodied policies: a policy collects experience, is retrained, and is kept when a judge rates it higher. However, the judge is usually trained or chosen inside the same loop, so its evidence is not independent of the policy. We introduce SealedLoop, an evaluation framework that adds a sealed judge: an e…"
+  },
+  {
+    "title": "Sports Agent: A Self-Evolving System for Conversational Data Analytics",
+    "url": "https://arxiv.org/abs/2611.33700",
+    "date": "2026-11-27T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.33700v1 Announce Type: cross Abstract: Conversational sports analytics requires accurate, evidence-based responses with low latency. Changes in query distributions, data resources, and model behavior can degrade static agent configurations, motivating controlled evolution guided by runtime evidence. We present Sports Agent, a self-evolving framework integrating an Agentic SQL Model for…"
+  },
+  {
+    "title": "Rethinking Sequential Locate-Then-Edit: Optimality and Stability",
+    "url": "https://arxiv.org/abs/2611.33692",
+    "date": "2026-11-27T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.33692v1 Announce Type: cross Abstract: The Locate-Then-Edit framework enables efficient knowledge updates in large language models without requiring full retraining. Recent research has increasingly focused on sequential editing, where knowledge arrives continuously and the model is updated incrementally. However, existing sequential methods commonly suffer from catastrophic forgetting…"
+  },
+  {
+    "title": "PRECEPT: Security Self-Improvement of Coding Agents via Evolving Principles",
+    "url": "https://arxiv.org/abs/2611.33519",
+    "date": "2026-11-27T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.33519v1 Announce Type: cross Abstract: AI coding agents increasingly write and submit code with limited human review, and much of it passes functional tests while remaining insecure. We show that these failures persist. Across 14 task sequences, Codex, Claude Code, and Qwen Code fixed a vulnerability 85.7% of the time when shown the failing security test, then reintroduced the same vul…"
+  },
+  {
+    "title": "Poisoning Self-Evolving Security Policies in LLM Agents",
+    "url": "https://arxiv.org/abs/2611.33385",
+    "date": "2026-11-27T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.33385v1 Announce Type: cross Abstract: Self-evolving defenses improve LLM-agent security by learning reusable policies from observed attacks. However, we demonstrate that this learning process itself can become an attack surface. Using SED (Self-Evolving Defense) in the AgentDojo benchmark, we construct a single prompt-injection episode that causes the defense to learn an over-broad po…"
+  },
+  {
+    "title": "Verified experience improves materials prediction with large language models",
+    "url": "https://arxiv.org/abs/2611.33195",
+    "date": "2026-11-27T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.33195v1 Announce Type: cross Abstract: Materials discovery is an iterative loop: experiments and calculations verify predictions, and each outcome can inform the next. Yet most predictors are specialized single-task models fixed after training. Large language models have recently emerged as predictors across heterogeneous tasks but generally underperform specialized models, and retriev…"
+  },
+  {
+    "title": "Engram: Multi-Stage Memory for Agentic Tuning of Heterogeneous Models",
+    "url": "https://arxiv.org/abs/2611.28356",
+    "date": "2026-11-27T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.28356v2 Announce Type: replace Abstract: Large language model (LLM) agents can now tune neural networks, yet without cross-session memory they spend costly trials rediscovering known lessons. Reuse is difficult because production models differ in architecture, training setup and inference budget. We present Engram, a memory system that links past trial outcomes with the hypotheses and…"
+  },
+  {
+    "title": "KnowMe Paper Radar: Lightweight Discovery of Promising Papers in the Age of Autoresearch",
+    "url": "https://arxiv.org/abs/2611.23702",
+    "date": "2026-11-27T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.23702v3 Announce Type: replace Abstract: Large language models (LLMs) are pushing research toward semi-automation: ideas turn into preprints ever faster, and autoresearch pipelines add papers of uneven rigor. When a technique can be overtaken within months, citations arrive too late to tell which new papers deserve reading, so strong work goes unnoticed and newcomers lose their bearing…"
+  },
+  {
+    "title": "RSI-PDEbench: A Benchmark for Self-Improving Agents in PDE Solving",
+    "url": "https://arxiv.org/abs/2611.14949",
+    "date": "2026-11-27T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2611.14949v2 Announce Type: replace Abstract: Identifying and solving partial differential equations (PDEs) from sampled solution data often requires substantial expert effort in equation discovery, coefficient estimation, and numerical solver configuration, especially under noise and distribution shifts. Can large language model (LLM) agents automate this workflow accurately and efficientl…"
+  },
+  {
+    "title": "AVA-Encoder: Learning to Represent Videos via Reconstruction-Driven Agentic Self-Evolution",
+    "url": "https://arxiv.org/abs/2608.12313",
+    "date": "2026-11-27T05:00:00Z",
+    "source": "arXiv · cs.CL",
+    "source_id": "arxiv-cl",
+    "summary": "arXiv:2608.12313v4 Announce Type: replace-cross Abstract: Agentic video creation systems remain far from cinematic-grade quality: their underlying models struggle to plan how story, characters, visuals, and sound fit together, and high-quality creation trajectories to learn such planning abilities are scarce. Finished human films embody this knowledge, but in a tightly coupled audiovisual form th…"
+  },
+  {
+    "title": "Search-E1: Self-Distillation Drives Self-Evolution in Search-Augmented Reasoning",
+    "url": "https://arxiv.org/abs/2605.22511",
+    "date": "2026-11-27T05:00:00Z",
+    "source": "arXiv · cs.AI",
+    "source_id": "arxiv-ai",
+    "summary": "arXiv:2605.22511v3 Announce Type: replace Abstract: Outcome based reinforcement learning provides a simple and effective recipe for training search augmented reasoning agents. Recent work seeks further improvements through stronger external teachers, auxiliary process supervision, specialized reward shaping, and increasingly elaborate training pipelines. This raises a natural question: can agents…"
   },
   {
     "title": "Agent-as-a-Verifier: From Scores to Evidence for General Verification",
@@ -48,116 +152,12 @@
     "summary": "arXiv:2611.34132v1 Announce Type: new Abstract: Verification is increasingly critical across various inference and learning paradigms, such as test-time scaling, recursive intelligence and automated research, where feedback can improve efficiency and optimization. Common score-based verifiers, or discriminative reward models, predict a scalar reward for an output. While useful for filtering, rewa…"
   },
   {
-    "title": "AI Buckingham: Agentic Discovery of Dimensionless Scaling Laws Across Physical Regimes",
-    "url": "https://arxiv.org/abs/2611.33961",
-    "date": "2026-11-26T05:00:00Z",
-    "source": "arXiv · cs.AI",
-    "source_id": "arxiv-ai",
-    "summary": "arXiv:2611.33961v1 Announce Type: cross Abstract: Classical dimensional analysis defines admissible dimensionless representations but does not determine which combinations capture the dominant physical dependence, whether it changes across physical regimes, or when dependent-variable rescaling is required. We present AI Buckingham, an agentic framework for autonomous dimensionless discovery from…"
-  },
-  {
-    "title": "Can Its Own Misses Teach an MLLM to Find Small Brain Metastases?",
-    "url": "https://arxiv.org/abs/2611.33836",
-    "date": "2026-11-26T05:00:00Z",
-    "source": "arXiv · cs.AI",
-    "source_id": "arxiv-ai",
-    "summary": "arXiv:2611.33836v1 Announce Type: new Abstract: Multimodal large language models (MLLMs) are becoming general readers of medical images, yet they remain weak at locating small abnormalities. Brain metastases expose this gap: at 384 px a 0.1 mL lesion covers less than a quarter of one visual token, and at one false positive per scan frontier MLLMs find fewer than 30% of lesions of 0.1-1 mL. Fine-t…"
-  },
-  {
-    "title": "Keep or Roll Back? Out-of-Loop Judges for Self-Improving VLA and End-to-End Embodied Policies",
-    "url": "https://arxiv.org/abs/2611.33794",
-    "date": "2026-11-26T05:00:00Z",
-    "source": "arXiv · cs.AI",
-    "source_id": "arxiv-ai",
-    "summary": "arXiv:2611.33794v1 Announce Type: new Abstract: Self-improvement is now a practical recipe for embodied policies: a policy collects experience, is retrained, and is kept when a judge rates it higher. However, the judge is usually trained or chosen inside the same loop, so its evidence is not independent of the policy. We introduce SealedLoop, an evaluation framework that adds a sealed judge: an e…"
-  },
-  {
-    "title": "Sports Agent: A Self-Evolving System for Conversational Data Analytics",
-    "url": "https://arxiv.org/abs/2611.33700",
-    "date": "2026-11-26T05:00:00Z",
-    "source": "arXiv · cs.AI",
-    "source_id": "arxiv-ai",
-    "summary": "arXiv:2611.33700v1 Announce Type: cross Abstract: Conversational sports analytics requires accurate, evidence-based responses with low latency. Changes in query distributions, data resources, and model behavior can degrade static agent configurations, motivating controlled evolution guided by runtime evidence. We present Sports Agent, a self-evolving framework integrating an Agentic SQL Model for…"
-  },
-  {
-    "title": "Rethinking Sequential Locate-Then-Edit: Optimality and Stability",
-    "url": "https://arxiv.org/abs/2611.33692",
-    "date": "2026-11-26T05:00:00Z",
-    "source": "arXiv · cs.AI",
-    "source_id": "arxiv-ai",
-    "summary": "arXiv:2611.33692v1 Announce Type: cross Abstract: The Locate-Then-Edit framework enables efficient knowledge updates in large language models without requiring full retraining. Recent research has increasingly focused on sequential editing, where knowledge arrives continuously and the model is updated incrementally. However, existing sequential methods commonly suffer from catastrophic forgetting…"
-  },
-  {
-    "title": "PRECEPT: Security Self-Improvement of Coding Agents via Evolving Principles",
-    "url": "https://arxiv.org/abs/2611.33519",
-    "date": "2026-11-26T05:00:00Z",
-    "source": "arXiv · cs.AI",
-    "source_id": "arxiv-ai",
-    "summary": "arXiv:2611.33519v1 Announce Type: cross Abstract: AI coding agents increasingly write and submit code with limited human review, and much of it passes functional tests while remaining insecure. We show that these failures persist. Across 14 task sequences, Codex, Claude Code, and Qwen Code fixed a vulnerability 85.7% of the time when shown the failing security test, then reintroduced the same vul…"
-  },
-  {
     "title": "An Adversarial Multi-Agent Pursuit Game for Locomotor Agility Pretraining",
     "url": "https://arxiv.org/abs/2611.33407",
     "date": "2026-11-26T05:00:00Z",
     "source": "arXiv · cs.LG",
     "source_id": "arxiv-lg",
     "summary": "arXiv:2611.33407v1 Announce Type: cross Abstract: Agile humanoid locomotion requires controllers that can adapt to rapidly changing motion demands while remaining stable and robust. Recent locomotion controllers are typically designed with either a dense reward that is carefully shaped to encourage steps and penalize falling, or by using a reference tracking reward which teaches the controller to…"
-  },
-  {
-    "title": "Poisoning Self-Evolving Security Policies in LLM Agents",
-    "url": "https://arxiv.org/abs/2611.33385",
-    "date": "2026-11-26T05:00:00Z",
-    "source": "arXiv · cs.AI",
-    "source_id": "arxiv-ai",
-    "summary": "arXiv:2611.33385v1 Announce Type: cross Abstract: Self-evolving defenses improve LLM-agent security by learning reusable policies from observed attacks. However, we demonstrate that this learning process itself can become an attack surface. Using SED (Self-Evolving Defense) in the AgentDojo benchmark, we construct a single prompt-injection episode that causes the defense to learn an over-broad po…"
-  },
-  {
-    "title": "Verified experience improves materials prediction with large language models",
-    "url": "https://arxiv.org/abs/2611.33195",
-    "date": "2026-11-26T05:00:00Z",
-    "source": "arXiv · cs.AI",
-    "source_id": "arxiv-ai",
-    "summary": "arXiv:2611.33195v1 Announce Type: cross Abstract: Materials discovery is an iterative loop: experiments and calculations verify predictions, and each outcome can inform the next. Yet most predictors are specialized single-task models fixed after training. Large language models have recently emerged as predictors across heterogeneous tasks but generally underperform specialized models, and retriev…"
-  },
-  {
-    "title": "Engram: Multi-Stage Memory for Agentic Tuning of Heterogeneous Models",
-    "url": "https://arxiv.org/abs/2611.28356",
-    "date": "2026-11-26T05:00:00Z",
-    "source": "arXiv · cs.AI",
-    "source_id": "arxiv-ai",
-    "summary": "arXiv:2611.28356v2 Announce Type: replace Abstract: Large language model (LLM) agents can now tune neural networks, yet without cross-session memory they spend costly trials rediscovering known lessons. Reuse is difficult because production models differ in architecture, training setup and inference budget. We present Engram, a memory system that links past trial outcomes with the hypotheses and…"
-  },
-  {
-    "title": "KnowMe Paper Radar: Lightweight Discovery of Promising Papers in the Age of Autoresearch",
-    "url": "https://arxiv.org/abs/2611.23702",
-    "date": "2026-11-26T05:00:00Z",
-    "source": "arXiv · cs.AI",
-    "source_id": "arxiv-ai",
-    "summary": "arXiv:2611.23702v3 Announce Type: replace Abstract: Large language models (LLMs) are pushing research toward semi-automation: ideas turn into preprints ever faster, and autoresearch pipelines add papers of uneven rigor. When a technique can be overtaken within months, citations arrive too late to tell which new papers deserve reading, so strong work goes unnoticed and newcomers lose their bearing…"
-  },
-  {
-    "title": "RSI-PDEbench: A Benchmark for Self-Improving Agents in PDE Solving",
-    "url": "https://arxiv.org/abs/2611.14949",
-    "date": "2026-11-26T05:00:00Z",
-    "source": "arXiv · cs.AI",
-    "source_id": "arxiv-ai",
-    "summary": "arXiv:2611.14949v2 Announce Type: replace Abstract: Identifying and solving partial differential equations (PDEs) from sampled solution data often requires substantial expert effort in equation discovery, coefficient estimation, and numerical solver configuration, especially under noise and distribution shifts. Can large language model (LLM) agents automate this workflow accurately and efficientl…"
-  },
-  {
-    "title": "AVA-Encoder: Learning to Represent Videos via Reconstruction-Driven Agentic Self-Evolution",
-    "url": "https://arxiv.org/abs/2608.12313",
-    "date": "2026-11-26T05:00:00Z",
-    "source": "arXiv · cs.CL",
-    "source_id": "arxiv-cl",
-    "summary": "arXiv:2608.12313v4 Announce Type: replace-cross Abstract: Agentic video creation systems remain far from cinematic-grade quality: their underlying models struggle to plan how story, characters, visuals, and sound fit together, and high-quality creation trajectories to learn such planning abilities are scarce. Finished human films embody this knowledge, but in a tightly coupled audiovisual form th…"
-  },
-  {
-    "title": "Search-E1: Self-Distillation Drives Self-Evolution in Search-Augmented Reasoning",
-    "url": "https://arxiv.org/abs/2605.22511",
-    "date": "2026-11-26T05:00:00Z",
-    "source": "arXiv · cs.AI",
-    "source_id": "arxiv-ai",
-    "summary": "arXiv:2605.22511v3 Announce Type: replace Abstract: Outcome based reinforcement learning provides a simple and effective recipe for training search augmented reasoning agents. Recent work seeks further improvements through stronger external teachers, auxiliary process supervision, specialized reward shaping, and increasingly elaborate training pipelines. This raises a natural question: can agents…"
   },
   {
     "title": "Learning with Limited Antigenic Labels: Semi-supervised Prediction of Influenza A Antigenic Relationships with Protein Language Models",
