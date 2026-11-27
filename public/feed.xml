@@ -6,6 +6,126 @@
     <description>从研究、工程实践与不同观点中，选出值得读的 AI 自我改进进展，说明它讲什么、为什么与你有关。</description>
     <atom:link rel="self" type="application/rss+xml" href="https://syq777.github.io/rsi-research-feed/feed.xml" />
     <item>
+      <title>API 一周写出初版，验收才是难题</title>
+      <link>https://www.anthropic.com/research/migrating-api-to-rust</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/migrating-api-to-rust</guid>
+      <pubDate>Thu, 26 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Anthropic 迁移 API 时发现，测试通过仍会漏掉大量生产差异。团队把新旧系统逐步对照，再让智能体在沙箱里修复、用真实流量复核，并把人的纠正写入记忆。
+为什么读：看一个真正上线的改造项目，怎样把“写代码、验证、记住教训”连起来。
+原文发布：2026-11-25 · Anthropic Engineering
+本期：RSI 十条｜让下一次少走弯路
+关键词：经验复用、代码验收、强化学习、研发瓶颈</description>
+      <category>Anthropic Engineering</category>
+    </item>
+    <item>
+      <title>Clay 的实话：智能体还不太会给自己找错</title>
+      <link>https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/</link>
+      <guid isPermaLink="true">https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/</guid>
+      <pubDate>Thu, 26 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Clay 的 AI 负责人回顾了从工具循环到编码智能体的改造。他说，把失败记录交给模型分析再自动改进，目前仍不可靠；团队还在手工写许多 Skills，并补上真实业务评测。
+为什么读：和“自动改进已跑通”的案例对着读，看看生产系统里还有哪些环节需要人。
+原文发布：2026-11-26 · Latent Space · Jeff Barg
+本期：RSI 十条｜让下一次少走弯路
+关键词：经验复用、代码验收、强化学习、研发瓶颈</description>
+      <category>Latent Space · Jeff Barg</category>
+    </item>
+    <item>
+      <title>让做错的地方，变成下次可用的知识</title>
+      <link>https://www.langchain.com/blog/knowledge-factory</link>
+      <guid isPermaLink="true">https://www.langchain.com/blog/knowledge-factory</guid>
+      <pubDate>Thu, 26 Nov 2026 16:00:00 GMT</pubDate>
+      <description>LangChain 把知识分成工作步骤、业务常识和数据查询指南。执行任务的智能体报告缺失或错误，另一个后台智能体结合原始资料和运行记录，定期修订知识与 Skills。
+为什么读：适合检查自己的知识库：有没有发现问题、核对来源、更新规则的完整流程。
+原文发布：2026-11-21 · LangChain
+本期：RSI 十条｜让下一次少走弯路
+关键词：经验复用、代码验收、强化学习、研发瓶颈</description>
+      <category>LangChain</category>
+    </item>
+    <item>
+      <title>RSI 会卡在哪里？把反对意见逐条摊开</title>
+      <link>https://www.dwarkesh.com/p/rsiobjections</link>
+      <guid isPermaLink="true">https://www.dwarkesh.com/p/rsiobjections</guid>
+      <pubDate>Thu, 26 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Dwarkesh 与 Max Farrens 讨论 AI 研发是否足够可验证、数据改进能否自动化，以及实验算力会怎样限制加速。他仍看好近期进展，但承认算力瓶颈和收益递减；这些是个人判断。
+为什么读：把时间线之争拆成可以分别检查的假设，而不是只记住一个超级智能到来的年份。
+原文发布：2026-11-24 · Dwarkesh Podcast
+本期：RSI 十条｜让下一次少走弯路
+关键词：经验复用、代码验收、强化学习、研发瓶颈</description>
+      <category>Dwarkesh Podcast</category>
+    </item>
+    <item>
+      <title>实验记录要能回查，没用的经验也要舍得删</title>
+      <link>https://arxiv.org/abs/2611.28244</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.28244</guid>
+      <pubDate>Thu, 26 Nov 2026 16:00:00 GMT</pubDate>
+      <description>作者在机器学习工程和 GPU 内核任务中拆开比较上下文与技能管理。论文摘要报告：保留可单独访问的历史记录优于滚动摘要，删除长期不用的经验也比不断合并经验更有效。
+为什么读：给长期运行的科研 Agent 一个可检验的问题：记忆是在帮助复用，还是只在越积越多。
+原文发布：2026-11-20 · arXiv
+本期：RSI 十条｜让下一次少走弯路
+关键词：经验复用、代码验收、强化学习、研发瓶颈</description>
+      <category>arXiv</category>
+    </item>
+    <item>
+      <title>科研人员想验收的，远不止最后那个答案</title>
+      <link>https://allenai.org/blog/where-scientists-draw-the-line-on-ai-agents</link>
+      <guid isPermaLink="true">https://allenai.org/blog/where-scientists-draw-the-line-on-ai-agents</guid>
+      <pubDate>Thu, 26 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Ai2 访谈了 17 位科学家，整理出验证、隐私、客观性、责任和透明度五类要求。他们希望能检查智能体遗漏了哪些证据、用了什么方法，以及是否访问了不该访问的资料。
+为什么读：给自动科研补一张验收清单；文中的参与式评测仍是待开发方案，不是已验证的标准。
+原文发布：2026-11-25 · Ai2
+本期：RSI 十条｜让下一次少走弯路
+关键词：经验复用、代码验收、强化学习、研发瓶颈</description>
+      <category>Ai2</category>
+    </item>
+    <item>
+      <title>训练后的能力，能从旧轨迹里再学一遍吗</title>
+      <link>https://arxiv.org/abs/2611.33102</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.33102</guid>
+      <pubDate>Thu, 26 Nov 2026 16:00:00 GMT</pubDate>
+      <description>作者从同一个基础模型出发，用最大似然方法重放强化学习留下的轨迹，报告可恢复在线训练的表现。直接拿旧轨迹重跑原来的强化学习算法则会崩溃，区别在于重放方式。
+为什么读：重新思考轨迹数据的价值，以及训练算力究竟花在探索好答案，还是学会已有答案上。
+原文发布：2026-11-24 · arXiv
+本期：RSI 十条｜让下一次少走弯路
+关键词：经验复用、代码验收、强化学习、研发瓶颈</description>
+      <category>arXiv</category>
+    </item>
+    <item>
+      <title>Cognition 把训练重点放到更长的自主工作上</title>
+      <link>https://cognition.com/blog/swe-2-1</link>
+      <guid isPermaLink="true">https://cognition.com/blog/swe-2-1</guid>
+      <pubDate>Thu, 26 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Cognition 发布基于 Kimi K3 进行强化学习的 SWE-2.1，报告编程和安全任务表现提升。文章还介绍训练期间的沙箱逃逸监测，以及让模型运行更久时的能力变化。
+为什么读：了解编码产品怎样组织长任务训练；文中成绩是厂商自测，需连同评测方法一起看。
+原文发布：2026-11-24 · Cognition
+本期：RSI 十条｜让下一次少走弯路
+关键词：经验复用、代码验收、强化学习、研发瓶颈</description>
+      <category>Cognition</category>
+    </item>
+    <item>
+      <title>重做一道题时，把前一次推理留下来</title>
+      <link>https://arxiv.org/abs/2611.30965</link>
+      <guid isPermaLink="true">https://arxiv.org/abs/2611.30965</guid>
+      <pubDate>Thu, 26 Nov 2026 16:00:00 GMT</pubDate>
+      <description>TT-RSI 让模型参考上次完整解答继续修正，再把多轮改进用于更新权重。作者报告，在相同测试时计算预算下，这种方式优于只靠独立采样和多数投票的对照方法。
+为什么读：分清推理时修正和权重学习各做了什么，也留意无标签反馈怎样避免重复自己的错误。
+原文发布：2026-11-23 · arXiv
+本期：RSI 十条｜让下一次少走弯路
+关键词：经验复用、代码验收、强化学习、研发瓶颈</description>
+      <category>arXiv</category>
+    </item>
+    <item>
+      <title>四位训练更快，通信也得跟上</title>
+      <link>https://thinkingmachines.ai/blog/end-to-end-4-bit-training/</link>
+      <guid isPermaLink="true">https://thinkingmachines.ai/blog/end-to-end-4-bit-training/</guid>
+      <pubDate>Thu, 26 Nov 2026 16:00:00 GMT</pubDate>
+      <description>Thinking Machines 介绍在专家层前向计算用 NVFP4、反向用 MXFP8，并处理随机舍入和通信瓶颈。团队报告，相比全 MXFP8 方案，其最大训练任务预训练提速 8%、强化学习提速 20%。
+为什么读：区分芯片的理论算力和整个训练任务的实际速度，理解算力节省卡在哪些环节。
+原文发布：2026-11-13 · Thinking Machines Lab
+本期：RSI 十条｜让下一次少走弯路
+关键词：经验复用、代码验收、强化学习、研发瓶颈</description>
+      <category>Thinking Machines Lab</category>
+    </item>
+    <item>
       <title>训练损失下降更快，就意味着智能加速了吗？</title>
       <link>https://metr.org/blog/2026-11-24-interpreting-a-recent-acceleration-in-pretraining-loss/</link>
       <guid isPermaLink="true">https://metr.org/blog/2026-11-24-interpreting-a-recent-acceleration-in-pretraining-loss/</guid>
