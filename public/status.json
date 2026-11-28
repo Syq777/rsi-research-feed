@@ -2,8 +2,8 @@
   {
     "id": "arxiv-ai",
     "name": "arXiv · cs.AI",
-    "status": "error",
-    "detail": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+    "status": "ok",
+    "detail": "匹配 16 条，过滤 382 条，无效 0 条"
   },
   {
     "id": "arxiv-lg",
@@ -26,8 +26,8 @@
   {
     "id": "metr",
     "name": "METR",
-    "status": "error",
-    "detail": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>"
+    "status": "ok",
+    "detail": "匹配 48 条，过滤 57 条，无效 0 条"
   },
   {
     "id": "interconnects",
