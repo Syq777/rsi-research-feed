@@ -1,0 +1,1568 @@
+{
+  "date": "2026-11-28",
+  "poll_sha256": "70d36fc2f2a3eb85db017434a136e217a940915383020a4bfe78ee8fd6fb6b3c",
+  "method": "先尝试完整 185 个动态地址并记录 9 个缺入口项目，对全部提取链接做机器标题关键词初筛；入围内容另读原文、摘要或公开访谈文字稿。补查 cs.LG 公开列表、重点机构与观点源的官方入口；机器筛查、列表排除、实际阅读分别记录。依据前两期覆盖补充产业与评测视角，沿用本周工程和观点重点，无每日固定分类名额。",
+  "source_reviews": [
+    {
+      "source_id": "s-f7a436a39e71",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 172 个提取链接，2 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-ad5732584a03",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 43 个提取链接，7 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-7c57b8d3856f",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 61 个提取链接，8 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-e96e727970ad",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 1231 个提取链接，43 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-0f7f5ebdfabd",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 29 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-e90d6734a44f",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 114 个提取链接，3 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-024dffd1e724",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 52 个提取链接，1 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-76759b92bdfc",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 11 个提取链接，5 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-190b4feefbfa",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 111 个提取链接，73 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-33ceb59c0853",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 241 个提取链接，15 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-5933e6517025",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-daf64c76e563",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 21 个提取链接，6 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-7ed875f54272",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 1 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-b26298387c40",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 38 个提取链接，4 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-06cb5867b294",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-e9aaa7b5e18f",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 50 个提取链接，3 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-1b6229ca02e0",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 1430 个提取链接，167 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-ab2ba528fbe2",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 55 个提取链接，3 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-550749f2f032",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 472 个提取链接，42 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-d8329decb32e",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 449 个提取链接，39 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-5a0dfd8f30f9",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 63 个提取链接，16 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-f771d4f56ad4",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 30 个提取链接，5 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-f6aa679babd7",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 37 个提取链接，7 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-d03e3ca2752c",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 29 个提取链接，11 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-b22de837fa43",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 97 个提取链接，69 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-a9d95f65cf92",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 61 个提取链接，9 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-5b3723c52c73",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 29 个提取链接，4 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-cab059b2c56d",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 25 个提取链接，0 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-afe1e125f3ba",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 23 个提取链接，0 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-d9e1cadbab88",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 71 个提取链接，4 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。 自动提取包含大量导航，另用官方域名检索补查近期发布，已有量子算法文章去重。"
+    },
+    {
+      "source_id": "s-2207a7330a3d",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 76 个提取链接，7 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-311cc97d144a",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 26 个提取链接，15 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-ef6b5e14751c",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 153 个提取链接，3 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-d3be19a673e5",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 50 个提取链接，4 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-c9c74d270235",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 104 个提取链接，4 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-22705a47de9a",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 22 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-cde363f9a897",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 17 个提取链接，5 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-4be93a3979d1",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 145 个提取链接，15 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-2eda91556133",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 162 个提取链接，14 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-86e00abd227a",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 34 个提取链接，8 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-83e1c3b069d8",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 39 个提取链接，13 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-3ccc18a956ca",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 465 个提取链接，84 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-e2bc2874ac4f",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 10 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-dd2f6b8d4cf9",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 12 个提取链接，1 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-354afe0e8a79",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 60 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-f180ba1e0e3e",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-e05f46769900",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 9 个提取链接，1 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-b49b5e8d9733",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 9 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-d0a9b3c9bf15",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 1 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-168d9005b12c",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 18 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-7c5201226b8f",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-d73d294d5617",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 15 个提取链接，1 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-54bdff1bd90c",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 16 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-aaa9f319c2db",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 12 个提取链接，5 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-dcfcaed725f8",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 11 个提取链接，4 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-fb6754b7450f",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 13 个提取链接，3 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-a0cb29f6eb62",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 10 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-e31f59dfc575",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 3 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-dbd3a3c9bf23",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 21 个提取链接，1 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-9e51f08fce44",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 111 个提取链接，36 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-9c0885bdb370",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 50 个提取链接，14 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-7f3607198ca9",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 12 个提取链接，3 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-6865704f3c89",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 20 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-394659b22ff2",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 32 个提取链接，1 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-974a16d902d5",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 26 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-d99d19a77f4c",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 45 个提取链接，10 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-0354cef6dc81",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 26 个提取链接，10 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-b30d81a18c00",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 57 个提取链接，3 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-00debe4964dc",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 14 个提取链接，7 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-29afaee01ff9",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 17 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-cd3f98cb377d",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 403；拒绝或限制自动请求，未确认是否需要登录/付费；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-fceb486df6ca",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 53 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-e072728811bd",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 55 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-832d381eaaae",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 6 个提取链接，1 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-681b242d3bd4",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 2 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-7707bd122b25",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 6 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-609aff46b0fe",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 17 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-273015bf8390",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-f33a282a1420",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-b68e6d5c5760",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 6 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-a8490bcca260",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "无固定公开地址；需补充具体入口或人工线索；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-867297f7506f",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 158 个提取链接，18 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-509faa7f213e",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 80 个提取链接，7 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-d554ca3fc8b9",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 31 个提取链接，3 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-802e41b754b2",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-dafc05254991",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 69 个提取链接，4 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-3e861c9aa69d",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 31 个提取链接，10 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-b8a2c7ed1492",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-3df031d4934b",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 59 个提取链接，1 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-177851808a66",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-d02cc6446087",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 33 个提取链接，4 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-987c4c108091",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 13 个提取链接，1 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-4d4e9ba1cdb5",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 68 个提取链接，8 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-bd5d270af6aa",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 13 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-06dffcab1a70",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-140f23203b8d",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 42 个提取链接，10 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-02cc831ea783",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 10 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-ea497e9bceb5",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 19 个提取链接，9 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-b65d50a29383",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 3 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-7415557509fb",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 151 个提取链接，6 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-d82a766e54b7",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 5 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-12fc9b95b1aa",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 48 个提取链接，3 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-8f91e6300772",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 83 个提取链接，7 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-d34868c4eaec",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-444754767fa8",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 15 个提取链接，5 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-69cd3c05e368",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-6d94b2f94e91",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 20 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-617cd37dbdae",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-b245e6dd56ff",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 5 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-b3eec02ad0c7",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 355 个提取链接，11 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-55feb116c6bd",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 34 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-665de4e83343",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-744dec9d5016",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 16 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-6ff94f2496d5",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 8 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-272e4f6b8663",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 8 个提取链接，3 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-3a2f3e9c1247",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 17 个提取链接，4 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-38f97247d22b",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 17 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-ee55121d3d3e",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 11 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-24b6d5364626",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 19 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-8f4106bb8117",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 19 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-5831aa6a6e05",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 105 个提取链接，38 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-a6067768775e",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 10 个提取链接，1 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-248d550054b4",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 67 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-a2fdd037b6b6",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 68 个提取链接，5 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-ccc69641ceab",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 14 个提取链接，3 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-0ef381ab95ef",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 13 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-fa382fb9ee0a",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 15 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-7cd006253da2",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 31 个提取链接，12 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-a6464e1ed6b9",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 24 个提取链接，7 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-98fe2bd5aeb3",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 24 个提取链接，7 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-2e634843eaaa",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 20 个提取链接，5 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-2dad90584fe9",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 15 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-4adb6125d392",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 39 个提取链接，1 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-972a30f2fd9e",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 37 个提取链接，3 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-02a89491acca",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 8 个提取链接，1 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-fe0187725920",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 100 个提取链接，11 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-9609c6ed163f",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 17 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-9bf4014ab413",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-56c5734bc746",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 35 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-b029bfc231e6",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 42 个提取链接，4 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-933c9d84b5ff",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 1 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-cf709a60227b",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 78 个提取链接，5 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-f3dc86fbe8e9",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 20 个提取链接，6 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-721f6210d50d",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 403；拒绝或限制自动请求，未确认是否需要登录/付费；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-a1f487f91d46",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-5a8cbfa3b392",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 6 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-efa84fcedb52",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 34 个提取链接，4 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。 从 ClickBench 报道追到 TabbyML 原始文章并核对首发日期和实验范围。"
+    },
+    {
+      "source_id": "s-25f86381b889",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "无固定公开地址；需补充具体入口或人工线索；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-79387586eda3",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "无固定公开地址；需补充具体入口或人工线索；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-0072d33a29df",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 47 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-cb3eafa4e1d0",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 48 个提取链接，3 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-b98ae424f5a9",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 131 个提取链接，14 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-cd5dfc8cdc10",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 17 个提取链接，1 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-c52afc57280a",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 26 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-78bc9cc5cebe",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 23 个提取链接，1 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-495540ddca51",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 403；拒绝或限制自动请求，未确认是否需要登录/付费；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-2ff23cbcbf3f",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 47 个提取链接，4 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-261f420bbfa9",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-62c2a329a22a",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 69 个提取链接，8 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。 G2i 访谈另读原页公开链接的完整 VTT 文字稿相关段落；赞助关系保留在摘要。"
+    },
+    {
+      "source_id": "s-eee13eca07bf",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 15 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-254f4055f59d",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 44 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-8ec1c016a93e",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 15 个提取链接，9 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-980942803d23",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 15 个提取链接，7 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-98737b0208e8",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 22 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-8d9cd89f2458",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 47 个提取链接，5 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-2c5e040e2b68",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 58 个提取链接，9 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-9757073cb1a1",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 70 个提取链接，13 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-d9d91ddaaf0e",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 59 个提取链接，5 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-5a912a127782",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 49 个提取链接，1 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-7a4ff89d4bb3",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 108 个提取链接，6 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-dbf67288790e",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 73 个提取链接，2 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-ec09337b4f24",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 60 个提取链接，1 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-d8b5b41bf681",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 83 个提取链接，1 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-7d6f1a46e985",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 61 个提取链接，4 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-a8fa271caf75",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 85 个提取链接，13 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-b5a44c85aa77",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 103 个提取链接，9 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-14191e0e7f5e",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 63 个提取链接，6 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-6cd0ce857bda",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 21 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-7d81328a5f42",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 19 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-7521b344741a",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 10 个提取链接，0 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-2d31489c5410",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 11 个提取链接，1 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-e86c6559775d",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 47 个提取链接，3 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-4d2d026d3cca",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 9 个提取链接，0 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-07229557604a",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "HTTP 可达，但未取得足够正文或内容链接；可能依赖 JavaScript，不能视作已读；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-9981a4cadf3c",
+      "decision": "no_relevant",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 42 个提取链接，10 个标题关键词命中；本轮未提升为比较候选，不表示没有新文章。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-c86300435f63",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "无固定公开地址；需补充具体入口或人工线索；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-890b807a1061",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "无固定公开地址；需补充具体入口或人工线索；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-760d8fbfaebc",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "无固定公开地址；需补充具体入口或人工线索；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-0a208deca226",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "无固定公开地址；需补充具体入口或人工线索；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-38383beb0977",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "无固定公开地址；需补充具体入口或人工线索；访问限制不能解释为没有更新。"
+    },
+    {
+      "source_id": "s-4317c649bc1b",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 398 个提取链接，166 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-ff10e47e85d5",
+      "decision": "candidates",
+      "method": "access_check_and_public_listing",
+      "note": "ValueError: feed parsed but has no usable entries；访问限制不能解释为没有更新。 补查 https://arxiv.org/list/cs.LG/recent 成功，检查首页列出的最近提交；原始 RSS 失败不改写。"
+    },
+    {
+      "source_id": "s-1191d2e9306f",
+      "decision": "candidates",
+      "method": "listing_keyword_screen",
+      "note": "机器初筛 177 个提取链接，63 个标题关键词命中；部分线索进入候选比较，实际精读见 candidates。链接含导航和旧文，未对全部文章逐篇阅读。"
+    },
+    {
+      "source_id": "s-b4da21ddd392",
+      "decision": "unavailable",
+      "method": "access_check",
+      "note": "无固定公开地址；需补充具体入口或人工线索；访问限制不能解释为没有更新。"
+    }
+  ],
+  "candidates": [
+    {
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+      "date": "2026-11-27",
+      "reviewed_at": "2026-11-28",
+      "decision": "shortlist",
+      "evidence_level": "transcript",
+      "reason": "了解强化学习需要怎样的数据生产流程，也看看独家采购与共享数据之间的取舍。",
+      "selected": true,
+      "selection_reason": "入选；综合阅读价值、时效和近七天覆盖后保留。"
+    },
+    {
+      "title": "Working with AI",
+      "url": "https://www.anthropic.com/research/working-with-ai",
+      "date": "2026-11-23",
+      "reviewed_at": "2026-11-28",
+      "decision": "shortlist",
+      "evidence_level": "full_text",
+      "reason": "判断团队引入智能体后，下一步该改哪些协作流程，而不只看写代码节省了多少时间。",
+      "selected": true,
+      "selection_reason": "入选；综合阅读价值、时效和近七天覆盖后保留。"
+    },
+    {
+      "title": "书生·端砚能力升级，一体化调度智算、超算、通算资源，加速科学发现、产业创新 | 欢迎体验",
+      "url": "https://www.shlab.org.cn/news/5444323",
+      "date": "2026-11-27",
+      "reviewed_at": "2026-11-28",
+      "decision": "shortlist",
+      "evidence_level": "full_text",
+      "reason": "看自动科研在模型之外还缺什么：环境配置、数据搬运和不同计算任务之间的衔接。",
+      "selected": true,
+      "selection_reason": "入选；综合阅读价值、时效和近七天覆盖后保留。"
+    },
+    {
+      "title": "Beating ClickBench SOTA with a team of agentic systems engineers",
+      "url": "https://www.tabbyml.com/blog/beating-clickbench-sota-with-a-team-of-agentic-systems-engineers/",
+      "date": "2026-11-15",
+      "reviewed_at": "2026-11-28",
+      "decision": "shortlist",
+      "evidence_level": "full_text",
+      "reason": "学习把提案、实现和验收分开，并让失败记录真正影响下一轮尝试。",
+      "selected": true,
+      "selection_reason": "入选；综合阅读价值、时效和近七天覆盖后保留。"
+    },
+    {
+      "title": "RoboEvo²: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution",
+      "url": "https://arxiv.org/abs/2611.34675",
+      "date": "2026-11-25",
+      "reviewed_at": "2026-11-28",
+      "decision": "shortlist",
+      "evidence_level": "abstract",
+      "reason": "辨认自我改进闭环里，哪些经验只存在于外部工具中，哪些真正进入了模型。",
+      "selected": true,
+      "selection_reason": "入选；综合阅读价值、时效和近七天覆盖后保留。"
+    },
+    {
+      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+      "url": "https://arxiv.org/abs/2611.34852",
+      "date": "2026-11-25",
+      "reviewed_at": "2026-11-28",
+      "decision": "shortlist",
+      "evidence_level": "abstract",
+      "reason": "为评估研究智能体多找一个角度：篇幅和引用数量之外，关键知识及其关系有没有交代清楚。",
+      "selected": true,
+      "selection_reason": "入选；综合阅读价值、时效和近七天覆盖后保留。"
+    },
+    {
+      "title": "RL Residency: A Retrospective",
+      "url": "https://www.primeintellect.ai/blog/rl-residency-retrospective",
+      "date": "2026-11-19",
+      "reviewed_at": "2026-11-28",
+      "decision": "shortlist",
+      "evidence_level": "full_text",
+      "reason": "需要设计训练任务时，可沿文章找到具体环境和代码，而不只停留在模型分数上。",
+      "selected": false,
+      "selection_reason": "入围未入选。已有工程材料和训练主题较多，综合时效与滚动覆盖后，保留 LILA 对研究问题选择的不同视角；不为工程形式设置固定名额。"
+    },
+    {
+      "title": "Research note: Measuring alignment eval tells",
+      "url": "https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/",
+      "date": "2026-11-16",
+      "reviewed_at": "2026-11-28",
+      "decision": "shortlist",
+      "evidence_level": "full_text",
+      "reason": "检查自己的安全评测有没有泄题式线索；这是一份审阅程度较低的研究笔记。",
+      "selected": true,
+      "selection_reason": "入选；综合阅读价值、时效和近七天覆盖后保留。"
+    },
+    {
+      "title": "Handoff at Frontier AI Companies: Policymakers Need Visibility Today",
+      "url": "https://www.apolloresearch.ai/governance/handoff-at-frontier-ai-companies",
+      "date": "2026-11-23",
+      "reviewed_at": "2026-11-28",
+      "decision": "shortlist",
+      "evidence_level": "full_text",
+      "reason": "把“AI 研发 AI”的担忧拆成具体权限，检查哪些判断仍应有独立的审查依据。",
+      "selected": true,
+      "selection_reason": "入选；综合阅读价值、时效和近七天覆盖后保留。"
+    },
+    {
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood/",
+      "date": "2026-11-24",
+      "reviewed_at": "2026-11-28",
+      "decision": "shortlist",
+      "evidence_level": "full_text",
+      "reason": "参考大规模接入代码库时，哪些步骤值得做成可重复执行的程序，哪些还需要内容验收。",
+      "selected": true,
+      "selection_reason": "入选；综合阅读价值、时效和近七天覆盖后保留。"
+    },
+    {
+      "title": "A new synthesis for the field of open-endedness",
+      "url": "https://www.lila.ai/news/a-new-synthesis-for-the-field-of-open-endedness",
+      "date": "2026-11-10",
+      "reviewed_at": "2026-11-28",
+      "decision": "shortlist",
+      "evidence_level": "full_text",
+      "reason": "想清楚自动科研除了提高已有题目的分数，还需要怎样挑选问题、保存暂时用不上的想法。",
+      "selected": true,
+      "selection_reason": "入选；综合阅读价值、时效和近七天覆盖后保留。"
+    },
+    {
+      "title": "Verifiable social reasoning for LLM assistants",
+      "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+      "decision": "exclude",
+      "evidence_level": "full_text",
+      "reason": "已读原文。验证社会推理的方法有启发，但本期优先覆盖研发闭环和研究评测，主题关联更直接。",
+      "reviewed_at": "2026-11-28",
+      "date": "2026-11-25",
+      "selected": false,
+      "selection_reason": "已读原文。验证社会推理的方法有启发，但本期优先覆盖研发闭环和研究评测，主题关联更直接。"
+    },
+    {
+      "title": "What we've learned building proactive agents",
+      "url": "https://www.langchain.com/blog/what-weve-learned-building-proactive-agents",
+      "decision": "exclude",
+      "evidence_level": "full_text",
+      "reason": "已读原文；主动触发与用户偏好记忆接近昨天的知识积累主题，今天优先加入新视角。",
+      "reviewed_at": "2026-11-28",
+      "date": "2026-11-17",
+      "selected": false,
+      "selection_reason": "已读原文；主动触发与用户偏好记忆接近昨天的知识积累主题，今天优先加入新视角。"
+    },
+    {
+      "title": "Two kinds of test-time scaling",
+      "url": "https://www.forethought.org/research/two-kinds-of-test-time-scaling",
+      "decision": "exclude",
+      "evidence_level": "full_text",
+      "reason": "已读原文。区分训练范围内扩展与计算量外推，但时效较弱，今天更具体的工程与评测材料优先。",
+      "reviewed_at": "2026-11-28",
+      "date": "2026-11-09",
+      "selected": false,
+      "selection_reason": "已读原文。区分训练范围内扩展与计算量外推，但时效较弱，今天更具体的工程与评测材料优先。"
+    },
+    {
+      "title": "Measuring coding agent misalignment in the wild",
+      "url": "https://transluce.org/docent/blog/coding-agent-behaviors",
+      "decision": "exclude",
+      "evidence_level": "full_text",
+      "reason": "已读原文，但首发已超出本期 30 天窗口，留作背景材料。",
+      "reviewed_at": "2026-11-28",
+      "date": "2026-08-04",
+      "selected": false,
+      "selection_reason": "已读原文，但首发已超出本期 30 天窗口，留作背景材料。"
+    },
+    {
+      "title": "Predictive Data Debugging",
+      "url": "https://www.goodfire.com/research/predictive-data-debugging",
+      "decision": "exclude",
+      "evidence_level": "full_text",
+      "reason": "已读原文，但首发已超出本期 30 天窗口，不用旧材料凑当日精选。",
+      "reviewed_at": "2026-11-28",
+      "date": "2026-06-11",
+      "selected": false,
+      "selection_reason": "已读原文，但首发已超出本期 30 天窗口，不用旧材料凑当日精选。"
+    },
+    {
+      "title": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+      "url": "https://www.qbitai.com/2026/11/513163.html",
+      "decision": "exclude",
+      "evidence_level": "full_text",
+      "reason": "中文报道提供线索后已追到 TabbyML 原文；只保留一手文章，首发采用 11 月 15 日，不把转载日期当新研究。",
+      "reviewed_at": "2026-11-28",
+      "date": "2026-11-27",
+      "selected": false,
+      "selection_reason": "中文报道提供线索后已追到 TabbyML 原文；只保留一手文章，首发采用 11 月 15 日，不把转载日期当新研究。"
+    },
+    {
+      "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "url": "https://huggingface.co/papers/2611.34232",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "列表级比较：跨平台长任务评测相关，但本期优先 DRBench 的研究报告覆盖与已有独立评测，未精读此文。",
+      "reviewed_at": "2026-11-28",
+      "selected": false,
+      "selection_reason": "列表级比较：跨平台长任务评测相关，但本期优先 DRBench 的研究报告覆盖与已有独立评测，未精读此文。"
+    },
+    {
+      "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+      "url": "https://huggingface.co/papers/2611.34813",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "列表级比较：视觉推理工具使用相关，较本期自我改进闭环的工程案例关联稍弱，未精读。",
+      "reviewed_at": "2026-11-28",
+      "selected": false,
+      "selection_reason": "列表级比较：视觉推理工具使用相关，较本期自我改进闭环的工程案例关联稍弱，未精读。"
+    },
+    {
+      "title": "Boundary-Aware Policy Learning for Agent-Orchestrated Robot Manipulation",
+      "url": "https://huggingface.co/papers/2611.32238",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "列表级比较：机器人策略学习相关；本期优先明确讨论框架与策略共同改进的 RoboEvo²，未精读。",
+      "reviewed_at": "2026-11-28",
+      "selected": false,
+      "selection_reason": "列表级比较：机器人策略学习相关；本期优先明确讨论框架与策略共同改进的 RoboEvo²，未精读。"
+    },
+    {
+      "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+      "url": "https://huggingface.co/papers/2611.30483",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "列表级比较：数据库操作损害相关；今天以 TabbyML 的具体查询语义反例讨论验证边界，未精读此文。",
+      "reviewed_at": "2026-11-28",
+      "selected": false,
+      "selection_reason": "列表级比较：数据库操作损害相关；今天以 TabbyML 的具体查询语义反例讨论验证边界，未精读此文。"
+    },
+    {
+      "title": "Recursive Collective Intelligence: Emergence on an Equal-Budget Ladder in Multi-Agent LLM Systems",
+      "url": "https://www.alphaxiv.org/abs/2611.32606",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "列表级比较：多智能体集体能力相关；本期优先有实验过程记录的工程案例，未精读。",
+      "reviewed_at": "2026-11-28",
+      "selected": false,
+      "selection_reason": "列表级比较：多智能体集体能力相关；本期优先有实验过程记录的工程案例，未精读。"
+    },
+    {
+      "title": "Toward Agentic Robotics: A Large-Scale Study of Harness Design for Robot-Use Agents",
+      "url": "https://www.alphaxiv.org/abs/2611.34778",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "列表级比较：机器人框架设计相关；与本期 RoboEvo² 的机器人主题接近，留待后续比较，未精读。",
+      "reviewed_at": "2026-11-28",
+      "selected": false,
+      "selection_reason": "列表级比较：机器人框架设计相关；与本期 RoboEvo² 的机器人主题接近，留待后续比较，未精读。"
+    },
+    {
+      "title": "Attack Policy Selection can Mislead Monitor Evaluators",
+      "url": "https://arxiv.org/abs/2611.34934",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "从 cs.LG 公开列表补查发现；主题相关，但今天先保留已精读的 METR 与 Apollo，未读摘要，不据标题判断实验结论。",
+      "reviewed_at": "2026-11-28",
+      "selected": false,
+      "selection_reason": "从 cs.LG 公开列表补查发现；主题相关，但今天先保留已精读的 METR 与 Apollo，未读摘要，不据标题判断实验结论。"
+    },
+    {
+      "title": "Interpreting a recent acceleration in pretraining loss",
+      "url": "https://metr.org/blog/2026-11-24-interpreting-a-recent-acceleration-in-pretraining-loss/",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "2026-11-26 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。",
+      "reviewed_at": "2026-11-28",
+      "date": "2026-11-24",
+      "selected": false,
+      "selection_reason": "2026-11-26 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。"
+    },
+    {
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier/",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "2026-11-26 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。",
+      "reviewed_at": "2026-11-28",
+      "date": "2026-11-18",
+      "selected": false,
+      "selection_reason": "2026-11-26 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。"
+    },
+    {
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "2026-11-26 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。",
+      "reviewed_at": "2026-11-28",
+      "date": "2026-11-23",
+      "selected": false,
+      "selection_reason": "2026-11-26 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。"
+    },
+    {
+      "title": "VISE: Verifier-Independent Skill Self-Evolution with Feedback from Tool Implementations",
+      "url": "https://arxiv.org/abs/2611.32480",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "2026-11-26 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。",
+      "reviewed_at": "2026-11-28",
+      "date": "2026-11-24",
+      "selected": false,
+      "selection_reason": "2026-11-26 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。"
+    },
+    {
+      "title": "Introducing Model Factory",
+      "url": "https://www.primeintellect.ai/blog/introducing-model-factory",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "2026-11-26 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。",
+      "reviewed_at": "2026-11-28",
+      "date": "2026-11-18",
+      "selected": false,
+      "selection_reason": "2026-11-26 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。"
+    },
+    {
+      "title": "Migrating our Messages API to Rust",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "2026-11-27 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。",
+      "reviewed_at": "2026-11-28",
+      "date": "2026-11-25",
+      "selected": false,
+      "selection_reason": "2026-11-27 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。"
+    },
+    {
+      "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+      "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "2026-11-27 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。",
+      "reviewed_at": "2026-11-28",
+      "date": "2026-11-26",
+      "selected": false,
+      "selection_reason": "2026-11-27 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。"
+    },
+    {
+      "title": "How to build a knowledge factory",
+      "url": "https://www.langchain.com/blog/knowledge-factory",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "2026-11-27 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。",
+      "reviewed_at": "2026-11-28",
+      "date": "2026-11-21",
+      "selected": false,
+      "selection_reason": "2026-11-27 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。"
+    },
+    {
+      "title": "Responding to objections to recursive self-improvement",
+      "url": "https://www.dwarkesh.com/p/rsiobjections",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "2026-11-27 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。",
+      "reviewed_at": "2026-11-28",
+      "date": "2026-11-24",
+      "selected": false,
+      "selection_reason": "2026-11-27 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。"
+    },
+    {
+      "title": "Demystifying the Autoresearch Harness: How Context and Skills Shape Self-Evolving Agents",
+      "url": "https://arxiv.org/abs/2611.28244",
+      "decision": "exclude",
+      "evidence_level": "listing",
+      "reason": "2026-11-27 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。",
+      "reviewed_at": "2026-11-28",
+      "date": "2026-11-20",
+      "selected": false,
+      "selection_reason": "2026-11-27 已推荐，最近七天同文同事件去重；本轮只核对历史条目，不重复计为原文精读。"
+    }
+  ],
+  "supplemental_checks": [
+    {
+      "source": "arXiv · cs.LG",
+      "url": "https://arxiv.org/list/cs.LG/recent",
+      "result": "公开列表可读，原始 RSS 返回 HTTP 200 但没有可解析条目；补查不改写原始轮询。"
+    },
+    {
+      "source": "Latent Space / G2i",
+      "url": "https://rss.beehiiv.com/podcasts/transcriptions/01a21efd-14f0-73e4-9742-34b55562b7d9.vtt",
+      "result": "原页链接的公开文字稿以普通 GET 获取，读取任务难度、验证器、采购与独家数据等相关段落。",
+      "sha256": "70107a9c4e11474e3e266b6f7ff5c322b95e0344df5b977b2d5d76ab78535b8e"
+    },
+    {
+      "source": "上海人工智能实验室",
+      "url": "https://www.shlab.org.cn/news/5444323",
+      "result": "公开 HTML 正文可读。文章 11 月 27 日发布，所述能力 11 月 26 日上线；分别记录。"
+    },
+    {
+      "source": "TabbyML",
+      "url": "https://www.tabbyml.com/blog/beating-clickbench-sota-with-a-team-of-agentic-systems-engineers/",
+      "result": "从量子位转载追到原文：11 月 15 日首发，11 月 23 日补记；未将 11 月 27 日转载日期作为首发。"
+    }
+  ],
+  "machine_screen": {
+    "pattern": "agent|research|train|evaluat|benchmark|self.|recursive|memory|reason|open.ended|科学|智能体|训练|评测|推理|自我",
+    "case_insensitive": true,
+    "scope": "全部轮询结果提取的链接标题；关键词结果包含导航和旧文，不等于文章数或精读数。"
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "topic": "rsi",
+  "date": "2026-11-28",
+  "timezone": "Asia/Shanghai",
+  "lead": "今天从训练任务怎样出题，读到代码优化怎样验收，再看科研流程与研发决策中的监督问题。重点看每轮尝试留下了什么证据，以及谁来判断它真的变好了。",
+  "items": [
+    {
+      "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+      "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+      "date": "2026-11-27T00:00:00Z",
+      "source": "Latent Space",
+      "source_id": "latent-space",
+      "summary": "G2i 创始人谈实验室怎样采购训练数据，以及工程师如何配套设计任务、初始数据和验证器。他强调，任务难度要略高于模型现有能力；这是供应商经验分享，节目由 G2i 赞助。",
+      "headline": "训练数据生意变了：开始买任务和验证器",
+      "why_read": "了解强化学习需要怎样的数据生产流程，也看看独家采购与共享数据之间的取舍。",
+      "event_id": "g2i-training-data-market-2026-11",
+      "kind": "podcast",
+      "score": 4.8,
+      "reviewed_at": "2026-11-28",
+      "domain": "industry"
+    },
+    {
+      "title": "RoboEvo²: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution",
+      "url": "https://arxiv.org/abs/2611.34675",
+      "date": "2026-11-25T00:00:00Z",
+      "source": "arXiv",
+      "source_id": "arxiv-ai",
+      "summary": "RoboEvo² 用机器人策略的失败引导代码智能体寻找补救方案，再把验证通过的轨迹用于策略训练，交替改进执行框架和底层策略。作者报告了仿真与真机实验；代码和模型尚待发布。",
+      "headline": "机器人摔过的跟头，怎样变成下一轮训练材料",
+      "why_read": "辨认自我改进闭环里，哪些经验只存在于外部工具中，哪些真正进入了模型。",
+      "event_id": "roboevo2-2026-11",
+      "kind": "paper",
+      "score": 4.7,
+      "reviewed_at": "2026-11-28",
+      "domain": "methods"
+    },
+    {
+      "title": "书生·端砚能力升级，一体化调度智算、超算、通算资源，加速科学发现、产业创新 | 欢迎体验",
+      "url": "https://www.shlab.org.cn/news/5444323",
+      "date": "2026-11-27T00:00:00Z",
+      "source": "上海人工智能实验室",
+      "source_id": "shanghai-ai-lab",
+      "summary": "上海 AI 实验室介绍端砚的新能力：统一提交模型训练与科学计算任务，复用运行环境，并在智算和超算节点间传输数据。当前开放体验申请，算力名额需审核。",
+      "headline": "训练模型和跑科学模拟，可以放在一起调度了",
+      "why_read": "看自动科研在模型之外还缺什么：环境配置、数据搬运和不同计算任务之间的衔接。",
+      "event_id": "shlab-duanyan-compute-fusion-2026-11",
+      "kind": "engineering",
+      "score": 4.6,
+      "reviewed_at": "2026-11-28",
+      "domain": "science"
+    },
+    {
+      "title": "Beating ClickBench SOTA with a team of agentic systems engineers",
+      "url": "https://www.tabbyml.com/blog/beating-clickbench-sota-with-a-team-of-agentic-systems-engineers/",
+      "date": "2026-11-15T00:00:00Z",
+      "source": "TabbyML",
+      "source_id": "tabbyml",
+      "summary": "TabbyML 报告，智能体团队约做了 350 次试验，最终保留 6 项 Quickwit 优化。有个改动虽然通过全部基准答案检查，仍因可能改变排序结果被否决；性能结果限于文中测试条件。",
+      "headline": "350 次试验只留 6 项：智能体怎样否决自己的优化",
+      "why_read": "学习把提案、实现和验收分开，并让失败记录真正影响下一轮尝试。",
+      "event_id": "tabbyml-quickwit-agent-optimization-2026-11",
+      "kind": "engineering",
+      "score": 4.9,
+      "reviewed_at": "2026-11-28",
+      "domain": "engineering"
+    },
+    {
+      "title": "Working with AI",
+      "url": "https://www.anthropic.com/research/working-with-ai",
+      "date": "2026-11-23T00:00:00Z",
+      "source": "Anthropic Research",
+      "source_id": "anthropic-research",
+      "summary": "Anthropic 对 58 家企业客户做了 66 次访谈：受访者更多谈到产出增加，代码提速后，评审、销售和决策又成为瓶颈。这是客户访谈，不能直接代表所有企业。",
+      "headline": "代码写快了，公司的其他环节跟得上吗",
+      "why_read": "判断团队引入智能体后，下一步该改哪些协作流程，而不只看写代码节省了多少时间。",
+      "event_id": "anthropic-working-with-ai-2026-11",
+      "kind": "research",
+      "score": 4.6,
+      "reviewed_at": "2026-11-28",
+      "domain": "industry"
+    },
+    {
+      "title": "Handoff at Frontier AI Companies: Policymakers Need Visibility Today",
+      "url": "https://www.apolloresearch.ai/governance/handoff-at-frontier-ai-companies",
+      "date": "2026-11-23T00:00:00Z",
+      "source": "Apollo Research",
+      "source_id": "apollo-research",
+      "summary": "Apollo 把研发工作、研究决策和安全审核逐步交给内部智能体称为“交接”，分析人类监督可能跟不上产出速度的风险，并主张提高外部可见性。这是风险分析，不是所有实验室已完成交接的证明。",
+      "headline": "研发交给 AI 后，谁来审核下一代模型",
+      "why_read": "把“AI 研发 AI”的担忧拆成具体权限，检查哪些判断仍应有独立的审查依据。",
+      "event_id": "apollo-handoff-2026-11",
+      "kind": "perspective",
+      "score": 4.5,
+      "reviewed_at": "2026-11-28",
+      "domain": "safety"
+    },
+    {
+      "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+      "url": "https://arxiv.org/abs/2611.34852",
+      "date": "2026-11-25T00:00:00Z",
+      "source": "arXiv",
+      "source_id": "arxiv-ai",
+      "summary": "DRBench Pro 从维基百科构建知识关系和评分细则，分别考察研究报告的覆盖广度与解释深度，再合并评分。它衡量特定知识结构的覆盖，不能代替全部事实核查。",
+      "headline": "深度研究报告写得长，是否真的覆盖了问题",
+      "why_read": "为评估研究智能体多找一个角度：篇幅和引用数量之外，关键知识及其关系有没有交代清楚。",
+      "event_id": "drbench-pro-2026-11",
+      "kind": "paper",
+      "score": 4.4,
+      "reviewed_at": "2026-11-28",
+      "domain": "safety"
+    },
+    {
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "url": "https://openai.com/business/customer-stories/ifood/",
+      "date": "2026-11-24T00:00:00Z",
+      "source": "OpenAI",
+      "source_id": "openai-news",
+      "summary": "iFood 在客户案例中介绍统一运行层：固定拉取代码、创建分支和提交变更的步骤，让智能体在隔离环境中完成中间任务，再按约定格式返回结果。格式检查本身不保证代码正确。",
+      "headline": "智能体要进上万个代码库，先把外围流程固定下来",
+      "why_read": "参考大规模接入代码库时，哪些步骤值得做成可重复执行的程序，哪些还需要内容验收。",
+      "event_id": "ifood-coding-agents-runtime-2026-11",
+      "kind": "engineering",
+      "score": 4.3,
+      "reviewed_at": "2026-11-28",
+      "domain": "engineering"
+    },
+    {
+      "title": "Research note: Measuring alignment eval tells",
+      "url": "https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells/",
+      "date": "2026-11-16T00:00:00Z",
+      "source": "METR",
+      "source_id": "metr",
+      "summary": "METR 让调查智能体检查评测环境，发现模型能从模拟痕迹和诱导作弊的设置中识别对齐测试。研究测的是能否辨认测试，并未证明这种辨认一定会改变实际行为。",
+      "headline": "测试太像测试，模型就能看出来",
+      "why_read": "检查自己的安全评测有没有泄题式线索；这是一份审阅程度较低的研究笔记。",
+      "event_id": "metr-eval-tells-2026-11",
+      "kind": "assessment",
+      "score": 4.4,
+      "reviewed_at": "2026-11-28",
+      "domain": "safety"
+    },
+    {
+      "title": "A new synthesis for the field of open-endedness",
+      "url": "https://www.lila.ai/news/a-new-synthesis-for-the-field-of-open-endedness",
+      "date": "2026-11-10T00:00:00Z",
+      "source": "Lila Sciences",
+      "source_id": "lila-sciences",
+      "summary": "LILA 团队把开放式发现拆成四个问题：产生新想法、判断潜力、学习有助于发现的表征，以及管理持续探索中的研究方向。这是研究议程与阶段性成果的整理。",
+      "headline": "会解题之后，AI 怎样找到值得研究的问题",
+      "why_read": "想清楚自动科研除了提高已有题目的分数，还需要怎样挑选问题、保存暂时用不上的想法。",
+      "event_id": "lila-open-endedness-synthesis-2026-11",
+      "kind": "perspective",
+      "score": 4.8,
+      "reviewed_at": "2026-11-28",
+      "domain": "perspectives"
+    }
+  ],
+  "name": "RSI 十条｜改进之前，先学会验收",
+  "keywords": [
+    "训练数据",
+    "失败记录",
+    "科研算力",
+    "评测漏洞"
+  ],
+  "coverage": {
+    "sources_attempted": 185,
+    "sources_readable": 162,
+    "sources_total": 194,
+    "candidates_compared": 34,
+    "candidates_read": 17,
+    "poll": "research/polls/2026-11-28-rsi.json"
+  },
+  "weekly_focus": {
+    "week": "2026-W48",
+    "focus_domains": [
+      "engineering",
+      "perspectives"
+    ],
+    "reason": "刚开始积累阅读记录，本周先多看工程实践和访谈，补充论文与机构研究之外的视角；仍以当周实际材料质量决定入选。下一周结合过去四周的覆盖和新进展重新选择重点，不固定轮班。",
+    "reviewed_at": "2026-11-26"
+  },
+  "reading_history": {
+    "issues_7d": 2,
+    "items_7d": 20,
+    "kinds_7d": {
+      "engineering": 5,
+      "podcast": 3,
+      "paper": 5,
+      "assessment": 3,
+      "research": 4
+    },
+    "domains_7d": {
+      "engineering": 6,
+      "perspectives": 3,
+      "science": 4,
+      "methods": 4,
+      "industry": 1,
+      "safety": 2
+    },
+    "sources_7d": {
+      "anthropic-engineering": 2,
+      "latent-space": 1,
+      "langchain": 1,
+      "dwarkesh": 1,
+      "arxiv-ai": 2,
+      "ai2": 1,
+      "arxiv-lg": 2,
+      "cognition": 1,
+      "arxiv-cl": 1,
+      "thinking-machines": 1,
+      "metr": 2,
+      "openai-news": 1,
+      "deepmind": 1,
+      "prime-intellect": 1,
+      "sakana": 1,
+      "cognitive-revolution": 1
+    },
+    "domains_28d": {
+      "engineering": 6,
+      "perspectives": 3,
+      "science": 4,
+      "methods": 4,
+      "industry": 1,
+      "safety": 2
+    },
+    "weeks": {
+      "2026-W48": {
+        "engineering": 6,
+        "perspectives": 3,
+        "science": 4,
+        "methods": 4,
+        "industry": 1,
+        "safety": 2
+      }
+    }
+  }
+}

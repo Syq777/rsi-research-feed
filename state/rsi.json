@@ -1,13 +1,5 @@
 [
   {
-    "title": "RoboEvo$^2$: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution",
-    "url": "https://arxiv.org/abs/2611.34675",
-    "date": "2026-11-27T05:00:00Z",
-    "source": "arXiv · cs.AI",
-    "source_id": "arxiv-ai",
-    "summary": "arXiv:2611.34675v1 Announce Type: cross Abstract: Robots should adapt to unfamiliar environments and acquire new skills through interaction, then execute those skills efficiently with practice. Vision-language-action policies provide efficient control, but often need additional human demonstrations to handle unfamiliar settings; reasoning agents can discover solutions using broad prior knowledge…"
-  },
-  {
     "title": "EvoLink-Bench: A Benchmark for Evaluating Self-Evolving Agents in Long-Horizon Interdependent Task Streams",
     "url": "https://arxiv.org/abs/2611.34400",
     "date": "2026-11-27T05:00:00Z",
@@ -142,6 +134,22 @@
     "source": "arXiv · cs.AI",
     "source_id": "arxiv-ai",
     "summary": "arXiv:2605.22511v3 Announce Type: replace Abstract: Outcome based reinforcement learning provides a simple and effective recipe for training search augmented reasoning agents. Recent work seeks further improvements through stronger external teachers, auxiliary process supervision, specialized reward shaping, and increasingly elaborate training pipelines. This raises a natural question: can agents…"
+  },
+  {
+    "title": "书生·端砚能力升级，一体化调度智算、超算、通算资源，加速科学发现、产业创新 | 欢迎体验",
+    "url": "https://www.shlab.org.cn/news/5444323",
+    "date": "2026-11-27T00:00:00Z",
+    "source": "上海人工智能实验室",
+    "source_id": "shanghai-ai-lab",
+    "summary": "上海 AI 实验室介绍端砚的新能力：统一提交模型训练与科学计算任务，复用运行环境，并在智算和超算节点间传输数据。当前开放体验申请，算力名额需审核。"
+  },
+  {
+    "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+    "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+    "date": "2026-11-27T00:00:00Z",
+    "source": "Latent Space",
+    "source_id": "latent-space",
+    "summary": "G2i 创始人谈实验室怎样采购训练数据，以及工程师如何配套设计任务、初始数据和验证器。他强调，任务难度要略高于模型现有能力；这是供应商经验分享，节目由 G2i 赞助。"
   },
   {
     "title": "Agent-as-a-Verifier: From Scores to Evidence for General Verification",
@@ -288,6 +296,22 @@
     "summary": "Anthropic 迁移 API 时发现，测试通过仍会漏掉大量生产差异。团队把新旧系统逐步对照，再让智能体在沙箱里修复、用真实流量复核，并把人的纠正写入记忆。"
   },
   {
+    "title": "DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Research Agents",
+    "url": "https://arxiv.org/abs/2611.34852",
+    "date": "2026-11-25T00:00:00Z",
+    "source": "arXiv",
+    "source_id": "arxiv-ai",
+    "summary": "DRBench Pro 从维基百科构建知识关系和评分细则，分别考察研究报告的覆盖广度与解释深度，再合并评分。它衡量特定知识结构的覆盖，不能代替全部事实核查。"
+  },
+  {
+    "title": "RoboEvo²: Recursive Robot Self-Improvement via Harness-Policy Co-Evolution",
+    "url": "https://arxiv.org/abs/2611.34675",
+    "date": "2026-11-25T00:00:00Z",
+    "source": "arXiv",
+    "source_id": "arxiv-ai",
+    "summary": "RoboEvo² 用机器人策略的失败引导代码智能体寻找补救方案，再把验证通过的轨迹用于策略训练，交替改进执行框架和底层策略。作者报告了仿真与真机实验；代码和模型尚待发布。"
+  },
+  {
     "title": "Where scientists draw the line on AI agents",
     "url": "https://allenai.org/blog/where-scientists-draw-the-line-on-ai-agents",
     "date": "2026-11-25T00:00:00Z",
@@ -310,6 +334,14 @@
     "source": "Sakana AI",
     "source_id": "sakana",
     "summary": "Sakana 新设应用研究实验室，先从金融与经济系统入手，将进化搜索、模拟和自动科研组合起来：由人判断什么问题重要，让 AI 扩大实现与验证的规模。"
+  },
+  {
+    "title": "How iFood scales coding agents across 15,000 repositories",
+    "url": "https://openai.com/business/customer-stories/ifood/",
+    "date": "2026-11-24T00:00:00Z",
+    "source": "OpenAI",
+    "source_id": "openai-news",
+    "summary": "iFood 在客户案例中介绍统一运行层：固定拉取代码、创建分支和提交变更的步骤，让智能体在隔离环境中完成中间任务，再按约定格式返回结果。格式检查本身不保证代码正确。"
   },
   {
     "title": "Interpreting a recent acceleration in pretraining loss",
@@ -358,6 +390,22 @@
     "source": "arXiv",
     "source_id": "arxiv-lg",
     "summary": "E2L 研究如何把智能体运行时积累的经验转化为模型训练信号。作者发现，眼前能提高表现的经验未必带来训练收益，因此加入训练效用评估再做蒸馏。"
+  },
+  {
+    "title": "Handoff at Frontier AI Companies: Policymakers Need Visibility Today",
+    "url": "https://www.apolloresearch.ai/governance/handoff-at-frontier-ai-companies",
+    "date": "2026-11-23T00:00:00Z",
+    "source": "Apollo Research",
+    "source_id": "apollo-research",
+    "summary": "Apollo 把研发工作、研究决策和安全审核逐步交给内部智能体称为“交接”，分析人类监督可能跟不上产出速度的风险，并主张提高外部可见性。这是风险分析，不是所有实验室已完成交接的证明。"
+  },
+  {
+    "title": "Working with AI",
+    "url": "https://www.anthropic.com/research/working-with-ai",
+    "date": "2026-11-23T00:00:00Z",
+    "source": "Anthropic Research",
+    "source_id": "anthropic-research",
+    "summary": "Anthropic 对 58 家企业客户做了 66 次访谈：受访者更多谈到产出增加，代码提速后，评审、销售和决策又成为瓶颈。这是客户访谈，不能直接代表所有企业。"
   },
   {
     "title": "Finding faster quantum algorithms with agents and formal verification",
@@ -456,6 +504,14 @@
     "summary": "METR 让调查智能体检查评测环境，发现模型能从模拟痕迹和诱导作弊的设置中识别对齐测试。研究测的是能否辨认测试，并未证明这种辨认一定会改变实际行为。"
   },
   {
+    "title": "Beating ClickBench SOTA with a team of agentic systems engineers",
+    "url": "https://www.tabbyml.com/blog/beating-clickbench-sota-with-a-team-of-agentic-systems-engineers/",
+    "date": "2026-11-15T00:00:00Z",
+    "source": "TabbyML",
+    "source_id": "tabbyml",
+    "summary": "TabbyML 报告，智能体团队约做了 350 次试验，最终保留 6 项 Quickwit 优化。有个改动虽然通过全部基准答案检查，仍因可能改变排序结果被否决；性能结果限于文中测试条件。"
+  },
+  {
     "title": "Building strong safety evaluations",
     "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
     "date": "2026-11-13T00:00:00Z",
@@ -486,6 +542,14 @@
     "source": "Anthropic Alignment Science",
     "source_id": "anthropic-alignment",
     "summary": "研究在四类共享资源的模拟任务中发现，每位用户各派一个智能体，整体结果往往不如统一协调者。预算任务可用负责人改善，订餐任务则更需要先读完消息再提交。"
+  },
+  {
+    "title": "A new synthesis for the field of open-endedness",
+    "url": "https://www.lila.ai/news/a-new-synthesis-for-the-field-of-open-endedness",
+    "date": "2026-11-10T00:00:00Z",
+    "source": "Lila Sciences",
+    "source_id": "lila-sciences",
+    "summary": "LILA 团队把开放式发现拆成四个问题：产生新想法、判断潜力、学习有助于发现的表征，以及管理持续探索中的研究方向。这是研究议程与阶段性成果的整理。"
   },
   {
     "title": "The components of agent memory",
