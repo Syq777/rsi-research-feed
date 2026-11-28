@@ -3,7 +3,7 @@
     "id": "arxiv-ai",
     "name": "arXiv · cs.AI",
     "status": "ok",
-    "detail": "匹配 16 条，过滤 382 条，无效 0 条"
+    "detail": "匹配 0 条，过滤 0 条，无效 0 条"
   },
   {
     "id": "arxiv-lg",
@@ -15,7 +15,7 @@
     "id": "arxiv-cl",
     "name": "arXiv · cs.CL",
     "status": "ok",
-    "detail": "匹配 7 条，过滤 170 条，无效 0 条"
+    "detail": "匹配 0 条，过滤 0 条，无效 0 条"
   },
   {
     "id": "sakana",
